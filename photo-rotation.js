@@ -4,7 +4,7 @@ document.querySelectorAll("[data-exercise-photos]").forEach((gallery) => {
     const picture = gallery.querySelector("img");
     const photos = [picture.getAttribute("src"), ...gallery.dataset.exercisePhotos.split(",")];
     const controls = gallery.querySelector("[data-photo-controls]");
-    const toggle = controls.querySelector("[data-photo-toggle]");
+
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let index = 0;
     let timer;
@@ -46,7 +46,7 @@ document.querySelectorAll("[data-exercise-photos]").forEach((gallery) => {
 
     function updateTimer() {
         clearInterval(timer);
-        toggle.textContent = playing ? toggle.dataset.pause : toggle.dataset.play;
+
         if (playing && !document.hidden) {
             preloadNext();
             timer = setInterval(() => show(1, true), 6500);
@@ -54,17 +54,13 @@ document.querySelectorAll("[data-exercise-photos]").forEach((gallery) => {
     }
 
     function step(offset) {
-        playing = false;
         show(offset);
         updateTimer();
     }
 
     controls.querySelector("[data-photo-prev]").addEventListener("click", () => step(-1));
     controls.querySelector("[data-photo-next]").addEventListener("click", () => step(1));
-    toggle.addEventListener("click", () => {
-        playing = !playing;
-        updateTimer();
-    });
+
     reducedMotion.addEventListener("change", (event) => {
         if (event.matches) playing = false;
         updateTimer();
