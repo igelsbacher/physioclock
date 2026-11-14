@@ -1,0 +1,65 @@
+/* PhysioClock new streamlined home, 2026-11-14. Existing photo presentation unchanged. */
+:root{--pc-cream:#faf7ee;--pc-ink:#16352d;--pc-soft:#cbd9d0;--pc-accent:#b7e7cd}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body.pc-redesign{background:#132922;color:#f5f8ee;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;line-height:1.6}
+.pc-redesign a{color:inherit}.pc-redesign .wrap{width:min(1180px,calc(100% - 36px));max-width:1180px;margin-inline:auto}
+.pc-topbar{position:sticky;top:0;z-index:50;background:rgba(19,41,34,.96);backdrop-filter:blur(18px);border-bottom:1px solid #416356}
+.pc-topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:75px}
+.pc-logo{display:inline-flex;align-items:center;gap:12px;font-size:1.25rem;font-weight:800;letter-spacing:-.04em;text-decoration:none}
+.pc-logo img{width:37px;height:37px;border-radius:11px}
+.pc-top-actions{display:flex;align-items:center;gap:14px}
+.pc-top-actions .pc-jump{font-size:.9rem;text-decoration:none;font-weight:700}
+.pc-redesign .pc-language{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center;padding:10px 0 12px;border-top:1px solid #2d493e}
+.pc-language a{color:#cbd9d0;text-decoration:none;font-size:.87rem;padding:5px 9px;border-radius:18px}
+.pc-language a[aria-current=page]{background:#d5f3df;color:#143229;font-weight:800}
+.pc-top-menu{position:relative}
+.pc-top-menu summary{list-style:none;cursor:pointer;border:1px solid #6f9582;padding:9px 16px;border-radius:25px;font-weight:700}
+.pc-top-menu summary::-webkit-details-marker{display:none}
+.pc-top-menu nav{position:absolute;right:0;top:calc(100% + 10px);display:grid;gap:4px;min-width:245px;background:#213e32;border:1px solid #618574;border-radius:18px;padding:10px;box-shadow:0 18px 55px #0007;z-index:3}
+.pc-top-menu nav a{display:block;padding:10px 13px;text-decoration:none;border-radius:10px}
+.pc-top-menu nav a:hover,.pc-top-menu nav a:focus-visible{background:#345e48}
+.pc-redesign main{padding:24px 0 65px}
+.pc-redesign .pc-hero{margin:0;min-height:0}
+.pc-redesign .pc-hero-copy{z-index:1}
+.pc-redesign .pc-hero-link{background:#204e3c}
+.pc-intro{display:flex;align-items:center;justify-content:space-between;gap:25px;margin:34px 0 45px;padding:25px 30px;background:#1c3d30;border:1px solid #486c57;border-radius:24px}
+.pc-intro strong{display:block;font-size:1.1rem;margin-bottom:5px}
+.pc-intro p{margin:0;color:#d9e8dd;max-width:730px}
+.pc-intro .pc-pill{border-radius:30px;background:#c9e9d4;color:#19352c;font-weight:800;padding:11px 19px;white-space:nowrap}
+.pc-heading{text-align:center;margin:65px 0 26px}
+.pc-overline{font-size:.77rem;text-transform:uppercase;letter-spacing:.19em;color:#a6d4b8;font-weight:800}
+.pc-heading h2{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.2rem,5vw,4rem);letter-spacing:-.045em;line-height:1.08;margin:8px 0 12px}
+.pc-heading p{color:#bed0c5;margin:0 auto;max-width:620px}
+.pc-modules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+.pc-module{background:#214136;border:1px solid #547c65;border-radius:23px;overflow:hidden;min-width:0;transition:background .18s,border-color .18s}
+.pc-module[open]{border-color:#a9ddbd;background:#294c3b}
+.pc-module summary{list-style:none;padding:26px;cursor:pointer;min-height:235px;display:flex;flex-direction:column;gap:12px}
+.pc-module summary::-webkit-details-marker{display:none}
+.pc-module summary:hover{background:#2d5541}
+.pc-module .pc-num{display:inline-grid;place-items:center;width:49px;height:49px;border-radius:15px;background:#b6e5c8;color:#163a2c;font-size:1.25rem;font-weight:850}
+.pc-module .pc-time{font-size:.76rem;color:#bcddc6;font-weight:600}
+.pc-module h3{font-size:1.29rem;letter-spacing:-.025em;line-height:1.28;margin:0;color:#fffdf4}
+.pc-module summary p{color:#d5e5d9;margin:0;font-size:.91rem;line-height:1.5}
+.pc-module .pc-open{margin-top:auto;color:#b6eccd;font-size:.92rem;font-weight:800;padding-top:7px}
+.pc-module[open] .pc-open::after{content:" ✓";color:#bdeacc}
+.pc-module .pc-content{border-top:1px solid #6e9378;padding:25px 24px 28px;background:#17382d}
+.pc-module .pc-content h4{font-size:1.05rem;margin:0 0 12px}
+.pc-module .pc-steps{margin:0;padding-left:21px}
+.pc-module .pc-steps li{padding:0 0 12px 6px;color:#e5efe5}
+.pc-module .pc-steps li::marker{color:#b3e6c4;font-weight:800}
+.pc-module .pc-checklist{margin-top:20px;padding:17px;background:#29483a;border-radius:14px}
+.pc-module .pc-checklist h4{margin-bottom:11px;color:#c6eccc}
+.pc-module .pc-checklist label{display:flex;align-items:flex-start;gap:9px;padding:7px 0;font-size:.88rem;cursor:pointer}
+.pc-module input{width:18px;height:18px;accent-color:#b9e8cb;flex:none}
+.pc-module .pc-more{display:inline-block;color:#b9edcf;font-weight:750;margin-top:19px;text-underline-offset:4px}
+.pc-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:30px 0}
+.pc-resource{display:block;text-decoration:none;background:#214035;border:1px solid #537763;border-radius:19px;padding:22px;transition:transform .15s,background .15s}
+.pc-resource:hover{transform:translateY(-3px);background:#315944}
+.pc-resource strong{display:block;font-size:1.1rem;margin-bottom:6px}
+.pc-resource span{color:#bdd6c6;font-size:.9rem}
+.pc-footer{border-top:1px solid #547260;padding:26px 0 40px;color:#c5d9ca;font-size:.87rem}
+.pc-footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.pc-redesign :focus-visible{outline:3px solid #d1efb0;outline-offset:3px}
+@media(max-width:950px){.pc-modules{grid-template-columns:repeat(2,minmax(0,1fr))}.pc-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.pc-modules,.pc-links{grid-template-columns:1fr}.pc-module summary{min-height:0}.pc-intro{display:block;padding:21px}.pc-intro .pc-pill{display:inline-block;margin-top:17px}.pc-topbar-inner{gap:8px}.pc-top-actions{gap:7px}.pc-top-actions .pc-jump{display:none}.pc-logo{font-size:1.05rem}.pc-language{gap:3px}.pc-redesign .pc-hero[data-exercise-photos]{aspect-ratio:auto}.pc-heading{margin-top:42px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pc-resource,.pc-module{transition:none}}
