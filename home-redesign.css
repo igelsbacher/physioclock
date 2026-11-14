@@ -63,3 +63,19 @@ body.pc-redesign{background:#132922;color:#f5f8ee;font-family:system-ui,-apple-s
 @media(max-width:950px){.pc-modules{grid-template-columns:repeat(2,minmax(0,1fr))}.pc-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.pc-modules,.pc-links{grid-template-columns:1fr}.pc-module summary{min-height:0}.pc-intro{display:block;padding:21px}.pc-intro .pc-pill{display:inline-block;margin-top:17px}.pc-topbar-inner{gap:8px}.pc-top-actions{gap:7px}.pc-top-actions .pc-jump{display:none}.pc-logo{font-size:1.05rem}.pc-language{gap:3px}.pc-redesign .pc-hero[data-exercise-photos]{aspect-ratio:auto}.pc-heading{margin-top:42px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pc-resource,.pc-module{transition:none}}
+
+/* Opened module spans the full row; checklist stays to the right on desktop. */
+@media(min-width:851px){
+ .pc-modules>.pc-module[open]{grid-column:1/-1}
+ .pc-module[open]>summary{min-height:0;padding:20px 26px;display:grid;grid-template-columns:55px 1fr auto;align-items:center;gap:8px 18px}
+ .pc-module[open]>summary .pc-num{grid-column:1;grid-row:1/4}
+ .pc-module[open]>summary .pc-time{grid-column:2;grid-row:1}
+ .pc-module[open]>summary h3{grid-column:2;grid-row:2}
+ .pc-module[open]>summary p{grid-column:2;grid-row:3}
+ .pc-module[open]>summary .pc-open{grid-column:3;grid-row:1/4;padding:0}
+ .pc-module[open]>.pc-content{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:7px 35px}
+ .pc-module[open] .pc-content>h4{grid-column:1;grid-row:1}
+ .pc-module[open] .pc-content>.pc-steps{grid-column:1;grid-row:2}
+ .pc-module[open] .pc-content>.pc-checklist{grid-column:2;grid-row:1/4;margin-top:0;align-self:start;position:sticky;top:120px}
+ .pc-module[open] .pc-content>.pc-more{grid-column:1;grid-row:3}
+}
