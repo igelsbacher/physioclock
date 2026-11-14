@@ -1,0 +1,37 @@
+{
+  "build": 69,
+  "privacy": [
+    {
+      "kind": "privacy",
+      "version": "1.6",
+      "language": "de",
+      "effectiveFrom": "2026-11-14",
+      "title": "Datenschutz",
+      "textSHA256": "91c38260077870e28e1bdce81647cd7fd98cab3f890a55bf4bd636a12f372400"
+    },
+    {
+      "kind": "privacy",
+      "version": "1.6",
+      "language": "en",
+      "effectiveFrom": "2026-11-14",
+      "title": "Privacy",
+      "textSHA256": "33fdae818a6b7aa0cf143c23473c51278578e18ecf821407a35ac4c09cf2e806"
+    },
+    {
+      "kind": "privacy",
+      "version": "1.6",
+      "language": "fr",
+      "effectiveFrom": "2026-11-14",
+      "title": "Confidentialité",
+      "textSHA256": "523185153ac3f592d888921895d0b114703cb631e97d79aa3640d0a336987c3e"
+    },
+    {
+      "kind": "privacy",
+      "version": "1.6",
+      "language": "it",
+      "effectiveFrom": "2026-11-14",
+      "title": "Privacy",
+      "textSHA256": "abb5328fa20146d6a7d0668e4cac2896dc8c9c82f64b0b45f59fdc0cb1b73dd5"
+    }
+  ]
+}
