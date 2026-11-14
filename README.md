@@ -1,3 +1,53 @@
+# PhysioClock 3.31.0 · Build 76
+
+Die Hinweise zum geplanten und manuellen Abgleich, zum Protokoll und zur Aufbewahrung wurden in Deutsch, Englisch, Französisch und Italienisch aktualisiert. Die neuen PDF-Anleitungen liegen unter `downloads/`.
+
+# PhysioClock-Website · Build 69
+
+Die Freischaltung heisst PhysioClock Premium. Die aktualisierte iCloud-Hilfe und die PDF-Anleitungen sind auf Deutsch, Englisch, Französisch und Italienisch verfügbar.
+
+---
+
+# PhysioClock-Website · Build 68
+
+Trainingshilfe, Routinen, Trainingsübersicht und PDF-Anleitungen beschreiben die Änderungen der App.
+
+---
+
+# PhysioClock-Website · Build 67
+
+Die Trainingshilfe beschreibt das gemeinsame Aus- und Einblenden der Bedienelemente. Die vier Downloads entsprechen der in der App enthaltenen Anleitung.
+
+---
+
+# PhysioClock-Website · Build 66
+
+Premium umfasst den optionalen iCloud-Abgleich. Die Hilfe erklärt die aktuelle Trainingsanzeige. Unter downloads liegen die vier aktualisierten Anleitungen.
+
+---
+
+# PhysioClock-Website · Build 64
+
+Die Support-Seite zeigt die fünf Themen der App-Hilfe. Die Anleitungen verweisen auf die aktuellen Menüpfade. Unter downloads liegen die vier neuen PDF-Fassungen.
+
+---
+
+# Website parallel zu PhysioClock 3.24.0 - Build 57
+
+Neue genaue iCloud-Tabellen: was übertragen wird und was lokal beziehungsweise ausserhalb dieses Abgleichs bleibt. Einschliesslich Befindensnotizen, Zielen, Favoriten, Erinnerungen, Ton-/Vibrationsvorgaben, A/B/C-Abgrenzung, Geräteaktivität, Konflikten und Löschungen. In DE/EN/FR/IT.
+
+## Dateien auf GitHub Pages übernehmen
+
+Die aktuellen Dateien der vier Sprachordner und readable.css ersetzen. Den neuen Ordner downloads/ mit allen vier PDFs und legal/manifest-build-57.json hinzufügen. Die PDFs sind je Sprache genau eine neunseitige Anleitung mit Funktionen, Einstellungswegen und iCloud-Übersicht. Direkte Downloadlinks stehen bei Synchronisation, Hilfe, Daten, Moduswahl, Erinnerungen und Training sowie in beiden passenden Hauptseitenbereichen.
+
+Bilder, meditation-ambient.wav und exercise-art sind unverändert und müssen nicht erneut hochgeladen werden. Historische Datenschutzseiten sowie legal/privacy/, legal/usage/ und alle bisherigen Manifeste beibehalten. Datenschutz 1.5 und Nutzung 1.0 wurden nicht umgeschrieben; die neue detaillierte Funktionshilfe ist separat als Build 57 versioniert. Dieses ZIP wurde nicht live auf GitHub veröffentlicht.
+
+Die App enthält dieselben PDF-Dateien offline. Der Downloadordner muss unter dem bisherigen Website-Hauptverzeichnis liegen; keine zusätzliche Paket-Verzeichnisebene einschieben.
+
+---
+
+Vorherige Versionsdokumentation:
+
 # Website parallel zu PhysioClock 3.23.0 · Build 56
 
 Die sechs Ergänzungen sind im einfachen und regulären Bereich sowie in den Trainings-, Daten- und Übersichtshilfen in DE/EN/FR/IT erklärt. Augensymbol ergänzt; Menü, Moduswahl, Quiz, Übungskatalog und bestehende Musikhörprobe bleiben erhalten.
@@ -16,7 +66,7 @@ Vorherige Versionsdokumentation:
 
 # Website parallel zu PhysioClock 3.22.0 · Build 55
 
-Die Trainingshilfen erklären gleich grosse Uhrzeiten, grosse nächste Elemente auf dem iPad, Zurück während des Trainings, optionale Sprachausgabe mit Plus, die zweisekündige Halbzeitanzeige und „Länger Anwärmen?“ mit Ja/Nein und 60/120/180/240 Sekunden. Ergänzt in beiden Bereichen der Hauptseite und auf training-bedienen.html, einfach-starten.html, routinen.html und symbole.html, jeweils DE/EN/FR/IT.
+Die Trainingshilfen erklären gleich grosse Uhrzeiten, grosse nächste Elemente auf dem iPad, Zurück während des Trainings, optionale Sprachausgabe mit Premium, die zweisekündige Halbzeitanzeige und „Länger Anwärmen?“ mit Ja/Nein und 60/120/180/240 Sekunden. Ergänzt in beiden Bereichen der Hauptseite und auf training-bedienen.html, einfach-starten.html, routinen.html und symbole.html, jeweils DE/EN/FR/IT.
 
 Zusätzlich ist die meditative Abwärmphase erklärt: freiwilliger Start, dieselben vier Dauern, eigene Offline-Musik, Pause/Ende und keine Anrechnung auf aktive Trainingsminuten. meditation-ambient.wav ist eine 48-Sekunden-Hörprobe der eigenen Komposition. Sie wird auf der Website nur auf Wunsch geladen und abgespielt. Die Datei neu ins Hauptverzeichnis hochladen.
 
@@ -65,9 +115,9 @@ Den Inhalt dieses ZIPs an den bisherigen Stellen in das bestehende GitHub-Pages-
 
 Vorherige Versionsdokumentation:
 
-# Aktuell: Kostenlose Basis & PhysioClock Plus
+# Aktuell: Kostenlose Basis & PhysioClock Premium
 
-Parallel zu App 3.19.0 Build 51. Ein kostenloses eigenes Set, einmalige Plus-Freischaltung vorbereitet; kein Abo und keine Werbung. Details, Upload und Prüfungen: **BASIS_PLUS_UPDATE.md**. Der Bilderordner bleibt unverändert. Die Wahl Einfach/Regulär bleibt der erste Einstieg.
+Parallel zu App 3.19.0 Build 51. Ein kostenloses eigenes Set, einmalige Premium-Freischaltung vorbereitet; kein Abo und keine Werbung. Details, Upload und Prüfungen: **BASIS_PLUS_UPDATE.md**. Der Bilderordner bleibt unverändert. Die Wahl Einfach/Regulär bleibt der erste Einstieg.
 
 ---
 
