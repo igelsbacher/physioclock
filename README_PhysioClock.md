@@ -4,7 +4,7 @@
 
 PhysioClock ist eine in **Swift und SwiftUI** entwickelte iPhone-App zur Organisation selbst ausgewählter Bewegungs- und Physiotherapieübungen. Die App kombiniert individuell einstellbare Übungsintervalle, wiederverwendbare Trainings-Sets und ein lokales Trainingstagebuch. Diese Repository enthält die **offizielle mehrsprachige Projektwebsite** – nicht den vollständigen iOS-Quellcode.
 
-> **Status:** PhysioClock **3.0.0 (Build 18)** ist ein Entwicklungsstand. Die kostenlose Veröffentlichung im Apple App Store ist in Vorbereitung. Es handelt sich noch nicht um eine von Apple freigegebene App-Store-Version.
+> **Aktueller Entwicklungsstand:** PhysioClock **3.32.12 (Build 93)**. Die Website und die vier aktuellen PDF-Handbücher beziehen sich ausschliesslich auf diese Version. Frühere Versionsangaben in der Projekthistorie dokumentieren alte Entwicklungsstände. Die kostenlose Veröffentlichung im Apple App Store ist in Vorbereitung. Es handelt sich noch nicht um eine von Apple freigegebene App-Store-Version.
 
 ## 🌐 Website und Sprachen
 
