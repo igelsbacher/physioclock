@@ -1,3 +1,13 @@
+# PhysioClock 3.32.2 · Build 83
+
+Die Startseiten und die Kompletteinführung zeigen ein wechselndes Fotomotiv. Die 31 Schritte der Einführung sind auf Deutsch, Englisch, Französisch und Italienisch verfügbar. Die PDF-Anleitungen liegen unter `downloads/`.
+
+# PhysioClock 3.31.4 · Build 80
+
+Gratis sind 30 neu gestartete Einheiten pro Installation enthalten. Premium hebt die Trainingsgrenze mit einem einmaligen Kauf auf. Alle Funktionen sind in beiden Versionen enthalten.
+
+Die vier Sprachversionen haben neue Startseiten. Die Lernmodule, Links zur Monatsübersicht mit Zielen und die aktuellen PDF-Anleitungen sind direkt zugänglich. Für GitHub Pages die Inhalte dieses ZIPs in den Veröffentlichungsordner des bestehenden Repositorys übernehmen. Die Startdatei ist `index.html`.
+
 # PhysioClock 3.31.0 · Build 76
 
 Die Hinweise zum geplanten und manuellen Abgleich, zum Protokoll und zur Aufbewahrung wurden in Deutsch, Englisch, Französisch und Italienisch aktualisiert. Die neuen PDF-Anleitungen liegen unter `downloads/`.
