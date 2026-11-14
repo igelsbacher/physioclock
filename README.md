@@ -1,4 +1,10 @@
-# PhysioClock 3.32.2 · Build 83
+# PhysioClock 3.32.12 · Build 93
+
+**Aktueller Entwicklungsstand der iOS-App und sämtlicher aktiver Website-Anleitungen: 3.32.12 (Build 93).** Die vier PDF-Dateien `PhysioClock_Guide_DE_Build_93.pdf`, `PhysioClock_Guide_EN_Build_93.pdf`, `PhysioClock_Guide_FR_Build_93.pdf` und `PhysioClock_Guide_IT_Build_93.pdf` sind die einzigen aktuellen Handbücher im Website-Downloadbereich. Die folgenden älteren Versionsnotizen sind historisch und dürfen nicht als aktuelle Softwareversion verstanden werden.
+
+## Historische Versionsnotizen
+
+### PhysioClock 3.32.2 · Build 83
 
 Die Startseiten und die Kompletteinführung zeigen ein wechselndes Fotomotiv. Die 31 Schritte der Einführung sind auf Deutsch, Englisch, Französisch und Italienisch verfügbar. Die PDF-Anleitungen liegen unter `downloads/`.
 
