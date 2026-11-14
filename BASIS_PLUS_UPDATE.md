@@ -1,3 +1,7 @@
+> **Archivhinweis:** Dieses Dokument beschreibt eine frühere Änderung. **Aktuelle App- und Website-Version: PhysioClock 3.32.12 (Build 93).** Historische Versionsnummern und Manifestnamen im folgenden Text sind ausschliesslich Entwicklungsnachweise und keine aktuelle Versionsangabe.
+
+---
+
 # Website parallel zu PhysioClock 3.19.0 · Build 51
 
 Kostenlose Basis mit einem eigenen Set und Vorlage A; Premium als geplanter einmaliger In-App-Kauf. Die vollständige 17-zeilige Gegenüberstellung steht in beiden Bedienbereichen und unter de/en/fr/it/plus.html. Beide Bedienmodi bleiben kostenlos. Der endgültige Kaufpreis wird von Apple in der App angezeigt; die Website verkauft keine Freischaltung.

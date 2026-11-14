@@ -1,3 +1,7 @@
+> **Archivhinweis:** Dieses Dokument beschreibt eine frühere Änderung. **Aktuelle App- und Website-Version: PhysioClock 3.32.12 (Build 93).** Historische Versionsnummern und Manifestnamen im folgenden Text sind ausschliesslich Entwicklungsnachweise und keine aktuelle Versionsangabe.
+
+---
+
 # PhysioClock: verständlicher Einstieg für alle Altersgruppen
 
 Die Website stellt den einfachen Modus in den Vordergrund, ohne Besucher nach Alter einzuteilen. Stand der beschriebenen App-Funktionen: 3.18.1 Build 50.

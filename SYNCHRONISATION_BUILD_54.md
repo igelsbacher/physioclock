@@ -1,3 +1,7 @@
+> **Archivhinweis:** Dieses Dokument beschreibt eine frühere Änderung. **Aktuelle App- und Website-Version: PhysioClock 3.32.12 (Build 93).** Historische Versionsnummern und Manifestnamen im folgenden Text sind ausschliesslich Entwicklungsnachweise und keine aktuelle Versionsangabe.
+
+---
+
 # Website parallel zu PhysioClock 3.21.0 · Build 54
 
 Vier Sprachen: neue Seite synchronisation.html, Erklärung Immer/Manuell unter Einstellungen/Erinnerungen und in der Datenhilfe. Aktivitätsprüfung ist in beiden Modi automatisch; Trainingsdaten im manuellen Modus nur über Jetzt synchronisieren. Aktiv bedeutet kürzlich im Vordergrund gemeldet, mit 150 Sekunden Ablauf; beide Geräte benötigen die neue Funktion, denselben Apple Account und Verbindung.

@@ -1,3 +1,7 @@
+> **Archivhinweis:** Dieses Dokument beschreibt eine frühere Änderung. **Aktuelle App- und Website-Version: PhysioClock 3.32.12 (Build 93).** Historische Versionsnummern und Manifestnamen im folgenden Text sind ausschliesslich Entwicklungsnachweise und keine aktuelle Versionsangabe.
+
+---
+
 # Website parallel zu PhysioClock 3.20.0 · Build 53
 
 - Neue Erklärungsseite bestaetigungen.html in DE/EN/FR/IT. Einstieg über aktuelle Datenschutzerklärung und beide integrierten Datenschutzbereiche.
