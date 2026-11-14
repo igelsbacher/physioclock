@@ -120,3 +120,35 @@ body.pc-redesign{background:#132922;color:#f5f8ee;font-family:system-ui,-apple-s
 .pc-redesign .pc-module > summary:hover,.pc-redesign .pc-module > summary:focus-visible{background:#315944;color:#ffffff}
 /* Preserve dark text on genuinely pale mint badges, language selectors and numbers. */
 .pc-redesign :is(.pc-pill,.pc-num,.pc-language a[aria-current=page]){color:#163a2c}
+
+/* Accessibility: skip-to-content appears only during keyboard navigation. */
+.pc-redesign > .skip {
+  position: fixed;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+.pc-redesign > .skip:focus,
+.pc-redesign > .skip:focus-visible {
+  position: fixed;
+  z-index: 1000;
+  left: 16px;
+  top: 12px;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  padding: 10px 16px;
+  clip-path: none;
+  background: #285744;
+  color: #fffaf1;
+  border: 2px solid #d5f3df;
+  border-radius: 12px;
+  font-weight: 750;
+}
