@@ -28,9 +28,18 @@
  ];
  const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
  const head=document.querySelector("header.site-header,header.site-head,header");
+ function preferredLanguage(){
+  const preferences=navigator.languages?.length?navigator.languages:[navigator.language];
+  const supported=new Set(["de","en","fr","it"]);
+  return (preferences||[]).map(v=>String(v).toLowerCase().split(/[-_]/)[0]).find(v=>supported.has(v))||"en";
+ }
  const langLinks=["de","en","fr","it"].map(code=>'<a href="../'+code+'/'+encodeURIComponent(file)+'" hreflang="'+code+'"'+(code===lang?' aria-current="page"':'')+'>'+({de:"Deutsch",en:"English",fr:"Français",it:"Italiano"})[code]+'</a>').join("");
  const nav=docs.map(([href,label])=>'<a href="'+href+'">'+esc(label)+'</a>').join("");
  if(head)head.outerHTML='<header class="pc-topbar"><div class="wrap pc-topbar-inner"><a class="pc-logo site-brand" href="index.html"><img src="../goal-icon.png" alt="">PhysioClock</a><div class="pc-top-actions"><a class="pc-jump" href="index.html#modules">'+esc(L.modules)+'</a><details class="pc-top-menu"><summary>'+esc(L.more)+'</summary><nav aria-label="'+esc(L.topics)+'">'+nav+'</nav></details></div></div><nav class="wrap pc-language" aria-label="Language / Sprache / Langue / Lingua">'+langLinks+'</nav></header>';
+ document.querySelectorAll("a.site-brand").forEach(logo=>logo.addEventListener("click",event=>{
+  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();location.assign("../"+preferredLanguage()+"/index.html");
+ }));
  document.body.classList.add("pc-redesign","pc-subpage");
  const main=document.querySelector("main");
  if(main){
