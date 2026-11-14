@@ -29,6 +29,13 @@ document.querySelectorAll("[data-exercise-photos]").forEach((gallery) => {
         try {
             await next.decode();
         } catch {
+            // Missing image files are temporarily omitted from the slideshow.
+            // Continue to the next valid image instead of leaving a broken image.
+            if (automatic && index === requestedIndex) {
+                const fallbackIndex = neighbor(1);
+                index = fallbackIndex;
+                if (fallbackIndex !== requestedIndex) show(0, true);
+            }
             return;
         }
         if (index === requestedIndex && (!automatic || (playing && !document.hidden))) {
