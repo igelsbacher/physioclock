@@ -1,0 +1,21 @@
+/* Unified styling for all PhysioClock documentation pages. */
+body.pc-redesign.pc-subpage{background:#142922;color:#f6f5ec}
+.pc-subpage .wrap{max-width:1180px;width:min(1180px,calc(100% - 36px));margin-inline:auto}
+.pc-subpage main{padding-top:32px!important;padding-bottom:60px!important}
+.pc-subpage main>h1,.pc-subpage main .learning-hero h1,.pc-subpage main .pc-tutorial h1{font-family:Georgia,serif;letter-spacing:-.035em;line-height:1.14;color:#f9f7ed}
+.pc-subpage main>h1{font-size:clamp(2.2rem,4.6vw,3.7rem)}
+.pc-doc-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 26px;padding:12px 0;border-bottom:1px solid #496e56;color:#cce6d2;font-size:.88rem}
+.pc-doc-breadcrumb a{color:#bce9c7;text-decoration:none;font-weight:700}
+.pc-doc-breadcrumb a:hover{text-decoration:underline}
+.pc-subpage .learning-hero{padding:20px 0 30px}
+.pc-subpage :is(.lesson-panel,.notice,.practice,.lesson-checklist,.feature,.pc-step,.lesson-card,.pc-release-note,.plus-note){border-color:#51745d;border-radius:18px}
+.pc-subpage :is(.lesson-panel,.notice,.practice,.feature,.pc-step,.lesson-card,.pc-release-note,.plus-note){background:#203c31;color:#f5f6ec}
+.pc-subpage :is(p,li){line-height:1.7}
+.pc-subpage :is(.lesson-panel,.notice,.feature,.pc-step) p{color:#d8e6da}
+.pc-subpage .btn{border-radius:15px}
+.pc-subpage main a:not(.btn):not(.lesson-card):not(.pc-hero-link):not(.pc-doc-breadcrumb a){text-underline-offset:3px}
+.pc-subpage .pc-doc-footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:15px;padding:24px 0;border-top:1px solid #4b6b5a;color:#cce0d1}
+.pc-doc-footer nav{display:flex;flex-wrap:wrap;gap:15px}
+.pc-doc-footer nav a{color:#bde8c9;text-decoration:none}
+.pc-subpage .lesson-checklist{position:sticky;top:117px}
+@media(max-width:750px){.pc-subpage main{padding-top:19px!important}.pc-subpage .lesson-checklist{position:static}.pc-subpage .lesson-layout{grid-template-columns:1fr}}
