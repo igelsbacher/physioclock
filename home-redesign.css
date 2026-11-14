@@ -98,3 +98,25 @@ body.pc-redesign{background:#132922;color:#f5f8ee;font-family:system-ui,-apple-s
 .pc-redesign .pc-language a{color:#cbd9d0}
 .pc-redesign .pc-language a[aria-current="page"]{background:#d5f3df;color:#143229}
 @media(max-width:620px){.pc-redesign .pc-top-menu nav{grid-template-columns:1fr;max-height:65vh}}
+
+/* Shared PhysioClock palette: light text on all dark moss-green action surfaces. */
+.pc-redesign .pc-hero-link,
+.pc-redesign .pc-hero-link:visited,
+.pc-redesign .pc-top-menu > summary,
+.pc-redesign .pc-top-menu > summary:hover,
+.pc-redesign .pc-top-menu nav a,
+.pc-redesign .pc-top-menu nav a:visited,
+.pc-redesign .pc-module > summary,
+.pc-redesign .pc-module > summary h3,
+.pc-redesign .pc-module > summary p,
+.pc-redesign .pc-resource,
+.pc-redesign .pc-resource:visited,
+.pc-redesign .pc-resource strong,
+.pc-redesign .pc-jump,
+.pc-redesign .pc-jump:visited {color:#f7faf2}
+.pc-redesign .pc-hero-link:hover,
+.pc-redesign .pc-hero-link:focus-visible{background:#356b54;color:#ffffff}
+.pc-redesign .pc-resource:hover,.pc-redesign .pc-resource:focus-visible{background:#315944;color:#ffffff}
+.pc-redesign .pc-module > summary:hover,.pc-redesign .pc-module > summary:focus-visible{background:#315944;color:#ffffff}
+/* Preserve dark text on genuinely pale mint badges, language selectors and numbers. */
+.pc-redesign :is(.pc-pill,.pc-num,.pc-language a[aria-current=page]){color:#163a2c}
