@@ -185,3 +185,82 @@ body.pc-redesign{background:#132922;color:#f5f8ee;font-family:system-ui,-apple-s
     grid-template-columns: 1fr;
   }
 }
+
+/* First-release documentation cards, anchor offsets and shared footer. */
+html:has(.pc-privacy) {
+  scroll-padding-top: var(--pc-anchor-offset, 132px);
+}
+.pc-redesign main .pc-info-card {
+  min-width: 0;
+  margin: 0 0 16px;
+  padding: clamp(16px, 2.6vw, 26px);
+  border: 1px solid #51745d;
+  border-radius: 18px;
+  background: #203c31;
+  color: #f5f6ec;
+  box-shadow: none;
+  overflow-wrap: anywhere;
+}
+.pc-redesign main .pc-info-card > :first-child { margin-top: 0; }
+.pc-redesign main .pc-info-card > :last-child { margin-bottom: 0; }
+.pc-redesign main .pc-info-card :is(h2,h3) { line-height: 1.18; }
+.pc-privacy-toc {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: 8px;
+  margin: 22px 0;
+}
+.pc-privacy-toc a {
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid #51745d;
+  border-radius: 10px;
+  background: #203c31;
+}
+.pc-privacy :target { outline: 2px solid #bce9c7; outline-offset: 3px; }
+.pc-support-help { margin: 26px 0; }
+.pc-support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 14px;
+}
+.pc-redesign .pc-support-grid .pc-info-card { margin: 0; }
+.pc-site-footer {
+  margin: 24px auto 0;
+  padding: 20px 0 26px;
+  border-top: 1px solid #547260;
+  color: #d8e6da;
+  font-size: .9rem;
+  overflow-wrap: anywhere;
+}
+.pc-footer-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) auto;
+  align-items: start;
+  gap: 12px 24px;
+}
+.pc-footer-row nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.pc-footer-row nav a, .pc-footer-storage > a { color: #bce9c7; text-underline-offset: 3px; }
+.pc-footer-version { text-align: end; white-space: nowrap; }
+.pc-footer-storage {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #365747;
+}
+.pc-footer-storage p { margin: 4px 0 10px; max-width: 78ch; }
+.pc-footer-storage button {
+  margin-inline-start: 12px;
+  padding: 7px 12px;
+  border: 1px solid #719682;
+  border-radius: 9px;
+  background: #244638;
+  color: #f5f6ec;
+  font: inherit;
+  cursor: pointer;
+}
+.pc-footer-storage button:hover { background: #315944; }
+.pc-footer-storage [role=status]:not(:empty) { display: block; margin-top: 7px; }
+@media (max-width: 750px) {
+  .pc-footer-row { grid-template-columns: 1fr; }
+  .pc-footer-version { text-align: start; }
+}

@@ -1,6 +1,6 @@
-L’essentiel
+Déclaration de confidentialité et conditions d’utilisation · Version 1.0
 
-Mise à jour : 7 novembre 2026 · Version 1.5
+L’essentiel
 
 Vos données d’entraînement restent disponibles localement. La synchronisation iCloud est facultative. PhysioClock n’utilise ni publicité ni suivi publicitaire. La confirmation des indications d’utilisation ne constitue pas un consentement général aux traitements facultatifs.
 
@@ -32,6 +32,10 @@ Site et assistance volontaire
 
 Le site n’utilise aucun traceur publicitaire ou analytique propre et ne lit aucune donnée d’entraînement de l’application. GitHub Pages journalise les adresses IP des visiteurs à des fins de sécurité. Les liens externes ouvrent des services ayant leurs propres informations de confidentialité. Le retour ouvre un brouillon de courriel modifiable contenant version, build, version iOS et type d’appareil, sans pièce jointe automatique de données d’entraînement ou Health. L’assistance reçoit le message et l’adresse d’expédition uniquement si vous l’envoyez. N’envoyez pas de données de santé. Les messages sont conservés le temps nécessaire au traitement, à la documentation requise ou aux obligations légales.
 
+Cookies et stockage du navigateur
+
+Ce site ne dépose aucun cookie propre et n’utilise aucun traceur publicitaire ou d’analyse. Si tu l’autorises, cet onglet mémorise ta langue et les cases cochées dans les listes d’apprentissage jusqu’à sa fermeture. Ces réglages ne nous sont pas transmis.
+
 Prestataires, étranger et sécurité
 
 Apple fournit iCloud, Health et la plateforme de l’appareil ; GitHub héberge le site. Leurs déclarations décrivent des traitements internationaux, notamment aux États-Unis, et des garanties telles que les clauses contractuelles types ou les cadres de protection applicables. PhysioClock ne propose ni choix ni garantie de stockage exclusivement en Suisse ou dans l’UE. Les données locales bénéficient des protections de l’appareil ; l’application n’ajoute pas son propre chiffrement de bout en bout. Protégez vos appareils, votre compte Apple et vos exports.
@@ -42,20 +46,36 @@ Selon le droit applicable, vous disposez notamment de droits d’accès, de rect
 
 Premier lancement et modifications
 
-Au premier lancement, l’application présente les indications d’utilisation et un lien vers cette déclaration. Vous acceptez les indications et prenez connaissance des informations de confidentialité. La confirmation et sa date sont enregistrées localement, sans synchronisation iCloud par l’application. Cela n’active aucune fonction facultative. Les informations restent disponibles dans Aide et informations. Les changements importants sont publiés ici avec une nouvelle date ; les versions précédentes restent accessibles.
+Au premier lancement, l’application présente les indications d’utilisation et un lien vers cette déclaration. Vous acceptez les indications et prenez connaissance des informations de confidentialité. La confirmation et sa date sont enregistrées localement, sans synchronisation iCloud par l’application. Cela n’active aucune fonction facultative. Les informations restent disponibles dans Aide et informations. Les changements importants sont publiés ici avec une nouvelle date.
 
-Achat Plus unique via Apple
+Apple · GitHub
 
-L’achat Plus facultatif utilise Apple StoreKit. Apple traite le paiement et le compte App Store. PhysioClock vérifie sur l’appareil les droits d’achat validés par StoreKit pour le déverrouillage et la restauration. PhysioClock n’a pas de serveur de paiement et ne collecte pas les données de carte. Le statut d’achat ne fait pas partie des sauvegardes ni de la synchronisation CloudKit privée. Les conditions et informations de confidentialité d’Apple s’appliquent également.
+iCloud GitHub Privacy GitHub Pages
 
-Confirmations locales et archive des textes
+Achat Premium unique via Apple
 
-Dans Aide → Confidentialité et confirmations, l’app conserve localement les consignes acceptées et la prise de connaissance de la confidentialité avec textes, empreintes, langue, version de l’app, build, heure et fuseau. Les anciennes confirmations ne reprennent que les informations disponibles. Ce journal ne contient ni entraînement ni ressenti, n’active aucune autorisation facultative et n’est transféré ni par iCloud de l’app ni par les sauvegardes d’entraînement. Il est exclu des sauvegardes automatiques de l’appareil. Vous pouvez l’exporter ou le supprimer ; les copies exportées restent à leur emplacement. Il peut disparaître avec l’app ou l’appareil. Heure et empreinte ne prouvent indépendamment ni identité ni date réelle.
+L’achat Premium facultatif utilise Apple StoreKit. Apple traite le paiement et le compte App Store. PhysioClock vérifie sur l’appareil les droits d’achat validés par StoreKit pour le déverrouillage et la restauration. PhysioClock n’a pas de serveur de paiement et ne collecte pas les données de carte. Le statut d’achat ne fait pas partie des sauvegardes ni de la synchronisation CloudKit privée. Les conditions et informations de confidentialité d’Apple s’appliquent également.
+
+Confirmations locales
+
+Dans Aide → Confidentialité et confirmations, l’app conserve localement les consignes acceptées et la prise de connaissance de la confidentialité avec textes, empreintes, langue, version de l’app, build, heure et fuseau. Ce journal ne contient ni entraînement ni ressenti, n’active aucune autorisation facultative et n’est transféré ni par iCloud de l’app ni par les sauvegardes d’entraînement. Il est exclu des sauvegardes automatiques de l’appareil. Vous pouvez l’exporter ou le supprimer ; les copies exportées restent à leur emplacement. Il peut disparaître avec l’app ou l’appareil. Heure et empreinte ne prouvent indépendamment ni identité ni date réelle.
+
+Confidentialité et confirmations
 
 Mode de synchronisation et activité des appareils
 
-Quand la synchronisation est activée, choisissez « Toujours » ou « Manuelle » par appareil. « Toujours » synchronise à l’ouverture, au retour au premier plan et pendant l’utilisation. « Manuelle » transfère les données d’entraînement uniquement après « Synchroniser maintenant ». Dans les deux modes, l’avertissement de démarrage traite automatiquement un identifiant d’installation local aléatoire, le type général (iPhone/iPad), l’état de premier plan et les dates CloudKit dans votre base iCloud privée. Ces statuts ne contiennent ni nom personnel d’appareil ni entraînement. L’identifiant n’est pas transféré dans les sauvegardes d’entraînement. Le statut le plus récent remplace le précédent sans historique ; d’anciens statuts cloud peuvent subsister jusqu’à suppression des données cloud. Une activité expire après 150 secondes sans signal. Le passage en arrière-plan tente de signaler l’inactivité ; la désactivation tente de supprimer le statut cloud propre à l’appareil. L’avertissement nécessite connexion et prise en charge sur les deux appareils ; ce n’est ni un verrouillage ni une preuve indépendante d’utilisation. Les chronomètres et le journal local des confirmations restent exclus de la synchronisation.
+En mode « Toujours », les données d’entraînement sont synchronisées au lancement de l’app, à la fin d’une séance et, pendant l’utilisation, au plus tôt une heure après la dernière synchronisation. En mode « Manuel », les données d’entraînement sont synchronisées sur demande. L’icône à gauche de l’œil dans l’aperçu de l’entraînement et « Synchroniser maintenant » dans « Rappels et iCloud » fonctionnent dans les deux modes. Dans les deux modes, l’avertissement de démarrage traite automatiquement un identifiant d’installation local aléatoire, le type général (iPhone/iPad), l’état de premier plan et les dates CloudKit dans votre base iCloud privée. Ces statuts ne contiennent ni nom personnel d’appareil ni entraînement. L’identifiant n’est pas transféré dans les sauvegardes d’entraînement. Le statut le plus récent remplace le précédent sans historique ; d’anciens statuts cloud peuvent subsister jusqu’à suppression des données cloud. Une activité expire après 150 secondes sans signal. Le passage en arrière-plan tente de signaler l’inactivité ; la désactivation tente de supprimer le statut cloud propre à l’appareil. L’avertissement nécessite connexion et prise en charge sur les deux appareils ; ce n’est ni un verrouillage ni une preuve indépendante d’utilisation. Les chronomètres et le journal local des confirmations restent exclus de la synchronisation.
+
+L’historique facultatif de synchronisation contient uniquement les heures, les états et le type de synchronisation. Il reste sur cet appareil pendant la durée choisie, de 1 à 10 jours, et est exclu de la synchronisation iCloud de PhysioClock et des sauvegardes d’entraînement exportées.
+
+Synchronisation et activité des appareils
 
 État local et options d’affichage
 
 Pour reprendre une séance, PhysioClock stocke localement les textes d’exercices, l’ordre, la position, les segments de temps, l’identifiant de séance et l’état des commandes. Le fichier utilise la protection iOS jusqu’au premier déverrouillage, est exclu des sauvegardes de l’appareil et n’est ni synchronisé par iCloud ni inclus dans les exports d’entraînement ou de programmes. Terminer sans choix en attente, Abandonner, Réinitialiser et supprimer toutes les données locales retirent cet état ; Abandonner conserve les séances terminées. Durée, musique et masquage sont des réglages locaux. Masquer ne change que l’affichage et le cache du widget, pas les données ni les exports demandés. Les informations d’annulation restent uniquement en mémoire pendant l’édition. Aucune nouvelle transmission n’est introduite.
+
+Informations complémentaires
+
+Fonctions et réglages en PDF
+
+Déclaration de confidentialité et conditions d’utilisation · Version 1.0

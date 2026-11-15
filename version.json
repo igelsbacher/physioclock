@@ -1,8 +1,6 @@
 {
   "name": "PhysioClock",
-  "version": "3.32.12",
-  "build": 93,
-  "current": true,
+  "version": "1.0",
   "languages": [
     "de",
     "en",
@@ -10,9 +8,9 @@
     "it"
   ],
   "manuals": [
-    "downloads/PhysioClock_Guide_DE_Build_93.pdf",
-    "downloads/PhysioClock_Guide_EN_Build_93.pdf",
-    "downloads/PhysioClock_Guide_FR_Build_93.pdf",
-    "downloads/PhysioClock_Guide_IT_Build_93.pdf"
+    "downloads/PhysioClock_Guide_DE_V1.pdf",
+    "downloads/PhysioClock_Guide_EN_V1.pdf",
+    "downloads/PhysioClock_Guide_FR_V1.pdf",
+    "downloads/PhysioClock_Guide_IT_V1.pdf"
   ]
 }

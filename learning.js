@@ -1,5 +1,5 @@
 'use strict';
-// Learning checkmarks stay in this page only. No storage, network or app access.
+// Checkmarks update the visible count. The shared footer controls optional tab-only storage.
 document.querySelectorAll('[data-print]').forEach(button => button.addEventListener('click', () => window.print()));
 const checks = Array.from(document.querySelectorAll('[data-learning-check]'));
 function updateCount() {

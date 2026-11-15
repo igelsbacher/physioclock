@@ -1,6 +1,6 @@
-At a glance
+Privacy statement and terms of use · Version 1.0
 
-Updated: 7 November 2026 · Version 1.5
+At a glance
 
 Your training data remains available locally. iCloud sync is optional. PhysioClock uses no advertising or advertising tracking. Acknowledging the usage notes does not give blanket consent to optional processing.
 
@@ -32,6 +32,10 @@ Website and voluntary support
 
 The website uses no advertising or analytics trackers of its own and reads no app training data. GitHub Pages logs visitor IP addresses for security. External links open services with their own privacy information. Feedback opens an editable email draft with app version, build, iOS version and device type; training or Health data is not automatically attached. Support receives your message and sender address only when you send it yourself. Please do not send health data. Support messages are retained as needed to handle the request, maintain necessary documentation or comply with legal obligations.
 
+Cookies and browser storage
+
+This website sets no cookies of its own and uses no advertising or analytics trackers. If you allow it, this tab remembers your language and learning checklist ticks until you close it. These settings are not sent to us.
+
 Providers, international processing and security
 
 Apple provides iCloud, Health and the device platform; GitHub hosts the website. Apple and GitHub describe international processing, including in the United States, and safeguards such as standard contractual clauses or applicable privacy frameworks in their privacy policies. PhysioClock does not offer a choice or guarantee of storage exclusively in Switzerland or the EU. Local data relies on device security; the app adds no end-to-end encryption of its own. Protect your devices, Apple Account and exported files.
@@ -42,20 +46,36 @@ Depending on applicable law, rights include access, rectification, deletion, dat
 
 First launch and changes
 
-On first launch, the app displays usage notes and a link to this statement. You accept the usage notes and acknowledge the privacy information. The app stores the acknowledgement and its time locally and does not include them in its iCloud sync. This does not enable optional features. The information remains available in Help & Information. Material changes are published here with a new date; previous versions remain linked.
+On first launch, the app displays usage notes and a link to this statement. You accept the usage notes and acknowledge the privacy information. The app stores the acknowledgement and its time locally and does not include them in its iCloud sync. This does not enable optional features. The information remains available in Help & Information. Material changes are published here with a new date.
 
-One-time Plus purchase through Apple
+Apple · GitHub
 
-The optional Plus purchase uses Apple StoreKit. Apple processes payment and the App Store account. PhysioClock checks StoreKit-verified purchase entitlements on the device for unlocking and restoration. PhysioClock has no payment server and does not collect card details. Purchase status is not part of training backups or the app’s private CloudKit sync. Apple’s terms and privacy information also apply to processing the purchase.
+iCloud GitHub Privacy GitHub Pages
 
-Local acknowledgements and text archive
+One-time Premium purchase through Apple
+
+The optional Premium purchase uses Apple StoreKit. Apple processes payment and the App Store account. PhysioClock checks StoreKit-verified purchase entitlements on the device for unlocking and restoration. PhysioClock has no payment server and does not collect card details. Purchase status is not part of training backups or the app’s private CloudKit sync. Apple’s terms and privacy information also apply to processing the purchase.
+
+Local acknowledgements
 
 Under Help → Privacy & acknowledgements, the app stores accepted usage notices and acknowledgement of privacy information locally, including text copies, checksums, language, app version, build, device time and time zone. Older acknowledgements retain only information actually available. The log contains no training or wellbeing data, enables no optional permissions, and is not transferred through app iCloud sync or training backups. It is excluded from automatic device backups. You can export or delete it separately; exported copies remain where saved. App deletion or device loss can remove it. Device time and checksums are not independent identity or time evidence.
 
+Privacy & acknowledgements
+
 Sync mode and device activity
 
-When sync is enabled, choose “Always” or “Manual” per device. “Always” syncs on opening, returning to the foreground and during use. “Manual” transfers training data only after “Sync now”. In both modes, startup warnings automatically process a random local installation identifier, general device kind (iPhone/iPad), foreground status and CloudKit modification times in your private iCloud database. Activity reports contain no personal device name or training content. The identifier is not transferred in training backups. The status record holds the last status, not an activity history; older cloud status records may remain until cloud data is deleted. An active report expires after 150 seconds without a heartbeat. Backgrounding attempts to mark inactive; disabling sync attempts to remove this device’s cloud activity report. Warnings require connectivity and support on both devices, do not lock devices and are not independent evidence of use. Running timers and the local acknowledgement log remain outside sync.
+In Always mode, training data syncs when the app launches, when you finish a workout and during use once at least an hour has passed since the last sync. In Manual mode, training data syncs on request. The icon to the left of the eye in the training overview and “Sync now” in “Reminders & iCloud” start a sync in either mode. In both modes, startup warnings automatically process a random local installation identifier, general device kind (iPhone/iPad), foreground status and CloudKit modification times in your private iCloud database. Activity reports contain no personal device name or training content. The identifier is not transferred in training backups. The status record holds the last status, not an activity history; older cloud status records may remain until cloud data is deleted. An active report expires after 150 seconds without a heartbeat. Backgrounding attempts to mark inactive; disabling sync attempts to remove this device’s cloud activity report. Warnings require connectivity and support on both devices, do not lock devices and are not independent evidence of use. Running timers and the local acknowledgement log remain outside sync.
+
+The optional sync history contains only timestamps, statuses and the type of sync. It stays on this device for the selected 1 to 10 days and is excluded from PhysioClock iCloud sync and exported training backups.
+
+Synchronisation and device activity
 
 Local checkpoint and display options
 
 To resume training, PhysioClock stores a local checkpoint containing exercise text, sequence, position, captured time segments, session identifier and control state. The file uses iOS file protection until first unlock, is excluded from device backups and is neither synced via iCloud nor included in training or set exports. Finishing without a pending choice, Discard, Reset and deleting all local training data remove this checkpoint; Discard preserves completed history entries. Duration, music on/off and hiding personal information are saved as local preferences. Hiding changes only the display and widget cache, not stored data or explicitly requested exports. Undo information stays in memory only while editing. These features introduce no new data transfer.
+
+Further information
+
+Features & settings as PDF
+
+Privacy statement and terms of use · Version 1.0
