@@ -59,7 +59,7 @@
   let m=raw.match(/^(?:\.\/)?index\.html#([\w-]+)$/i);
   if(m&&fragments[m[1]]) {
     a.setAttribute("href",fragments[m[1]]);
-    if(m[1]==="regulaer-plus"||m[1]==="einfach-plus")a.textContent=({de:"30 Trainings inklusive",en:"30 free training sessions",fr:"30 séances incluses",it:"30 sessioni incluse"})[lang];
+    if(m[1]==="regulaer-plus"||m[1]==="einfach-plus")a.textContent=({de:"5 Trainings inklusive",en:"5 free training sessions",fr:"5 séances incluses",it:"5 sessioni incluse"})[lang];
   }
   else if(raw==="#auswahl"||raw==="#regulaer"||raw==="#einfach")a.setAttribute("href","index.html#modules");
   else if(raw==="plus.html"||raw==="lernen.html")a.setAttribute("href","index.html#modules");
