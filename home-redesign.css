@@ -264,3 +264,6 @@ html:has(.pc-privacy) {
   .pc-footer-row { grid-template-columns: 1fr; }
   .pc-footer-version { text-align: start; }
 }
+
+.pc-privacy-toc ol,
+.pc-privacy-toc li { display: contents; }

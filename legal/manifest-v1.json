@@ -2,10 +2,10 @@
   "version": "1.0",
   "sha256": {
     "privacy": {
-      "de": "d98de2e42d0f26bb0abcffcf6fd1955491184d92ee04cdc4ee7626706c17965d",
-      "en": "648a369fe7ec0ac5b8bf6a536afbcc16f9a98012b47216bebcee0501f3fa68b6",
-      "fr": "dbc40574c257c1d3f259e2aa8f25b929e273527dba9d28169aea9a140074bb83",
-      "it": "a7f6ecbcd5e02de09c25c7f1ad717f0aed276bc944ce669cc4b8d5258025240d"
+      "de": "087224b2ea0072fae095a6abc0c4fabbe6501df066997e0aafa3d0e7611a1a60",
+      "en": "87a2a8365dc55240fc9afa19804e9160aed74a9f11d68005d1415f4d8c2360a2",
+      "fr": "a5e0b9feb41512be55b10e6c66d845b26e7b4421065b92c82b01636b926c153d",
+      "it": "b3229d25cfc7d2655c9edabeaf9272683c8452d37bad1528c15152740de4b33d"
     },
     "usage": {
       "de": "c2909168254cb8bee921540a674ae32b7ecf49702975dd16e6dd2fc8ed1b1764",
