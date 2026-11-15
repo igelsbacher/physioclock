@@ -12,3 +12,14 @@ document.querySelectorAll('[data-reset]').forEach(button => button.addEventListe
   updateCount();
 }));
 updateCount();
+
+// The browser print dialog includes all sections of the module.
+let temporarilyOpened = [];
+window.addEventListener('beforeprint', () => {
+  temporarilyOpened = [...document.querySelectorAll('.module-page .module-detail:not([open])')];
+  temporarilyOpened.forEach(section => { section.open = true; });
+});
+window.addEventListener('afterprint', () => {
+  temporarilyOpened.forEach(section => { section.open = false; });
+  temporarilyOpened = [];
+});
