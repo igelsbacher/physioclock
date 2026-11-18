@@ -57,7 +57,7 @@ Object.keys(sets).forEach(k=>delete sets[k]);for(const [k,v] of Object.entries(d
 localStorage.setItem('pcweb.sets',JSON.stringify(sets));save();refreshSaved();renderSet();resetTimer();setText();info(tx('success'))}catch(err){info(tx('invalid'))}finally{e.target.value=''}};
 const originalSave=$('saveSet').onclick;$('saveSet').onclick=function(){originalSave();refresh()};
 const originalDelete=$('deleteSet').onclick;$('deleteSet').onclick=function(){originalDelete();refresh()};
-const originalErase=$('erase').onclick;$('erase').onclick=function(){if(confirm(tx('clear'))){originalErase();localStorage.removeItem(KEY);state={schema:2,goal:3,week:[],history:[],wellbeing:[]};setText()}}; // Note original erase asks again before clearing sets.
+$('erase').onclick=function(){if(!confirm(tx('clear')))return;localStorage.removeItem(KEY);localStorage.removeItem('pcweb.sets');for(const k of Object.keys(sets))delete sets[k];selected=[];state={schema:2,goal:3,week:[],history:[],wellbeing:[]};$('setName').value='';refreshSaved();renderSet();resetTimer();setText()};
 const originalLang=$('lang').onchange;$('lang').onchange=function(){originalLang();setText()};
 setText();
 })();
