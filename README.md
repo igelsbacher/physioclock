@@ -16,3 +16,13 @@ PDF-Anleitungen stehen unter `downloads/`, die aktuellen Rechtstexte unter
 node scripts/check-website-links.mjs
 node scripts/check-current-version.mjs
 ```
+
+## Web-App
+
+- [PhysioClock Web (DE)](https://igelsbacher.github.io/physioclock/web-app/index.html?lang=de)
+- Übungskatalog mit 100 lokalisierten Übungen aus der iOS-App-Datei `Catalog100.json`.
+- Trainingstimer, eigene Trainingssets, Wochenplan, Verlauf, Wochenziel, Befinden und JSON-Backup.
+- Derzeit nur lokale Browserdaten; **keine** aktive Cloud-Synchronisation und **keine** serverseitige Kaufprüfung.
+- [Architektur und Sicherheitsanforderungen für Azure-/iOS-Synchronisation](web-app/ARCHITEKTUR.md).
+
+Die neue Web-App ergänzt die vorhandenen Hilfeseiten. Für eine geschützte Nutzung mit echten Benutzerkonten und Premium-Zugang ist ein Backend ausserhalb von GitHub Pages erforderlich.
