@@ -74,3 +74,14 @@ body.pc-app-shell{background:#f2f1e9}
 .pc-app-shell .pc-program-head{align-items:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.pc-app-shell .pc-page{animation:none}}
+
+/* Custom exercise creation within training-set editor */
+.pc-app-shell .pc-custom-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 16px}
+.pc-app-shell .pc-create-custom{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#dcead9;color:#1c4030;font-weight:750;border:1px solid #bed3bd;min-height:46px}
+.pc-app-shell .pc-create-custom::before{content:'+';font-size:22px;line-height:1}
+.pc-app-shell .pc-custom-dialog form{display:flex;flex-direction:column;gap:12px}
+.pc-app-shell .pc-custom-dialog .pc-custom-field{display:flex;flex-direction:column;gap:7px;color:#274636;font-weight:650}
+.pc-app-shell .pc-custom-dialog input,.pc-app-shell .pc-custom-dialog select{width:100%;min-width:0;margin:0;min-height:44px;background:#fff}
+.pc-app-shell .pc-custom-dialog .actions{margin-top:6px;display:flex;justify-content:flex-end;gap:9px;flex-wrap:wrap}
+.pc-app-shell .pc-custom-dialog .actions button{min-height:45px}
+@media(max-width:550px){.pc-app-shell .pc-custom-controls button{width:100%}.pc-app-shell .pc-custom-dialog{padding:18px}.pc-app-shell .pc-custom-dialog .actions button{flex:1}}
