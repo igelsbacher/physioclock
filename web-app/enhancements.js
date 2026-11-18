@@ -15,7 +15,7 @@ const $=id=>document.getElementById(id),tx=k=>(TXT[lang]||TXT.de)[k], save=()=>{
 const root=$('pc-advanced');
 root.classList.remove('panel');
 root.innerHTML=`<style>
-#pc-advanced{margin-top:20px}#pc-advanced .advanced-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:30px;row-gap:24px}
+#pc-advanced{margin-top:20px}#pc-advanced>.panel{margin-bottom:30px}#pc-advanced .advanced-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:30px;row-gap:24px}
 #pc-advanced .panel{min-width:0}#pc-advanced .a-row{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:11px 0}
 #pc-advanced .a-row select,#pc-advanced .a-row input{min-width:0}#pc-advanced .item{display:flex;gap:9px;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e8df;padding:10px 0}
 #pc-advanced .item span{min-width:0;overflow-wrap:anywhere}#pc-advanced .item button{flex-shrink:0}
