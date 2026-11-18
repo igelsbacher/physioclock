@@ -63,7 +63,8 @@ body.pc-app-shell{background:#f2f1e9}
 .pc-app-shell .pc-data-view>.panel{max-width:unset}
 .pc-app-shell .pc-mobile-menu{display:none}
 @media(max-width:760px){
-.pc-app-shell .pc-shell-nav{position:sticky;top:62px;z-index:20;margin:7px 0 18px;overflow-x:auto;padding:5px;gap:3px}
+.pc-app-shell>header{position:relative}
+.pc-app-shell .pc-shell-nav{position:sticky;top:0;z-index:20;margin:7px 0 18px;overflow-x:auto;padding:5px;gap:3px}
 .pc-shell-nav button{padding:10px 11px;font-size:12px;min-height:46px}
 .pc-app-shell .pc-dashboard-grid,.pc-app-shell .pc-set-cards,.pc-app-shell .pc-editor-grid{grid-template-columns:1fr}
 .pc-app-shell .pc-editor-grid #catalog{height:320px}
