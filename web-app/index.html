@@ -32,7 +32,7 @@ const EX=[
 ].map((x,i)=>({id:'web'+(i+1),region:x[0],names:{de:x[1],en:x[2],fr:x[3],it:x[4]}}));
 if(window.PHYSIOCLOCK_CATALOG){EX.splice(0,EX.length,...window.PHYSIOCLOCK_CATALOG.items)}
 const CUSTOM_EXERCISES_KEY='pcweb.customExercises';
-function loadCustomExercises(){let stored=[];try{stored=JSON.parse(localStorage.getItem(CUSTOM_EXERCISES_KEY)||'[]')}catch{}if(!Array.isArray(stored))return;for(const e of stored){if(e&&typeof e.id==='string'&&e.id.startsWith('ios-')&&e.names&&typeof e.names.de==='string'&&e.names.de.length<=160&&Number.isInteger(e.region)&&e.region>=0&&e.region<10&&!EX.some(x=>x.id===e.id))EX.push(e)}}
+function loadCustomExercises(){let stored=[];try{stored=JSON.parse(localStorage.getItem(CUSTOM_EXERCISES_KEY)||'[]')}catch{}if(!Array.isArray(stored))return;for(const e of stored){if(e&&typeof e.id==='string'&&(e.id.startsWith('ios-')||e.id.startsWith('user-'))&&e.names&&typeof e.names.de==='string'&&e.names.de.length<=160&&Number.isInteger(e.region)&&e.region>=0&&e.region<10&&!EX.some(x=>x.id===e.id))EX.push(e)}}
 loadCustomExercises();
 const REG={de:['Hals und Nacken','Schultern','Brust und Arme','Rumpf','Becken','Hüfte','Oberschenkel','Unterschenkel','Rücken und Dehnung','Balance'],en:['Neck','Shoulders','Chest and arms','Core','Pelvis','Hips','Thighs','Lower legs','Back and stretches','Balance'],fr:['Cou','Épaules','Poitrine et bras','Tronc','Bassin','Hanches','Cuisses','Jambes','Dos et étirements','Équilibre'],it:['Collo','Spalle','Petto e braccia','Tronco','Bacino','Anche','Cosce','Gambe','Schiena e stretching','Equilibrio']};
 if(window.PHYSIOCLOCK_CATALOG){for(const lang of ['de','en','fr','it'])REG[lang]=window.PHYSIOCLOCK_CATALOG.regions.map(r=>r[lang]);}
