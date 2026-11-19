@@ -1,91 +1,463 @@
-// Shared, reviewed content for the public site and PDF guides (four languages).
+// Current public website and guide content, release 1.3.
 export const content = {
- de: {
-  home:"Deine Zeit. Dein Rhythmus.", sub:"Ein Timer für Alltag, Fokus und persönliche Routinen. Erstelle deine eigenen Intervalle, speichere Programme und behalte deine Zeit im Blick.",
-  guide:"Anleitung", quick:"Schnellanleitung", topics:"Alle Themen", homeLink:"Startseite", pdf:"Anleitung als PDF", privacy:"Datenschutz", legal:"Impressum & Kontakt", support:"Hilfe & Support", news:"Aktuelles", skip:"Zum Inhalt", free:"5 gestartete Sitzungen kostenlos. Danach ist ein aktives Timer Premium-Jahresabonnement für weitere Starts erforderlich. Es verlängert sich automatisch, sofern du nicht mindestens 24 Stunden vor Ablauf kündigst. Den aktuellen Preis zeigt Apple vor dem Kauf.",
-  optional:"Optional: Bewegungsmodus", optionalText:"Timer startet neutral. Nur wenn du unter Hilfe & Informationen → Einstellungen & iCloud → Einstellungen → Anwendungsbereich «Bewegungsübungen aktivieren» einschaltest, werden die bisherigen Bewegungsprogramme, Katalog, Bilder und Ziele sichtbar. Beide Modi haben getrennte Sets, Wochenpläne und Verläufe. Wechsel nur bei beendetem Timer und ohne laufenden iCloud-Abgleich.",
-  cookies:"Cookies und Browserspeicher", cookieText:"Diese Website setzt keine eigenen Cookies ein und verwendet keine Werbe- oder Analysetracker. Wenn du es erlaubst, merkt sich dieser Tab deine Sprache und die Häkchen in den Lernlisten bis zum Schliessen. Diese Einstellungen werden nicht an uns übermittelt.", remember:"Für diesen Tab merken", forget:"Nicht mehr merken", remembered:"Einstellungen werden in diesem Tab gemerkt.", storageError:"Browserspeicher nicht verfügbar.", prev:"Vorheriges Bild", next:"Nächstes Bild",
-  pages:{
-   start:["Erste Schritte","Öffne Timer auf iPhone oder iPad. Wähle beim ersten Start den einfachen oder vollen Darstellungsmodus und bestätige die Nutzungshinweise.","In der Timer-Übersicht öffnest du den Timer. Standardmässig ist ein Intervall von fünf Minuten vorhanden. Wähle Start; der Countdown läuft.","Über das Regler-Symbol bearbeitest du Intervalle, ihre Namen und ihre Dauer. Speichere ein Programm bei Bedarf als Set."],
-   control:["Timer bedienen","Start beginnt den Countdown. Pause hält ihn an, Fortsetzen setzt ihn fort, Weiter springt zum nächsten Intervall. Zurücksetzen setzt das Programm auf den Anfang; Ende beendet die Sitzung.","Die Anzeige zeigt die verbleibende Zeit des aktuellen Intervalls und des gesamten Programms. Im Querformat steht der Countdown gross im Vordergrund.","Du kannst Ton, Vibration, Sprachansage und Halbzeitsignal in den Einstellungen konfigurieren. iOS-Einstellungen beeinflussen die Signale.","Optionale Intervalle werden erst nach Bestätigung gestartet. Ein beendeter Timer kann im Verlauf erscheinen; meditative Abwärmoptionen gehören zum optionalen Bewegungsmodus."],
-   sets:["Intervalle und Sets","Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein eigenes Intervall hinzu, gib ihm einen Namen und passe seine Dauer an.","Ordne Intervalle neu, entferne nicht benötigte oder ergänze optionale Schritte. Lege bei Bedarf Runden und Pausen fest.","Speichere das aktuelle Programm als neues Set. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.","Für die Datenübernahme nutze den JSON-Export oder importiere ein neues Set aus CSV/JSON. Alte PhysioClock-Dateien gehören zum Bewegungsmodus."],
-   settings:["Name, Anzeige und Einstellungen","Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige kannst du den individuellen Namen der App festlegen (maximal zwölf Zeichen); bei leerem Feld erscheint Timer.","Der Name gilt in der App auf diesem Gerät. Das iOS-App-Symbol trägt den festen Namen Timer. Die bisherige Anwendungskennung bleibt bestehen.","Wähle einfachen oder vollen Modus unabhängig vom Hauptschalter für Bewegungsübungen. Stelle Schriftgrösse, Kontrast, Anzeige des nächsten Intervalls, Signale und Startfotos nach Bedarf ein.","Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. In der Einstellung für Startfotos kannst du die Dauer zwischen 8 und 20 Sekunden wählen oder die Fotos ausschalten."],
-   plan:["Wochenplan und Erinnerungen","Im Wochenplan wählst du für jeden Wochentag ein oder mehrere gespeicherte Sets in deiner bevorzugten Reihenfolge.","Unter Erinnerungen & iCloud kannst du Erinnerungszeiten und Wochentage festlegen. Erlaube iOS-Mitteilungen, wenn du erinnert werden möchtest.","Erinnerungen starten keinen Timer automatisch. Öffne die App und starte dein ausgewähltes Programm selbst."],
-   history:["Verlauf und Übersicht","Die Monatsübersicht und der Verlauf zeigen deine abgeschlossenen Sitzungen und die erfasste Dauer im aktiven Modus.","Im vollen Modus stehen weitere Auswertungen zur Verfügung. Der Wochenplan und Verlauf bleiben beim Wechsel des Hauptschalters getrennt erhalten.","Wenn du die Bearbeitung erfasster Zeiten aktiviert hast, kannst du eine Sitzung in den gegebenen Schritten korrigieren. Einzelne Einträge kannst du löschen. Es gibt keine neue Befindenserfassung."],
-   backup:["Datensicherung und Import","Öffne Hilfe & Informationen → Datensicherung & Löschung. Exportiere ein JSON-Backup für den aktuellen Modus und bewahre es sicher auf.","Import als neues Set: Wähle eine passende CSV- oder JSON-Datei, gib einen Set-Namen ein und bestätige. Vorhandene Sets bleiben erhalten.","Eine vollständige Backup-Wiederherstellung ersetzt die Daten des aktuellen Modus nach Bestätigung. Prüfe den Modus vor dem Import; die alten PhysioClock-Dateien gehören zum Bewegungsmodus.","Das Löschen lokaler Daten betrifft den aktiven Modus. Exportdateien, Gerätebackups und Cloud-Kopien sind separat zu berücksichtigen."],
-   sync:["iCloud und Synchronisation","Der iCloud-Abgleich ist freiwillig. Wähle Aus, Manuell oder Immer unter Erinnerungen & iCloud. Im Modus Immer erfolgt der Abgleich beim Start, nach Abschluss und während der Nutzung frühestens nach einer Stunde.","Manuell startet der Abgleich über «Jetzt synchronisieren». Ein laufender oder pausierter Timer blockiert den Abgleich; laufende Timer werden nicht zwischen Geräten übertragen.","Timer- und Bewegungsdaten werden in getrennten Datensätzen derselben privaten iCloud-Datenbank gespeichert. Der Hauptschalter und die persönliche Bezeichnung gelten lokal pro Gerät.","Der optionale Synchronisationsverlauf enthält Zeitpunkte, Status und Art des Abgleichs und bleibt für 1 bis 10 Tage lokal. Aktivitätswarnungen sind keine Sperre. Der Datenabgleich kann Zeit beanspruchen."],
-   icons:["Symbole erklärt","Stoppuhr: Timer. Zahnrad oder Regler: Einstellungen beziehungsweise Intervallbearbeitung. Stapel: gespeicherte Sets. Kalender: Wochenplan bzw. Verlauf.","Dreieck: Start. Zwei Balken: Pause. Pfeile: nächstes oder vorheriges Intervall. Quadrat: Ende. Kreisförmiger Pfeil: Zurücksetzen.","Kreisförmige Doppelpfeile: Synchronisation. Auge: persönliche Anzeigen aus- oder einblenden. Stern: Favorit."],
-   premium:["Timer Premium","Die ersten fünf gestarteten Sitzungen sind kostenlos. Danach erfordert ein neuer Start ein aktives Jahresabonnement; das Pausieren und Fortsetzen derselben Sitzung verbraucht keinen weiteren Start.","Der Preis wird beim Kauf von Apple angezeigt. Das Abonnement verlängert sich automatisch, sofern du nicht mindestens 24 Stunden vor Ablauf kündigst. Verwalte das Abonnement unter den Apple-Einstellungen.","Bereits gespeicherte Programme und Verläufe werden bei einem Abo-Ende nicht automatisch gelöscht. Nutze in der App die Kaufwiederherstellung, falls erforderlich."],
-   support:["Hilfe und Kontakt","Bei Fragen oder technischen Problemen: iphysioclock@gmail.com. Nenne App-Version, Gerät und eine kurze Beschreibung. Sende keine sensiblen Daten.","Die Website dient ausschliesslich als Information und Anleitung für die iOS-App. Es gibt hier keinen browserbasierten Timer und kein Benutzerkonto.","Timer ist kein Notfall- oder medizinisches Überwachungsinstrument. Weitere Hinweise zum optionalen Bewegungsmodus findest du unter rechtliche Hinweise."],
-   legal:["Impressum und rechtliche Hinweise","Entwickler und Ansprechpartner: Heinz Josef Igelsbacher. Kontakt: iphysioclock@gmail.com. Datenschutzkontakt: dev.igelsbacher@icloud.com.","Timer dient zur zeitlichen Organisation eigener Programme. Der optionale Bewegungsmodus bietet allgemeine Orientierung; die App ersetzt keine medizinische Beratung, Diagnostik oder individuell verordnete Therapie.","Haftung wird nur im gesetzlich zulässigen Umfang beschränkt. Zwingende gesetzliche Rechte bleiben unberührt."],
-   ack:["Datenschutz und Bestätigungen","Beim ersten Start bestätigst du die Nutzungshinweise und nimmst die Datenschutzhinweise zur Kenntnis. Das aktiviert keine optionalen Berechtigungen.","Unter Hilfe & Informationen → Datenschutz & Bestätigungen kannst du die lokal gespeicherten Bestätigungen einsehen, exportieren oder löschen. Das Protokoll wird nicht über iCloud abgeglichen."],
-   news:["Aktuelles","Timer 1.0: neutraler Standardmodus, frei wählbarer Anzeigename bis zwölf Zeichen und neue Startfotos.","Der optionale Bewegungsmodus bewahrt die bisherigen Bewegungsprogramme und Fotos. Die Webapplikation ist nicht mehr verfügbar; diese Website enthält ausschliesslich Anleitungen zur iOS-App."]
+  "de": {
+    "home": "Deine Zeit. Dein Rhythmus.",
+    "sub": "Ein Timer für Alltag, Fokus und persönliche Routinen. Erstelle deine eigenen Intervalle, speichere Programme und behalte deine Zeit im Blick.",
+    "guide": "Anleitung",
+    "quick": "Schnellanleitung",
+    "topics": "Alle Themen",
+    "homeLink": "Startseite",
+    "pdf": "Anleitung als PDF",
+    "privacy": "Datenschutz",
+    "legal": "Impressum & Kontakt",
+    "support": "Hilfe & Support",
+    "news": "Aktuelles",
+    "skip": "Zum Inhalt",
+    "free": "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver.",
+    "optional": "Optional: Bewegungsmodus",
+    "optionalText": "Timer startet neutral. Nur wenn du unter Hilfe & Informationen → Einstellungen & iCloud → Einstellungen → Anwendungsbereich «Bewegungsübungen aktivieren» einschaltest, werden die bisherigen Bewegungsprogramme, Katalog, Bilder und Ziele sichtbar. Beide Modi haben getrennte Sets, Wochenpläne und Verläufe. Wechsel nur bei beendetem Timer und ohne laufenden iCloud-Abgleich. Timer organisiert selbst gewählte Aktivitäten, Intervalle und persönliche Routinen. Der optionale Bewegungsmodus dient ausschliesslich der allgemeinen Orientierung und Zeitmessung. Die App beurteilt keine Beschwerden, stellt keine Diagnose und empfiehlt keine individuelle Behandlung oder Therapie.",
+    "cookies": "Cookies und Browserspeicher",
+    "cookieText": "Die Website setzt keine eigenen Cookies ein. Nur wenn du es ausdrücklich aktivierst, merkt sich der Browser Sprache und Lernlisten-Häkchen bis zum Schliessen des Tabs. Das ist lokaler Sitzungsspeicher; du kannst die Einstellung zurücksetzen. Die Website sendet diese Angaben nicht an uns.",
+    "remember": "Für diesen Tab merken",
+    "forget": "Nicht mehr merken",
+    "remembered": "Einstellungen werden in diesem Tab gemerkt.",
+    "storageError": "Browserspeicher nicht verfügbar.",
+    "prev": "Vorheriges Bild",
+    "next": "Nächstes Bild",
+    "pages": {
+      "start": [
+        "Erste Schritte",
+        "Öffne Timer auf iPhone oder iPad. Wähle beim ersten Start den einfachen oder vollen Darstellungsmodus und bestätige die Nutzungshinweise.",
+        "In der Timer-Übersicht öffnest du den Timer. Standardmässig ist ein Intervall von fünf Minuten vorhanden. Wähle Start; der Countdown läuft.",
+        "Über das Regler-Symbol bearbeitest du Intervalle, ihre Namen und ihre Dauer. Speichere ein Programm bei Bedarf als Set."
+      ],
+      "control": [
+        "Timer bedienen",
+        "Start beginnt den Countdown. Pause hält ihn an, Fortsetzen setzt ihn fort, Weiter springt zum nächsten Intervall. Zurücksetzen setzt das Programm auf den Anfang; Ende beendet die Sitzung.",
+        "Die Anzeige zeigt die verbleibende Zeit des aktuellen Intervalls und des gesamten Programms. Im Querformat steht der Countdown gross im Vordergrund.",
+        "Du kannst Ton, Vibration, Sprachansage und Halbzeitsignal in den Einstellungen konfigurieren. iOS-Einstellungen beeinflussen die Signale.",
+        "Optionale Intervalle werden erst nach Bestätigung gestartet. Ein beendeter Timer kann im Verlauf erscheinen; meditative Abwärmoptionen gehören zum optionalen Bewegungsmodus."
+      ],
+      "sets": [
+        "Intervalle und Sets",
+        "Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein eigenes Intervall hinzu, gib ihm einen Namen und passe seine Dauer an.",
+        "Ordne Intervalle neu, entferne nicht benötigte oder ergänze optionale Schritte. Lege bei Bedarf Runden und Pausen fest.",
+        "Speichere das aktuelle Programm als neues Set. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.",
+        "Für die Datenübernahme nutze den JSON-Export oder importiere ein neues Set aus CSV/JSON. Alte PhysioClock-Dateien gehören zum Bewegungsmodus."
+      ],
+      "settings": [
+        "Name, Anzeige und Einstellungen",
+        "Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige kannst du den individuellen Namen der App festlegen (maximal zwölf Zeichen); bei leerem Feld erscheint Timer.",
+        "Der Name gilt in der App auf diesem Gerät. Das iOS-App-Symbol trägt den festen Namen Timer. Die bisherige Anwendungskennung bleibt bestehen.",
+        "Wähle einfachen oder vollen Modus unabhängig vom Hauptschalter für Bewegungsübungen. Stelle Schriftgrösse, Kontrast, Anzeige des nächsten Intervalls, Signale und Startfotos nach Bedarf ein.",
+        "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. In der Einstellung für Startfotos kannst du die Dauer zwischen 8 und 20 Sekunden wählen oder die Fotos ausschalten."
+      ],
+      "plan": [
+        "Wochenplan und Erinnerungen",
+        "Im Wochenplan wählst du für jeden Wochentag ein oder mehrere gespeicherte Sets in deiner bevorzugten Reihenfolge.",
+        "Unter Erinnerungen & iCloud kannst du Erinnerungszeiten und Wochentage festlegen. Erlaube iOS-Mitteilungen, wenn du erinnert werden möchtest.",
+        "Erinnerungen starten keinen Timer automatisch. Öffne die App und starte dein ausgewähltes Programm selbst."
+      ],
+      "history": [
+        "Verlauf und Übersicht",
+        "Die Monatsübersicht und der Verlauf zeigen deine abgeschlossenen Sitzungen und die erfasste Dauer im aktiven Modus.",
+        "Im vollen Modus stehen weitere Auswertungen zur Verfügung. Der Wochenplan und Verlauf bleiben beim Wechsel des Hauptschalters getrennt erhalten.",
+        "Wenn du die Bearbeitung erfasster Zeiten aktiviert hast, kannst du eine Sitzung in den gegebenen Schritten korrigieren. Einzelne Einträge kannst du löschen. Es gibt keine neue Befindenserfassung."
+      ],
+      "backup": [
+        "Datensicherung und Import",
+        "Öffne Hilfe & Informationen → Datensicherung & Löschung. Exportiere ein JSON-Backup für den aktuellen Modus und bewahre es sicher auf.",
+        "Import als neues Set: Wähle eine passende CSV- oder JSON-Datei, gib einen Set-Namen ein und bestätige. Vorhandene Sets bleiben erhalten.",
+        "Backup-Export und Teilen erfolgen nur auf deine ausdrückliche Aktion. Dateien können persönliche Inhalte enthalten. Speichere sie geschützt; sie können je nach gewähltem Ziel auch ausserhalb des Geräts liegen. Ein Set-Import ergänzt ein Set; die ausdrücklich bestätigte vollständige Wiederherstellung ersetzt Daten des aktiven Modus. Die lokale Löschung betrifft den jeweils ausgewählten Modus. Ausschalten des Abgleichs löscht keine Cloud-Kopien; Gerätebackups und selbst gespeicherte Dateien sind getrennt zu verwalten.",
+        "Neue Befindenseinträge werden nicht erfasst. Vorhandene Befindensdaten und der alte Abgleich-Zwischenspeicher werden, soweit lesbar, in eine durch iOS-Dateischutz gesicherte lokale Datei ohne Gerätebackup übernommen. Unter Datensicherung & Löschung kannst du die alten lokalen Befindensdaten und den Abgleich-Zwischenspeicher ausdrücklich löschen. Die übrigen Bewegungsprogramme und Verläufe bleiben dabei erhalten.",
+        "Ältere App-Versionen konnten personenbezogene Inhalte in iCloud speichern. Die aktuelle Version liest oder aktualisiert diese alten Cloud-Datensätze nicht mehr. Unter Erinnerungen & iCloud kannst du die zwei alten App-Datensätze nach ausdrücklicher Bestätigung löschen. Sichere vorher benötigte Inhalte lokal und aktualisiere alle Geräte; ältere Versionen können alte Datensätze erneut erstellen. Lokale Daten und der neue neutrale Datensatz bleiben erhalten."
+      ],
+      "sync": [
+        "iCloud und Synchronisation",
+        "iCloud ist standardmässig ausgeschaltet und muss erneut aktiviert werden. Synchronisiert werden nur Kennungen, Reihenfolge, Dauer, optionale Intervalle, Runden/Pausen und Wochenplan neutraler Timer-Sets. Eigene Namen bleiben lokal; auf anderen Geräten erscheinen zunächst generische Namen. Bewegungsdaten, Verläufe, Ziele, Erinnerungen, Freitext, Notizen und alte Befindensdaten werden nicht synchronisiert.",
+        "Wähle unter Erinnerungen & iCloud «Aus», «Manuell» oder «Immer». Im Modus Immer wird beim Start, nach Abschluss und während der Nutzung frühestens nach einer Stunde abgeglichen. Manuell über «Jetzt synchronisieren». Laufende und pausierte Timer werden nicht übertragen.",
+        "Bei aktiviertem iCloud-Abgleich werden für die optionale Gerätewarnung eine zufällige lokale Installationskennung, der allgemeine Gerätetyp und der Vordergrundstatus in der privaten CloudKit-Datenbank verarbeitet, auch im manuellen Modus. Keine persönlichen Gerätenamen oder Aktivitätsinhalte. Der Status verfällt nach 150 Sekunden ohne Lebenszeichen; die Warnung ist keine Sperre. Der lokale Abgleichverlauf speichert optional Zeitpunkte, Status und Art des Abgleichs für 1 bis 10 Tage.",
+        "Ältere App-Versionen konnten personenbezogene Inhalte in iCloud speichern. Die aktuelle Version liest oder aktualisiert diese alten Cloud-Datensätze nicht mehr. Unter Erinnerungen & iCloud kannst du die zwei alten App-Datensätze nach ausdrücklicher Bestätigung löschen. Sichere vorher benötigte Inhalte lokal und aktualisiere alle Geräte; ältere Versionen können alte Datensätze erneut erstellen. Lokale Daten und der neue neutrale Datensatz bleiben erhalten."
+      ],
+      "icons": [
+        "Symbole erklärt",
+        "Stoppuhr: Timer. Zahnrad oder Regler: Einstellungen beziehungsweise Intervallbearbeitung. Stapel: gespeicherte Sets. Kalender: Wochenplan bzw. Verlauf.",
+        "Dreieck: Start. Zwei Balken: Pause. Pfeile: nächstes oder vorheriges Intervall. Quadrat: Ende. Kreisförmiger Pfeil: Zurücksetzen.",
+        "Kreisförmige Doppelpfeile: Synchronisation. Auge: persönliche Anzeigen aus- oder einblenden. Stern: Favorit."
+      ],
+      "premium": [
+        "Timer Premium",
+        "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver.",
+        "Backup-Export und Teilen erfolgen nur auf deine ausdrückliche Aktion. Dateien können persönliche Inhalte enthalten. Speichere sie geschützt; sie können je nach gewähltem Ziel auch ausserhalb des Geräts liegen. Ein Set-Import ergänzt ein Set; die ausdrücklich bestätigte vollständige Wiederherstellung ersetzt Daten des aktiven Modus. Die lokale Löschung betrifft den jeweils ausgewählten Modus. Ausschalten des Abgleichs löscht keine Cloud-Kopien; Gerätebackups und selbst gespeicherte Dateien sind getrennt zu verwalten."
+      ],
+      "support": [
+        "Hilfe und Kontakt",
+        "Bei Fragen oder technischen Problemen: iphysioclock@gmail.com. Nenne App-Version, Gerät und eine kurze Beschreibung. Sende keine sensiblen Daten.",
+        "Die Website dient ausschliesslich als Information und Anleitung für die iOS-App. Es gibt hier keinen browserbasierten Timer und kein Benutzerkonto.",
+        "Nutze den Timer nicht für Notfälle, medizinische Überwachung oder sicherheitskritische Prozesse. Die integrierten Bewegungsdarstellungen sind keine Aufforderung zu bestimmten Übungen. Wähle Aktivitäten und Dauer selbst; bei Unsicherheit oder Beschwerden wende dich an eine qualifizierte Fachperson. Signale und Zeitdarstellung können durch Geräteeinstellungen oder technische Unterbrechungen beeinflusst werden. Zwingende gesetzliche Rechte bleiben unberührt; Haftung wird nur im gesetzlich zulässigen Umfang beschränkt."
+      ],
+      "legal": [
+        "Impressum und rechtliche Hinweise",
+        "Verantwortlich für Timer und die Website: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Datenschutz und Entwicklerkontakt: dev.igelsbacher@icloud.com. Support: iphysioclock@gmail.com.",
+        "Timer organisiert selbst gewählte Aktivitäten, Intervalle und persönliche Routinen. Der optionale Bewegungsmodus dient ausschliesslich der allgemeinen Orientierung und Zeitmessung. Die App beurteilt keine Beschwerden, stellt keine Diagnose und empfiehlt keine individuelle Behandlung oder Therapie.",
+        "Nutze den Timer nicht für Notfälle, medizinische Überwachung oder sicherheitskritische Prozesse. Die integrierten Bewegungsdarstellungen sind keine Aufforderung zu bestimmten Übungen. Wähle Aktivitäten und Dauer selbst; bei Unsicherheit oder Beschwerden wende dich an eine qualifizierte Fachperson. Signale und Zeitdarstellung können durch Geräteeinstellungen oder technische Unterbrechungen beeinflusst werden. Zwingende gesetzliche Rechte bleiben unberührt; Haftung wird nur im gesetzlich zulässigen Umfang beschränkt."
+      ],
+      "ack": [
+        "Datenschutz und Bestätigungen",
+        "Du bestätigst die Nutzungshinweise und nimmst die Datenschutzhinweise zur Kenntnis. Dies ist keine pauschale Einwilligung und aktiviert weder iCloud noch Mitteilungen oder Widgets. Die Bestätigung wird mit Textfassung, Prüfsumme, Zeitangabe und App-Version lokal gespeichert, nicht synchronisiert und vom Gerätebackup ausgeschlossen. Bei wesentlichen Änderungen wird der Hinweis erneut angezeigt. Das Protokoll kannst du unter Datenschutz & Bestätigungen exportieren oder löschen."
+      ],
+      "news": [
+        "Aktuelles",
+        "Timer 1.0: neutraler Standardmodus, frei wählbarer Anzeigename bis zwölf Zeichen und neue Startfotos.",
+        "Der optionale Bewegungsmodus bewahrt die bisherigen Bewegungsprogramme und Fotos. Die Webapplikation ist nicht mehr verfügbar; diese Website enthält ausschliesslich Anleitungen zur iOS-App.",
+        "iCloud ist standardmässig ausgeschaltet und muss erneut aktiviert werden. Synchronisiert werden nur Kennungen, Reihenfolge, Dauer, optionale Intervalle, Runden/Pausen und Wochenplan neutraler Timer-Sets. Eigene Namen bleiben lokal; auf anderen Geräten erscheinen zunächst generische Namen. Bewegungsdaten, Verläufe, Ziele, Erinnerungen, Freitext, Notizen und alte Befindensdaten werden nicht synchronisiert.",
+        "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver."
+      ]
+    }
+  },
+  "en": {
+    "home": "Your time. Your rhythm.",
+    "sub": "A timer for everyday life, focus and personal routines. Create your own intervals, save programmes and keep track of your time.",
+    "guide": "Guide",
+    "quick": "Quick start",
+    "topics": "All topics",
+    "homeLink": "Home",
+    "pdf": "PDF guide",
+    "privacy": "Privacy",
+    "legal": "Legal & contact",
+    "support": "Help & support",
+    "news": "News",
+    "skip": "Skip to content",
+    "free": "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server.",
+    "optional": "Optional movement mode",
+    "optionalText": "Timer starts in neutral mode. Only when you enable movement exercises in Help & Information → Settings & iCloud → Settings → Application mode do existing movement programmes, catalogue, images and goals appear. Each mode has separate sets, weekly plans and history. Switch only with the timer stopped and no sync in progress. Timer organises self-selected activities, intervals and personal routines. Optional movement mode provides general orientation and timekeeping only. It does not assess symptoms, diagnose or recommend individual treatment or therapy.",
+    "cookies": "Cookies and browser storage",
+    "cookieText": "The website sets no cookies of its own. Only if explicitly enabled, the browser remembers language and learning checklist ticks until the tab closes. This is local session storage; you can reset it. The site does not transmit these preferences to us.",
+    "remember": "Remember in this tab",
+    "forget": "Stop remembering",
+    "remembered": "Settings are remembered in this tab.",
+    "storageError": "Browser storage unavailable.",
+    "prev": "Previous image",
+    "next": "Next image",
+    "pages": {
+      "start": [
+        "Getting started",
+        "Open Timer on iPhone or iPad. On first launch, select Simple or Full mode and acknowledge the usage notice.",
+        "Open the timer from the overview. A five-minute interval is available by default. Tap Start to begin.",
+        "Use the sliders to edit intervals, names and durations. Save a programme as a set whenever needed."
+      ],
+      "control": [
+        "Timer controls",
+        "Start begins the countdown. Pause stops it temporarily, Resume continues, Next skips to the next interval. Reset returns to the beginning; End finishes the session.",
+        "The display shows remaining time for the current interval and the entire programme. Landscape orientation emphasises the countdown.",
+        "Configure sound, vibration, speech and halfway signals in Settings. iOS settings also affect signals.",
+        "Optional intervals start only after confirmation. Completed sessions can appear in history; meditative cool-down options belong to optional movement mode."
+      ],
+      "sets": [
+        "Intervals and sets",
+        "Open Edit intervals using the sliders. Add an interval, name it and set its duration.",
+        "Reorder, remove or add optional intervals. Set rounds and breaks as needed.",
+        "Save the current programme as a new set. Load, edit, rename, favourite or delete existing sets in the active mode.",
+        "Use JSON export or import a new set from CSV/JSON. Legacy PhysioClock files belong to movement mode."
+      ],
+      "settings": [
+        "Name, display and settings",
+        "Open Help & Information → Settings & iCloud → Settings. Under Display, set an individual app name of up to twelve characters. If blank, Timer appears.",
+        "The name applies inside the app on this device. The iOS Home Screen app name remains Timer; the existing application identifier remains unchanged.",
+        "Choose Simple or Full independently of the movement switch. Adjust font size, contrast, next-interval display, signals and startup photos.",
+        "Neutral startup photos show a lake and an hourglass. Select 8 to 20 seconds or turn the photos off."
+      ],
+      "plan": [
+        "Weekly plan and reminders",
+        "Choose one or more saved sets per weekday in the weekly plan and arrange them in your preferred order.",
+        "Under Reminders & iCloud, select reminder times and weekdays. Allow iOS notifications if you wish to be reminded.",
+        "Reminders do not start a timer automatically. Open the app and start the selected programme yourself."
+      ],
+      "history": [
+        "History and overview",
+        "The monthly overview and history show completed sessions and recorded duration in the active mode.",
+        "Full mode includes additional summaries. Switching the movement switch preserves separate weekly plans and history.",
+        "If time editing is enabled, correct a recorded session in the available increments. Individual entries can be deleted. No new wellbeing entries can be recorded."
+      ],
+      "backup": [
+        "Backup and import",
+        "Open Help & Information → Backup & deletion. Export a JSON backup of the current mode and store it securely.",
+        "Import as a new set: choose a matching CSV/JSON file, name the set and confirm. Existing sets remain intact.",
+        "Backup exports and sharing occur only on your explicit action. Files may contain personal content; store them securely and remember they may reside off-device depending on the chosen destination. Importing a set adds a set; explicitly confirmed full restoration replaces data in the active mode. Local deletion affects the selected mode. Turning sync off does not remove cloud copies; device backups and saved files must be managed separately.",
+        "No new wellbeing entries are collected. Existing wellbeing data and the former sync cache, if readable, are moved to local storage protected by iOS file protection and excluded from device backups. Under Backup & deletion you can explicitly delete legacy local wellbeing data and the former sync cache. Other movement programmes and history remain.",
+        "Earlier app versions could store personal content in iCloud. This version no longer reads or updates those old cloud records. Under Reminders & iCloud you can delete the two legacy app records after explicit confirmation. Back up anything you need locally and update all devices first; older versions can recreate the records. Local data and the new neutral record remain."
+      ],
+      "sync": [
+        "iCloud and synchronisation",
+        "iCloud is off by default and must be enabled again. Only identifiers, order, duration, optional intervals, rounds/rests and weekly plans of neutral timer sets are synced. Custom names stay local; other devices initially show generic names. Movement data, history, goals, reminders, free text, notes and legacy wellbeing data are not synced.",
+        "Under Reminders & iCloud select Off, Manual or Always. Always syncs on launch, after completion and during use no sooner than after one hour. Manual sync uses Sync now. Running and paused timers are not transferred.",
+        "When iCloud sync is enabled, an optional device warning processes a random local installation identifier, general device type and foreground status in the private CloudKit database, including in manual mode. No personal device names or activity content. Status expires after 150 seconds without a heartbeat; the warning is not a lock. The optional local sync log stores timestamps, status and sync type for 1 to 10 days.",
+        "Earlier app versions could store personal content in iCloud. This version no longer reads or updates those old cloud records. Under Reminders & iCloud you can delete the two legacy app records after explicit confirmation. Back up anything you need locally and update all devices first; older versions can recreate the records. Local data and the new neutral record remain."
+      ],
+      "icons": [
+        "Icons explained",
+        "Stopwatch: timer. Gear or sliders: settings or interval editing. Stack: saved sets. Calendar: weekly plan or history.",
+        "Triangle: start. Two bars: pause. Arrows: next or previous interval. Square: end. Circular arrow: reset.",
+        "Circular double arrows: synchronisation. Eye: hide or show personal displays. Star: favourite."
+      ],
+      "premium": [
+        "Timer Premium",
+        "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server.",
+        "Backup exports and sharing occur only on your explicit action. Files may contain personal content; store them securely and remember they may reside off-device depending on the chosen destination. Importing a set adds a set; explicitly confirmed full restoration replaces data in the active mode. Local deletion affects the selected mode. Turning sync off does not remove cloud copies; device backups and saved files must be managed separately."
+      ],
+      "support": [
+        "Help and contact",
+        "For questions or technical problems: iphysioclock@gmail.com. Include app version, device and a short description. Do not send sensitive data.",
+        "This website is solely an information and guide site for the iOS app. It has no browser timer or user account.",
+        "Do not use Timer for emergencies, medical monitoring or safety-critical processes. Movement illustrations are not instructions to perform specific exercises. Choose activities and duration yourself; consult a qualified professional if unsure or experiencing symptoms. Device settings and technical interruptions may affect signals and timing. Mandatory legal rights remain unaffected; liability is limited only to the extent permitted by law."
+      ],
+      "legal": [
+        "Legal notice and contact",
+        "Controller for Timer and the website: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Privacy and developer contact: dev.igelsbacher@icloud.com. Support: iphysioclock@gmail.com.",
+        "Timer organises self-selected activities, intervals and personal routines. Optional movement mode provides general orientation and timekeeping only. It does not assess symptoms, diagnose or recommend individual treatment or therapy.",
+        "Do not use Timer for emergencies, medical monitoring or safety-critical processes. Movement illustrations are not instructions to perform specific exercises. Choose activities and duration yourself; consult a qualified professional if unsure or experiencing symptoms. Device settings and technical interruptions may affect signals and timing. Mandatory legal rights remain unaffected; liability is limited only to the extent permitted by law."
+      ],
+      "ack": [
+        "Privacy and acknowledgements",
+        "Accept the usage notice and acknowledge the privacy notice. This is not blanket consent and does not enable iCloud, notifications or widgets. The acknowledgement is stored locally with the text version, hash, time and app version, is not synced and is excluded from device backups. The notice is shown again following material changes. You can export or delete the log in Privacy & acknowledgements."
+      ],
+      "news": [
+        "News",
+        "Timer 1.0: neutral default mode, an individual display name of up to twelve characters and new startup photos.",
+        "Optional movement mode preserves existing movement programmes and photos. The web application is no longer available; this website provides guidance for the iOS app only.",
+        "iCloud is off by default and must be enabled again. Only identifiers, order, duration, optional intervals, rounds/rests and weekly plans of neutral timer sets are synced. Custom names stay local; other devices initially show generic names. Movement data, history, goals, reminders, free text, notes and legacy wellbeing data are not synced.",
+        "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server."
+      ]
+    }
+  },
+  "fr": {
+    "home": "Ton temps. Ton rythme.",
+    "sub": "Un minuteur pour le quotidien, la concentration et les routines personnelles. Crée tes intervalles, enregistre tes programmes et garde une vue sur ton temps.",
+    "guide": "Guide",
+    "quick": "Démarrage rapide",
+    "topics": "Tous les sujets",
+    "homeLink": "Accueil",
+    "pdf": "Guide PDF",
+    "privacy": "Confidentialité",
+    "legal": "Mentions légales",
+    "support": "Aide et contact",
+    "news": "Actualités",
+    "skip": "Aller au contenu",
+    "free": "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement.",
+    "optional": "Mode mouvement facultatif",
+    "optionalText": "Timer démarre en mode neutre. Active les exercices de mouvement dans Aide et informations → Réglages et iCloud → Réglages → Mode d’utilisation pour afficher les anciens programmes, le catalogue, les photos et les objectifs. Les programmes, plans et historiques sont séparés. Change de mode uniquement lorsque le minuteur est arrêté et la synchronisation terminée. Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.",
+    "cookies": "Cookies et stockage du navigateur",
+    "cookieText": "Le site ne dépose pas de cookies propres. Si tu l’actives explicitement, le navigateur mémorise la langue et les cases cochées jusqu’à la fermeture de l’onglet. Ce stockage de session est local et réinitialisable. Le site ne nous transmet pas ces préférences.",
+    "remember": "Mémoriser dans cet onglet",
+    "forget": "Ne plus mémoriser",
+    "remembered": "Réglages mémorisés dans cet onglet.",
+    "storageError": "Stockage indisponible.",
+    "prev": "Image précédente",
+    "next": "Image suivante",
+    "pages": {
+      "start": [
+        "Premiers pas",
+        "Ouvre Timer sur iPhone ou iPad. Au premier lancement, choisis le mode simple ou complet et confirme les consignes d’utilisation.",
+        "Ouvre le minuteur depuis l’aperçu. Un intervalle de cinq minutes est proposé. Appuie sur Démarrer.",
+        "Utilise les réglages pour modifier les intervalles, leur nom et leur durée. Enregistre le programme comme série si nécessaire."
+      ],
+      "control": [
+        "Commander le minuteur",
+        "Démarrer lance le compte à rebours. Pause l’interrompt, Reprendre le poursuit, Suivant passe à l’intervalle suivant. Réinitialiser revient au début ; Fin termine la séance.",
+        "L’écran indique le temps restant de l’intervalle et du programme entier. En paysage, le compte à rebours est affiché en grand.",
+        "Configure le son, les vibrations, les annonces vocales et le signal de mi-temps. Les réglages iOS influencent aussi les signaux.",
+        "Les intervalles facultatifs démarrent après confirmation. Les séances terminées apparaissent dans l’historique ; la récupération méditative relève du mode mouvement facultatif."
+      ],
+      "sets": [
+        "Intervalles et séries",
+        "Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, donne-lui un nom et définis sa durée.",
+        "Réorganise, supprime ou ajoute des intervalles facultatifs. Configure les tours et les pauses selon tes besoins.",
+        "Enregistre le programme actuel comme nouvelle série. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.",
+        "Utilise l’export JSON ou importe une nouvelle série CSV/JSON. Les anciens fichiers PhysioClock appartiennent au mode mouvement."
+      ],
+      "settings": [
+        "Nom, affichage et réglages",
+        "Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis un nom de douze caractères maximum. Si le champ est vide, Timer s’affiche.",
+        "Le nom s’applique dans l’app sur cet appareil. Le nom de l’icône iOS reste Timer et l’identifiant technique reste inchangé.",
+        "Choisis le mode simple ou complet indépendamment du mode mouvement. Ajuste la taille du texte, le contraste, l’affichage du prochain intervalle, les signaux et les photos.",
+        "Les photos neutres montrent un lac et un sablier. Choisis une durée de 8 à 20 secondes ou désactive-les."
+      ],
+      "plan": [
+        "Plan hebdomadaire et rappels",
+        "Choisis une ou plusieurs séries par jour dans le plan hebdomadaire, dans l’ordre souhaité.",
+        "Sous Rappels et iCloud, règle les heures et les jours. Autorise les notifications iOS pour recevoir les rappels.",
+        "Un rappel ne démarre pas automatiquement le minuteur. Ouvre l’application et lance ton programme."
+      ],
+      "history": [
+        "Historique et aperçu",
+        "L’aperçu mensuel et l’historique indiquent les séances terminées et leur durée enregistrée dans le mode actif.",
+        "Le mode complet propose des synthèses supplémentaires. Le changement de mode préserve les plans et historiques séparés.",
+        "Si la modification des durées est activée, corrige une séance par incréments disponibles. Tu peux supprimer des entrées. Aucun nouveau ressenti ne peut être enregistré."
+      ],
+      "backup": [
+        "Sauvegarde et import",
+        "Ouvre Aide et informations → Sauvegarde et suppression. Exporte un fichier JSON du mode actif et protège-le.",
+        "Pour importer une nouvelle série, choisis un fichier CSV/JSON compatible, donne un nom et confirme. Les séries existantes restent intactes.",
+        "Export et partage nécessitent ton action explicite. Les fichiers peuvent contenir des données personnelles ; protège-les. Le lieu de stockage choisi peut être externe à l’appareil. L’import d’une série ajoute une série ; la restauration complète confirmée remplace les données du mode actif. La suppression locale concerne ce mode. Désactiver iCloud ne supprime pas les copies cloud ; gère séparément sauvegardes et fichiers exportés.",
+        "Aucune nouvelle donnée de ressenti n’est collectée. Les anciennes données et le cache de synchronisation, s’ils sont lisibles, sont transférés dans un stockage local protégé par iOS et exclu des sauvegardes d’appareil. Dans Sauvegarde et suppression, tu peux les supprimer explicitement. Les autres programmes et historiques restent intacts.",
+        "Les anciennes versions pouvaient enregistrer des contenus personnels dans iCloud. Cette version ne lit ni ne modifie ces anciens enregistrements. Dans Rappels et iCloud, tu peux supprimer les deux anciens enregistrements après confirmation explicite. Sauvegarde d’abord les données nécessaires et mets à jour tous les appareils ; les anciennes versions peuvent recréer ces enregistrements. Les données locales et le nouvel enregistrement neutre restent intacts."
+      ],
+      "sync": [
+        "iCloud et synchronisation",
+        "iCloud est désactivé par défaut et doit être réactivé. Seuls les identifiants, l’ordre, les durées, intervalles facultatifs, tours/pauses et plans hebdomadaires des séries neutres sont synchronisés. Les noms personnels restent locaux ; les autres appareils affichent initialement des noms génériques. Mouvement, historique, objectifs, rappels, texte libre, notes et anciennes données de ressenti ne sont pas synchronisés.",
+        "Sous Rappels et iCloud, sélectionne Désactivé, Manuel ou Toujours. Toujours synchronise au démarrage, après la fin et en cours d’utilisation après au moins une heure. Lance le mode manuel avec Synchroniser maintenant. Les minuteurs en cours ou en pause ne sont pas transférés.",
+        "Lorsque la synchronisation est activée, une alerte d’appareil traite un identifiant aléatoire local, le type général d’appareil et l’état de premier plan dans la base CloudKit privée, même en mode manuel. Aucun nom personnel d’appareil ni contenu d’activité. L’état expire après 150 secondes sans signal ; l’alerte ne bloque pas l’app. Le journal local facultatif conserve heures, états et types pendant 1 à 10 jours.",
+        "Les anciennes versions pouvaient enregistrer des contenus personnels dans iCloud. Cette version ne lit ni ne modifie ces anciens enregistrements. Dans Rappels et iCloud, tu peux supprimer les deux anciens enregistrements après confirmation explicite. Sauvegarde d’abord les données nécessaires et mets à jour tous les appareils ; les anciennes versions peuvent recréer ces enregistrements. Les données locales et le nouvel enregistrement neutre restent intacts."
+      ],
+      "icons": [
+        "Signification des symboles",
+        "Chronomètre : minuteur. Roue ou curseurs : réglages ou modification des intervalles. Pile : séries. Calendrier : plan ou historique.",
+        "Triangle : démarrer. Deux barres : pause. Flèches : intervalle suivant ou précédent. Carré : fin. Flèche circulaire : réinitialiser.",
+        "Deux flèches circulaires : synchronisation. Œil : masquer ou afficher les informations personnelles. Étoile : favori."
+      ],
+      "premium": [
+        "Timer Premium",
+        "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement.",
+        "Export et partage nécessitent ton action explicite. Les fichiers peuvent contenir des données personnelles ; protège-les. Le lieu de stockage choisi peut être externe à l’appareil. L’import d’une série ajoute une série ; la restauration complète confirmée remplace les données du mode actif. La suppression locale concerne ce mode. Désactiver iCloud ne supprime pas les copies cloud ; gère séparément sauvegardes et fichiers exportés."
+      ],
+      "support": [
+        "Aide et contact",
+        "Pour toute question ou difficulté technique : iphysioclock@gmail.com. Indique version, appareil et description. N’envoie pas de données sensibles.",
+        "Ce site fournit uniquement des informations et des guides pour l’app iOS. Il ne propose ni minuteur en ligne ni compte utilisateur.",
+        "N’utilise pas Timer pour les urgences, la surveillance médicale ou des processus critiques pour la sécurité. Les illustrations de mouvement ne sont pas une consigne d’exercice spécifique. Choisis toi-même les activités et durées ; en cas de doute ou de symptômes, consulte un professionnel qualifié. Réglages et interruptions techniques peuvent affecter signaux et temps. Les droits impératifs restent applicables ; la responsabilité est limitée dans les limites légales."
+      ],
+      "legal": [
+        "Mentions légales et contact",
+        "Responsable de Timer et du site : Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Confidentialité et développeur : dev.igelsbacher@icloud.com. Assistance : iphysioclock@gmail.com.",
+        "Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.",
+        "N’utilise pas Timer pour les urgences, la surveillance médicale ou des processus critiques pour la sécurité. Les illustrations de mouvement ne sont pas une consigne d’exercice spécifique. Choisis toi-même les activités et durées ; en cas de doute ou de symptômes, consulte un professionnel qualifié. Réglages et interruptions techniques peuvent affecter signaux et temps. Les droits impératifs restent applicables ; la responsabilité est limitée dans les limites légales."
+      ],
+      "ack": [
+        "Confidentialité et confirmations",
+        "Tu acceptes les consignes d’utilisation et prends connaissance de la confidentialité. Ce n’est pas un consentement général et cela n’active ni iCloud, ni notifications, ni widgets. La confirmation, la version, l’empreinte, l’heure et la version de l’app restent locales, non synchronisées et exclues des sauvegardes. Un changement important entraîne un nouvel avis. Consulte, exporte ou supprime le journal sous Confidentialité et confirmations."
+      ],
+      "news": [
+        "Actualités",
+        "Timer 1.0 : mode neutre par défaut, nom personnalisable de douze caractères et nouvelles photos de démarrage.",
+        "Le mode mouvement facultatif conserve les anciens programmes et photos. L’application web n’est plus disponible ; le site propose uniquement des guides iOS.",
+        "iCloud est désactivé par défaut et doit être réactivé. Seuls les identifiants, l’ordre, les durées, intervalles facultatifs, tours/pauses et plans hebdomadaires des séries neutres sont synchronisés. Les noms personnels restent locaux ; les autres appareils affichent initialement des noms génériques. Mouvement, historique, objectifs, rappels, texte libre, notes et anciennes données de ressenti ne sont pas synchronisés.",
+        "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement."
+      ]
+    }
+  },
+  "it": {
+    "home": "Il tuo tempo. Il tuo ritmo.",
+    "sub": "Un timer per la vita quotidiana, la concentrazione e le routine personali. Crea intervalli, salva programmi e tieni sotto controllo il tempo.",
+    "guide": "Guida",
+    "quick": "Avvio rapido",
+    "topics": "Tutti gli argomenti",
+    "homeLink": "Home",
+    "pdf": "Guida PDF",
+    "privacy": "Privacy",
+    "legal": "Note legali e contatti",
+    "support": "Aiuto e contatti",
+    "news": "Novità",
+    "skip": "Vai al contenuto",
+    "free": "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento.",
+    "optional": "Modalità movimento facoltativa",
+    "optionalText": "Timer si avvia in modalità neutra. Attiva gli esercizi di movimento in Aiuto e informazioni → Impostazioni e iCloud → Impostazioni → Modalità d’uso per visualizzare i programmi, il catalogo, le foto e gli obiettivi precedenti. Programmi, piani e cronologie sono separati. Cambia solo a timer fermo e sincronizzazione terminata. Timer organizza attività, intervalli e routine scelti da te. La modalità movimento facoltativa serve solo per orientamento generale e misurazione del tempo. Non valuta sintomi, formula diagnosi o raccomanda trattamenti individuali.",
+    "cookies": "Cookie e memoria del browser",
+    "cookieText": "Il sito non imposta cookie propri. Solo se lo attivi esplicitamente, il browser ricorda lingua e caselle selezionate fino alla chiusura della scheda. La memoria di sessione è locale e ripristinabile. Il sito non ci trasmette queste preferenze.",
+    "remember": "Memorizza nella scheda",
+    "forget": "Non memorizzare più",
+    "remembered": "Impostazioni memorizzate nella scheda.",
+    "storageError": "Memoria del browser non disponibile.",
+    "prev": "Foto precedente",
+    "next": "Foto successiva",
+    "pages": {
+      "start": [
+        "Primi passi",
+        "Apri Timer su iPhone o iPad. Al primo avvio scegli la modalità semplice o completa e conferma le indicazioni d’uso.",
+        "Apri il timer dalla panoramica. È disponibile un intervallo di cinque minuti. Tocca Avvia.",
+        "Usa i cursori per modificare intervalli, nomi e durata. Salva il programma come serie se necessario."
+      ],
+      "control": [
+        "Comandi del timer",
+        "Avvia inizia il conto alla rovescia. Pausa lo interrompe, Riprendi lo prosegue, Avanti passa all’intervallo successivo. Reimposta torna all’inizio; Fine termina la sessione.",
+        "Lo schermo mostra il tempo rimanente dell’intervallo e dell’intero programma. In orizzontale il conto alla rovescia è grande.",
+        "Configura suono, vibrazione, annunci vocali e segnale di metà tempo. Anche le impostazioni di iOS influenzano i segnali.",
+        "Gli intervalli facoltativi partono dopo conferma. Le sessioni concluse possono apparire nella cronologia; il rilassamento meditativo appartiene alla modalità movimento facoltativa."
+      ],
+      "sets": [
+        "Intervalli e serie",
+        "Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, assegnagli un nome e imposta la durata.",
+        "Riordina, rimuovi o aggiungi intervalli facoltativi. Imposta giri e pause secondo le necessità.",
+        "Salva il programma come nuova serie. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.",
+        "Usa l’export JSON o importa una serie CSV/JSON. I vecchi file PhysioClock appartengono alla modalità movimento."
+      ],
+      "settings": [
+        "Nome, visualizzazione e impostazioni",
+        "Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli un nome composto da massimo dodici caratteri. Se vuoto, appare Timer.",
+        "Il nome vale all’interno dell’app su questo dispositivo. Il nome dell’icona iOS rimane Timer e l’identificatore tecnico non cambia.",
+        "Scegli la modalità semplice o completa indipendentemente dal movimento. Regola caratteri, contrasto, intervallo successivo, segnali e foto.",
+        "Le foto neutre mostrano un lago e una clessidra. Scegli una durata da 8 a 20 secondi oppure disattivale."
+      ],
+      "plan": [
+        "Piano settimanale e promemoria",
+        "Scegli una o più serie per ogni giorno della settimana, nell’ordine desiderato.",
+        "In Promemoria e iCloud imposta orari e giorni. Consenti le notifiche iOS per ricevere i promemoria.",
+        "I promemoria non avviano automaticamente il timer. Apri l’app e avvia il programma scelto."
+      ],
+      "history": [
+        "Cronologia e panoramica",
+        "La panoramica mensile e la cronologia mostrano le sessioni completate e la durata registrata nella modalità attiva.",
+        "La modalità completa offre ulteriori riepiloghi. Il cambio della modalità preserva piani e cronologie separati.",
+        "Se la modifica dei tempi è attiva, correggi una sessione negli incrementi disponibili. Puoi eliminare singole voci. Non è possibile registrare nuove annotazioni sul benessere."
+      ],
+      "backup": [
+        "Backup e importazione",
+        "Apri Aiuto e informazioni → Backup ed eliminazione. Esporta un backup JSON della modalità attiva e conservalo in sicurezza.",
+        "Importa una nuova serie da un file CSV/JSON compatibile, assegna un nome e conferma. Le serie esistenti rimangono.",
+        "Export e condivisione avvengono solo su richiesta esplicita. I file possono contenere dati personali; proteggili e considera che la destinazione scelta può essere esterna al dispositivo. L’import di una serie aggiunge una serie; il ripristino completo confermato sostituisce i dati della modalità attiva. L’eliminazione locale riguarda la modalità selezionata. Disattivare iCloud non elimina copie cloud; gestisci backup e file esportati separatamente.",
+        "Non vengono raccolte nuove annotazioni sul benessere. Le vecchie annotazioni e la cache di sincronizzazione, se leggibili, vengono trasferite in uno spazio locale protetto da iOS ed escluso dai backup del dispositivo. In Backup ed eliminazione puoi eliminarle esplicitamente. Gli altri programmi e cronologie rimangono.",
+        "Le versioni precedenti potevano salvare contenuti personali su iCloud. Questa versione non legge né aggiorna i vecchi record. In Promemoria e iCloud puoi eliminare i due vecchi record dopo conferma esplicita. Salva prima i dati necessari e aggiorna tutti i dispositivi; le vecchie versioni possono ricreare i record. Dati locali e nuovo record neutro rimangono."
+      ],
+      "sync": [
+        "iCloud e sincronizzazione",
+        "iCloud è disattivato per impostazione predefinita e deve essere riattivato. Si sincronizzano solo identificatori, ordine, durate, intervalli facoltativi, giri/pause e piani settimanali delle serie neutre. I nomi personali restano locali; gli altri dispositivi mostrano inizialmente nomi generici. Movimento, cronologia, obiettivi, promemoria, testo libero, note e vecchie annotazioni sul benessere non sono sincronizzati.",
+        "In Promemoria e iCloud scegli Disattivata, Manuale o Sempre. Sempre sincronizza all’avvio, alla fine e durante l’uso dopo almeno un’ora. Per il manuale usa Sincronizza ora. I timer attivi o in pausa non vengono trasferiti.",
+        "Con la sincronizzazione attiva, un avviso dispositivo tratta un identificatore di installazione locale casuale, il tipo generale e lo stato in primo piano nel database CloudKit privato, anche in modalità manuale. Nessun nome personale del dispositivo o contenuto di attività. Lo stato scade dopo 150 secondi senza segnale; l’avviso non blocca l’app. Il registro locale facoltativo conserva orari, stati e tipi per 1–10 giorni.",
+        "Le versioni precedenti potevano salvare contenuti personali su iCloud. Questa versione non legge né aggiorna i vecchi record. In Promemoria e iCloud puoi eliminare i due vecchi record dopo conferma esplicita. Salva prima i dati necessari e aggiorna tutti i dispositivi; le vecchie versioni possono ricreare i record. Dati locali e nuovo record neutro rimangono."
+      ],
+      "icons": [
+        "Significato dei simboli",
+        "Cronometro: timer. Ingranaggio o cursori: impostazioni o modifica intervalli. Pila: serie salvate. Calendario: piano o cronologia.",
+        "Triangolo: avvio. Due barre: pausa. Frecce: intervallo successivo o precedente. Quadrato: fine. Freccia circolare: reimposta.",
+        "Doppie frecce circolari: sincronizzazione. Occhio: mostra o nascondi informazioni personali. Stella: preferito."
+      ],
+      "premium": [
+        "Timer Premium",
+        "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento.",
+        "Export e condivisione avvengono solo su richiesta esplicita. I file possono contenere dati personali; proteggili e considera che la destinazione scelta può essere esterna al dispositivo. L’import di una serie aggiunge una serie; il ripristino completo confermato sostituisce i dati della modalità attiva. L’eliminazione locale riguarda la modalità selezionata. Disattivare iCloud non elimina copie cloud; gestisci backup e file esportati separatamente."
+      ],
+      "support": [
+        "Aiuto e contatti",
+        "Per domande o problemi tecnici: iphysioclock@gmail.com. Indica versione, dispositivo e descrizione. Non inviare dati sensibili.",
+        "Il sito offre esclusivamente informazioni e guide per l’app iOS. Non offre un timer web né un account utente.",
+        "Non usare Timer per emergenze, monitoraggio medico o processi critici per la sicurezza. Le illustrazioni di movimento non impongono esercizi specifici. Scegli autonomamente attività e durata; in caso di dubbio o sintomi consulta un professionista qualificato. Impostazioni e interruzioni tecniche possono influire su tempi e segnali. I diritti inderogabili rimangono; la responsabilità è limitata solo nei limiti legali."
+      ],
+      "legal": [
+        "Note legali e contatti",
+        "Responsabile di Timer e del sito: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Privacy e sviluppatore: dev.igelsbacher@icloud.com. Assistenza: iphysioclock@gmail.com.",
+        "Timer organizza attività, intervalli e routine scelti da te. La modalità movimento facoltativa serve solo per orientamento generale e misurazione del tempo. Non valuta sintomi, formula diagnosi o raccomanda trattamenti individuali.",
+        "Non usare Timer per emergenze, monitoraggio medico o processi critici per la sicurezza. Le illustrazioni di movimento non impongono esercizi specifici. Scegli autonomamente attività e durata; in caso di dubbio o sintomi consulta un professionista qualificato. Impostazioni e interruzioni tecniche possono influire su tempi e segnali. I diritti inderogabili rimangono; la responsabilità è limitata solo nei limiti legali."
+      ],
+      "ack": [
+        "Privacy e conferme",
+        "Accetti le indicazioni d’uso e prendi visione dell’informativa. Non è consenso generale e non attiva iCloud, notifiche o widget. Conferma, versione, hash, orario e versione app restano locali, non sincronizzati ed esclusi dai backup. In caso di modifiche sostanziali l’avviso viene riproposto. Esporta o elimina il registro in Privacy e conferme."
+      ],
+      "news": [
+        "Novità",
+        "Timer 1.0: modalità neutra predefinita, nome personalizzabile fino a dodici caratteri e nuove foto di avvio.",
+        "La modalità movimento facoltativa mantiene i programmi e le foto precedenti. L’applicazione web non è più disponibile; il sito offre solo guide per iOS.",
+        "iCloud è disattivato per impostazione predefinita e deve essere riattivato. Si sincronizzano solo identificatori, ordine, durate, intervalli facoltativi, giri/pause e piani settimanali delle serie neutre. I nomi personali restano locali; gli altri dispositivi mostrano inizialmente nomi generici. Movimento, cronologia, obiettivi, promemoria, testo libero, note e vecchie annotazioni sul benessere non sono sincronizzati.",
+        "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento."
+      ]
+    }
   }
- },
- en: {
-  home:"Your time. Your rhythm.", sub:"A timer for everyday life, focus and personal routines. Create your own intervals, save programmes and keep track of your time.",
-  guide:"Guide",quick:"Quick start",topics:"All topics",homeLink:"Home",pdf:"PDF guide",privacy:"Privacy",legal:"Legal & contact",support:"Help & support",news:"News",skip:"Skip to content",free:"The first 5 started sessions are free. After that, an active Timer Premium annual subscription is required for further starts. It renews automatically unless cancelled at least 24 hours before expiry. Apple displays the current price before purchase.",
-  optional:"Optional movement mode",optionalText:"Timer starts in neutral mode. Only when you enable movement exercises in Help & Information → Settings & iCloud → Settings → Application mode do existing movement programmes, catalogue, images and goals appear. Each mode has separate sets, weekly plans and history. Switch only with the timer stopped and no sync in progress.",
-  cookies:"Cookies and browser storage",cookieText:"This website sets no cookies of its own and uses no advertising or analytics trackers. If you allow it, this tab remembers your language and checklist ticks until you close it. These settings are not sent to us.",remember:"Remember in this tab",forget:"Stop remembering",remembered:"Settings are remembered in this tab.",storageError:"Browser storage unavailable.",prev:"Previous image",next:"Next image",
-  pages:{
-   start:["Getting started","Open Timer on iPhone or iPad. On first launch, select Simple or Full mode and acknowledge the usage notice.","Open the timer from the overview. A five-minute interval is available by default. Tap Start to begin.","Use the sliders to edit intervals, names and durations. Save a programme as a set whenever needed."],
-   control:["Timer controls","Start begins the countdown. Pause stops it temporarily, Resume continues, Next skips to the next interval. Reset returns to the beginning; End finishes the session.","The display shows remaining time for the current interval and the entire programme. Landscape orientation emphasises the countdown.","Configure sound, vibration, speech and halfway signals in Settings. iOS settings also affect signals.","Optional intervals start only after confirmation. Completed sessions can appear in history; meditative cool-down options belong to optional movement mode."],
-   sets:["Intervals and sets","Open Edit intervals using the sliders. Add an interval, name it and set its duration.","Reorder, remove or add optional intervals. Set rounds and breaks as needed.","Save the current programme as a new set. Load, edit, rename, favourite or delete existing sets in the active mode.","Use JSON export or import a new set from CSV/JSON. Legacy PhysioClock files belong to movement mode."],
-   settings:["Name, display and settings","Open Help & Information → Settings & iCloud → Settings. Under Display, set an individual app name of up to twelve characters. If blank, Timer appears.","The name applies inside the app on this device. The iOS Home Screen app name remains Timer; the existing application identifier remains unchanged.","Choose Simple or Full independently of the movement switch. Adjust font size, contrast, next-interval display, signals and startup photos.","Neutral startup photos show a lake and an hourglass. Select 8 to 20 seconds or turn the photos off."],
-   plan:["Weekly plan and reminders","Choose one or more saved sets per weekday in the weekly plan and arrange them in your preferred order.","Under Reminders & iCloud, select reminder times and weekdays. Allow iOS notifications if you wish to be reminded.","Reminders do not start a timer automatically. Open the app and start the selected programme yourself."],
-   history:["History and overview","The monthly overview and history show completed sessions and recorded duration in the active mode.","Full mode includes additional summaries. Switching the movement switch preserves separate weekly plans and history.","If time editing is enabled, correct a recorded session in the available increments. Individual entries can be deleted. No new wellbeing entries can be recorded."],
-   backup:["Backup and import","Open Help & Information → Backup & deletion. Export a JSON backup of the current mode and store it securely.","Import as a new set: choose a matching CSV/JSON file, name the set and confirm. Existing sets remain intact.","Full backup restore replaces data in the active mode after confirmation. Verify the mode before importing: legacy PhysioClock files belong to movement mode.","Local deletion affects the active mode. Exports, device backups and cloud copies must be managed separately."],
-   sync:["iCloud and synchronisation","iCloud sync is optional. Choose Off, Manual or Always under Reminders & iCloud. Always syncs on launch, after completion and during use no sooner than after one hour.","Manual sync starts using Sync now. A running or paused timer blocks sync; active timers are not transferred between devices.","Neutral and movement data are stored in separate records in the same private iCloud database. The mode switch and individual name are local.","The optional sync log contains timestamps, status and sync type and remains local for 1 to 10 days. Activity warnings are not a lock. Sync may take time."],
-   icons:["Icons explained","Stopwatch: timer. Gear or sliders: settings or interval editing. Stack: saved sets. Calendar: weekly plan or history.","Triangle: start. Two bars: pause. Arrows: next or previous interval. Square: end. Circular arrow: reset.","Circular double arrows: synchronisation. Eye: hide or show personal displays. Star: favourite."],
-   premium:["Timer Premium","The first five started sessions are free. Further starts require an active annual subscription; pausing and resuming the same session does not consume another start.","Apple displays the purchase price. The subscription renews automatically unless cancelled at least 24 hours before expiry. Manage it in Apple settings.","Saved programmes and history are not automatically removed when a subscription ends. Use restore purchases in the app if needed."],
-   support:["Help and contact","For questions or technical problems: iphysioclock@gmail.com. Include app version, device and a short description. Do not send sensitive data.","This website is solely an information and guide site for the iOS app. It has no browser timer or user account.","Timer is not an emergency or medical monitoring tool. See legal information for the optional movement mode."],
-   legal:["Legal notice and contact","Developer and contact: Heinz Josef Igelsbacher. Email: iphysioclock@gmail.com. Privacy contact: dev.igelsbacher@icloud.com.","Timer organises the timing of personal programmes. Optional movement mode offers general orientation; the app does not replace medical advice, diagnosis or individually prescribed therapy.","Liability is limited only to the extent permitted by law. Mandatory legal rights remain unaffected."],
-   ack:["Privacy and acknowledgements","On first launch, accept usage notices and acknowledge privacy information. This does not enable optional permissions.","Under Help & Information → Privacy & acknowledgements, view, export or delete locally stored acknowledgements. The log is not synced via iCloud."],
-   news:["News","Timer 1.0: neutral default mode, an individual display name of up to twelve characters and new startup photos.","Optional movement mode preserves existing movement programmes and photos. The web application is no longer available; this website provides guidance for the iOS app only."]
-  }
- },
- fr: {
-  home:"Ton temps. Ton rythme.",sub:"Un minuteur pour le quotidien, la concentration et les routines personnelles. Crée tes intervalles, enregistre tes programmes et garde une vue sur ton temps.",
-  guide:"Guide",quick:"Démarrage rapide",topics:"Tous les sujets",homeLink:"Accueil",pdf:"Guide PDF",privacy:"Confidentialité",legal:"Mentions légales",support:"Aide et contact",news:"Actualités",skip:"Aller au contenu",free:"Les cinq premières séances démarrées sont gratuites. Ensuite, un abonnement annuel Timer Premium actif est nécessaire. Il se renouvelle automatiquement sauf résiliation au moins 24 heures avant échéance. Apple affiche le prix avant l’achat.",
-  optional:"Mode mouvement facultatif",optionalText:"Timer démarre en mode neutre. Active les exercices de mouvement dans Aide et informations → Réglages et iCloud → Réglages → Mode d’utilisation pour afficher les anciens programmes, le catalogue, les photos et les objectifs. Les programmes, plans et historiques sont séparés. Change de mode uniquement lorsque le minuteur est arrêté et la synchronisation terminée.",
-  cookies:"Cookies et stockage du navigateur",cookieText:"Ce site ne dépose pas de cookies propres et n’utilise aucun traceur publicitaire ou analytique. Avec ton accord, cet onglet retient ta langue et les cases cochées jusqu’à sa fermeture. Ces réglages ne nous sont pas transmis.",remember:"Mémoriser dans cet onglet",forget:"Ne plus mémoriser",remembered:"Réglages mémorisés dans cet onglet.",storageError:"Stockage indisponible.",prev:"Image précédente",next:"Image suivante",
-  pages:{
-   start:["Premiers pas","Ouvre Timer sur iPhone ou iPad. Au premier lancement, choisis le mode simple ou complet et confirme les consignes d’utilisation.","Ouvre le minuteur depuis l’aperçu. Un intervalle de cinq minutes est proposé. Appuie sur Démarrer.","Utilise les réglages pour modifier les intervalles, leur nom et leur durée. Enregistre le programme comme série si nécessaire."],
-   control:["Commander le minuteur","Démarrer lance le compte à rebours. Pause l’interrompt, Reprendre le poursuit, Suivant passe à l’intervalle suivant. Réinitialiser revient au début ; Fin termine la séance.","L’écran indique le temps restant de l’intervalle et du programme entier. En paysage, le compte à rebours est affiché en grand.","Configure le son, les vibrations, les annonces vocales et le signal de mi-temps. Les réglages iOS influencent aussi les signaux.","Les intervalles facultatifs démarrent après confirmation. Les séances terminées apparaissent dans l’historique ; la récupération méditative relève du mode mouvement facultatif."],
-   sets:["Intervalles et séries","Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, donne-lui un nom et définis sa durée.","Réorganise, supprime ou ajoute des intervalles facultatifs. Configure les tours et les pauses selon tes besoins.","Enregistre le programme actuel comme nouvelle série. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.","Utilise l’export JSON ou importe une nouvelle série CSV/JSON. Les anciens fichiers PhysioClock appartiennent au mode mouvement."],
-   settings:["Nom, affichage et réglages","Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis un nom de douze caractères maximum. Si le champ est vide, Timer s’affiche.","Le nom s’applique dans l’app sur cet appareil. Le nom de l’icône iOS reste Timer et l’identifiant technique reste inchangé.","Choisis le mode simple ou complet indépendamment du mode mouvement. Ajuste la taille du texte, le contraste, l’affichage du prochain intervalle, les signaux et les photos.","Les photos neutres montrent un lac et un sablier. Choisis une durée de 8 à 20 secondes ou désactive-les."],
-   plan:["Plan hebdomadaire et rappels","Choisis une ou plusieurs séries par jour dans le plan hebdomadaire, dans l’ordre souhaité.","Sous Rappels et iCloud, règle les heures et les jours. Autorise les notifications iOS pour recevoir les rappels.","Un rappel ne démarre pas automatiquement le minuteur. Ouvre l’application et lance ton programme."],
-   history:["Historique et aperçu","L’aperçu mensuel et l’historique indiquent les séances terminées et leur durée enregistrée dans le mode actif.","Le mode complet propose des synthèses supplémentaires. Le changement de mode préserve les plans et historiques séparés.","Si la modification des durées est activée, corrige une séance par incréments disponibles. Tu peux supprimer des entrées. Aucun nouveau ressenti ne peut être enregistré."],
-   backup:["Sauvegarde et import","Ouvre Aide et informations → Sauvegarde et suppression. Exporte un fichier JSON du mode actif et protège-le.","Pour importer une nouvelle série, choisis un fichier CSV/JSON compatible, donne un nom et confirme. Les séries existantes restent intactes.","La restauration complète remplace les données du mode actif après confirmation. Vérifie le mode : les anciens fichiers PhysioClock appartiennent au mode mouvement.","La suppression locale concerne le mode actif. Gère séparément les exports, sauvegardes d’appareil et copies cloud."],
-   sync:["iCloud et synchronisation","La synchronisation iCloud est facultative. Sélectionne Désactivé, Manuel ou Toujours sous Rappels et iCloud. Le mode Toujours synchronise au lancement, en fin de séance et pendant l’utilisation après au moins une heure.","Lance manuellement via Synchroniser maintenant. Un minuteur en cours ou en pause bloque la synchronisation ; son état actif n’est pas transféré.","Les deux profils utilisent des enregistrements distincts dans la même base iCloud privée. Le mode et le nom individuel sont locaux.","Le journal facultatif contient les heures, états et types de synchronisation pendant 1 à 10 jours localement. Les alertes d’activité ne bloquent pas l’app. La synchronisation peut prendre du temps."],
-   icons:["Signification des symboles","Chronomètre : minuteur. Roue ou curseurs : réglages ou modification des intervalles. Pile : séries. Calendrier : plan ou historique.","Triangle : démarrer. Deux barres : pause. Flèches : intervalle suivant ou précédent. Carré : fin. Flèche circulaire : réinitialiser.","Deux flèches circulaires : synchronisation. Œil : masquer ou afficher les informations personnelles. Étoile : favori."],
-   premium:["Timer Premium","Les cinq premières séances lancées sont gratuites. Les démarrages suivants nécessitent un abonnement annuel actif ; pause et reprise de la même séance ne comptent pas comme un nouveau démarrage.","Apple affiche le prix avant l’achat. L’abonnement se renouvelle automatiquement sauf résiliation au moins 24 heures avant échéance. Gère-le dans les réglages Apple.","Les programmes et historiques ne sont pas automatiquement supprimés à l’expiration. Restaure les achats dans l’app si nécessaire."],
-   support:["Aide et contact","Pour toute question ou difficulté technique : iphysioclock@gmail.com. Indique version, appareil et description. N’envoie pas de données sensibles.","Ce site fournit uniquement des informations et des guides pour l’app iOS. Il ne propose ni minuteur en ligne ni compte utilisateur.","Timer ne constitue pas un outil d’urgence ou de surveillance médicale. Consulte les mentions légales pour le mode mouvement facultatif."],
-   legal:["Mentions légales et contact","Développeur et contact : Heinz Josef Igelsbacher. Courriel : iphysioclock@gmail.com. Confidentialité : dev.igelsbacher@icloud.com.","Timer organise la durée de programmes personnels. Le mode mouvement facultatif fournit une orientation générale ; l’app ne remplace ni conseil médical, ni diagnostic, ni thérapie prescrite.","La responsabilité est limitée uniquement dans les limites prévues par la loi. Les droits impératifs restent applicables."],
-   ack:["Confidentialité et confirmations","Au premier lancement, accepte les consignes et prends connaissance de la confidentialité. Cela n’active aucune autorisation facultative.","Sous Aide et informations → Confidentialité et confirmations, consulte, exporte ou supprime les confirmations locales. Le journal n’est pas synchronisé par iCloud."],
-   news:["Actualités","Timer 1.0 : mode neutre par défaut, nom personnalisable de douze caractères et nouvelles photos de démarrage.","Le mode mouvement facultatif conserve les anciens programmes et photos. L’application web n’est plus disponible ; le site propose uniquement des guides iOS."]
-  }
- },
- it: {
-  home:"Il tuo tempo. Il tuo ritmo.",sub:"Un timer per la vita quotidiana, la concentrazione e le routine personali. Crea intervalli, salva programmi e tieni sotto controllo il tempo.",
-  guide:"Guida",quick:"Avvio rapido",topics:"Tutti gli argomenti",homeLink:"Home",pdf:"Guida PDF",privacy:"Privacy",legal:"Note legali e contatti",support:"Aiuto e contatti",news:"Novità",skip:"Vai al contenuto",free:"Le prime cinque sessioni avviate sono gratuite. Successivamente serve un abbonamento annuale Timer Premium attivo. Si rinnova automaticamente salvo disdetta almeno 24 ore prima della scadenza. Apple mostra il prezzo prima dell’acquisto.",
-  optional:"Modalità movimento facoltativa",optionalText:"Timer si avvia in modalità neutra. Attiva gli esercizi di movimento in Aiuto e informazioni → Impostazioni e iCloud → Impostazioni → Modalità d’uso per visualizzare i programmi, il catalogo, le foto e gli obiettivi precedenti. Programmi, piani e cronologie sono separati. Cambia solo a timer fermo e sincronizzazione terminata.",
-  cookies:"Cookie e memoria del browser",cookieText:"Il sito non imposta cookie propri né usa tracker pubblicitari o analitici. Con il tuo consenso, questa scheda ricorda lingua e caselle selezionate fino alla chiusura. Queste impostazioni non ci vengono trasmesse.",remember:"Memorizza nella scheda",forget:"Non memorizzare più",remembered:"Impostazioni memorizzate nella scheda.",storageError:"Memoria del browser non disponibile.",prev:"Foto precedente",next:"Foto successiva",
-  pages:{
-   start:["Primi passi","Apri Timer su iPhone o iPad. Al primo avvio scegli la modalità semplice o completa e conferma le indicazioni d’uso.","Apri il timer dalla panoramica. È disponibile un intervallo di cinque minuti. Tocca Avvia.","Usa i cursori per modificare intervalli, nomi e durata. Salva il programma come serie se necessario."],
-   control:["Comandi del timer","Avvia inizia il conto alla rovescia. Pausa lo interrompe, Riprendi lo prosegue, Avanti passa all’intervallo successivo. Reimposta torna all’inizio; Fine termina la sessione.","Lo schermo mostra il tempo rimanente dell’intervallo e dell’intero programma. In orizzontale il conto alla rovescia è grande.","Configura suono, vibrazione, annunci vocali e segnale di metà tempo. Anche le impostazioni di iOS influenzano i segnali.","Gli intervalli facoltativi partono dopo conferma. Le sessioni concluse possono apparire nella cronologia; il rilassamento meditativo appartiene alla modalità movimento facoltativa."],
-   sets:["Intervalli e serie","Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, assegnagli un nome e imposta la durata.","Riordina, rimuovi o aggiungi intervalli facoltativi. Imposta giri e pause secondo le necessità.","Salva il programma come nuova serie. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.","Usa l’export JSON o importa una serie CSV/JSON. I vecchi file PhysioClock appartengono alla modalità movimento."],
-   settings:["Nome, visualizzazione e impostazioni","Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli un nome composto da massimo dodici caratteri. Se vuoto, appare Timer.","Il nome vale all’interno dell’app su questo dispositivo. Il nome dell’icona iOS rimane Timer e l’identificatore tecnico non cambia.","Scegli la modalità semplice o completa indipendentemente dal movimento. Regola caratteri, contrasto, intervallo successivo, segnali e foto.","Le foto neutre mostrano un lago e una clessidra. Scegli una durata da 8 a 20 secondi oppure disattivale."],
-   plan:["Piano settimanale e promemoria","Scegli una o più serie per ogni giorno della settimana, nell’ordine desiderato.","In Promemoria e iCloud imposta orari e giorni. Consenti le notifiche iOS per ricevere i promemoria.","I promemoria non avviano automaticamente il timer. Apri l’app e avvia il programma scelto."],
-   history:["Cronologia e panoramica","La panoramica mensile e la cronologia mostrano le sessioni completate e la durata registrata nella modalità attiva.","La modalità completa offre ulteriori riepiloghi. Il cambio della modalità preserva piani e cronologie separati.","Se la modifica dei tempi è attiva, correggi una sessione negli incrementi disponibili. Puoi eliminare singole voci. Non è possibile registrare nuove annotazioni sul benessere."],
-   backup:["Backup e importazione","Apri Aiuto e informazioni → Backup ed eliminazione. Esporta un backup JSON della modalità attiva e conservalo in sicurezza.","Importa una nuova serie da un file CSV/JSON compatibile, assegna un nome e conferma. Le serie esistenti rimangono.","Il ripristino completo sostituisce i dati della modalità attiva dopo conferma. Verifica la modalità: i vecchi file PhysioClock appartengono alla modalità movimento.","L’eliminazione locale riguarda la modalità attiva. Gestisci separatamente export, backup del dispositivo e copie cloud."],
-   sync:["iCloud e sincronizzazione","La sincronizzazione iCloud è facoltativa. Scegli Disattivata, Manuale o Sempre in Promemoria e iCloud. Sempre sincronizza all’avvio, al termine della sessione e durante l’uso dopo almeno un’ora.","Avvia manualmente con Sincronizza ora. Un timer in corso o in pausa blocca la sincronizzazione; il timer attivo non viene trasferito.","I profili utilizzano record distinti dello stesso database iCloud privato. Il cambio di modalità e il nome sono locali.","Il registro facoltativo contiene orari, stati e tipi di sincronizzazione per 1–10 giorni in locale. Gli avvisi d’attività non bloccano l’app. La sincronizzazione può richiedere tempo."],
-   icons:["Significato dei simboli","Cronometro: timer. Ingranaggio o cursori: impostazioni o modifica intervalli. Pila: serie salvate. Calendario: piano o cronologia.","Triangolo: avvio. Due barre: pausa. Frecce: intervallo successivo o precedente. Quadrato: fine. Freccia circolare: reimposta.","Doppie frecce circolari: sincronizzazione. Occhio: mostra o nascondi informazioni personali. Stella: preferito."],
-   premium:["Timer Premium","Le prime cinque sessioni avviate sono gratuite. Gli avvii successivi richiedono un abbonamento annuale attivo; pausa e ripresa non consumano un nuovo avvio.","Apple mostra il prezzo prima dell’acquisto. L’abbonamento si rinnova automaticamente salvo disdetta almeno 24 ore prima della scadenza. Gestiscilo nelle impostazioni Apple.","Programmi e cronologie non sono eliminati automaticamente alla scadenza. Ripristina gli acquisti nell’app se necessario."],
-   support:["Aiuto e contatti","Per domande o problemi tecnici: iphysioclock@gmail.com. Indica versione, dispositivo e descrizione. Non inviare dati sensibili.","Il sito offre esclusivamente informazioni e guide per l’app iOS. Non offre un timer web né un account utente.","Timer non è uno strumento di emergenza o monitoraggio medico. Consulta le note legali per la modalità movimento facoltativa."],
-   legal:["Note legali e contatti","Sviluppatore e contatto: Heinz Josef Igelsbacher. Email: iphysioclock@gmail.com. Privacy: dev.igelsbacher@icloud.com.","Timer organizza i tempi di programmi personali. La modalità movimento facoltativa offre orientamento generale; l’app non sostituisce consulenze, diagnosi o terapie prescritte.","La responsabilità è limitata solo nei limiti consentiti dalla legge. I diritti inderogabili restano invariati."],
-   ack:["Privacy e conferme","Al primo avvio conferma le indicazioni d’uso e prendi visione delle informazioni sulla privacy. Ciò non attiva autorizzazioni facoltative.","In Aiuto e informazioni → Privacy e conferme consulta, esporta o elimina le conferme locali. Il registro non si sincronizza tramite iCloud."],
-   news:["Novità","Timer 1.0: modalità neutra predefinita, nome personalizzabile fino a dodici caratteri e nuove foto di avvio.","La modalità movimento facoltativa mantiene i programmi e le foto precedenti. L’applicazione web non è più disponibile; il sito offre solo guide per iOS."]
-  }
- }
 };

@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 
 const langs = Object.keys(content);
 const names = {de:'Deutsch',en:'English',fr:'Français',it:'Italiano'};
-const version = '1.2';
+const version = '1.3';
 const canonical = {start:'erste-schritte.html',control:'training-bedienen.html',sets:'vorlagen.html',settings:'bedienmodus.html',plan:'routinen.html',history:'trainingsuebersicht.html',backup:'daten.html',sync:'synchronisation.html',icons:'symbole.html',premium:'plus.html',support:'support.html',legal:'impressum.html',ack:'bestaetigungen.html',news:'news.html'};
 const aliases = {'einfach-starten.html':'start','lernen.html':'start','erinnerungen.html':'plan','befinden.html':'history','ziele.html':'history','zielfarben.html':'history','uebungen.html':'sets','bewegen.html':'settings','bewegungswissen.html':'settings','medizinprodukt.html':'legal'};
 const modules = ['start','control','sets','plan','history','backup'];
@@ -20,7 +20,7 @@ for(const d of docs){
  if(digest!==d.textSHA256) throw new Error('Legal checksum mismatch '+d.kind+' '+d.language);
  const dir=`legal/${d.kind}/${d.version}`;fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(dir+'/'+d.language+'.txt',d.text);legalManifest.sha256[d.kind][d.language]=digest;
 }
-fs.writeFileSync('legal/manifest-v1.2.json',JSON.stringify(legalManifest,null,2)+'\n');
+fs.writeFileSync('legal/manifest-v1.3.json',JSON.stringify(legalManifest,null,2)+'\n');
 const pdfName = l => `downloads/PhysioClock_Guide_${l.toUpperCase()}_V1.pdf`;
 const langTitle = (c,k)=>c.pages[k][0];
 function shell(lang,file,body,title,root=false){
@@ -60,7 +60,7 @@ for(const l of langs){
   let body=items.map(p).join('');
   if(k==='settings')body+=optional(c);
   if(k==='legal') body+=`<p>${a('mailto:iphysioclock@gmail.com','iphysioclock@gmail.com')} · ${a('mailto:dev.igelsbacher@icloud.com','dev.igelsbacher@icloud.com')}</p><p>${a('datenschutz.html',c.privacy)} · ${a('https://www.swissmedic.ch/','Swissmedic')}</p>`;
-  if(k==='ack')body+=`<p>${a('../legal/usage/1.2/'+l+'.txt',c.pages.ack[0]+' · 1.2')} · ${a('datenschutz.html',c.privacy)}</p>`;
+  if(k==='ack')body+=`<p>${a('../legal/usage/1.3/'+l+'.txt',c.pages.ack[0]+' · 1.3')} · ${a('datenschutz.html',c.privacy)}</p>`;
   if(k==='backup')body+=`<p>${a('../PhysioClock_Trainingsvorlage_4_Sprachen.csv','CSV')} · ${a('../PhysioClock_Beispielimport_4_Sprachen.json','JSON')}</p>`;
   if(k==='support')body+=`<p>${a('mailto:iphysioclock@gmail.com','iphysioclock@gmail.com')}</p>`;
   fs.writeFileSync(l+'/'+file,shell(l,file,sub(c,title,body),title));

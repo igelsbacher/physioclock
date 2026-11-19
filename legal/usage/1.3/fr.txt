@@ -1,0 +1,15 @@
+Consignes d’utilisation · Version 1.3
+
+Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.
+
+N’utilise pas Timer pour les urgences, la surveillance médicale ou des processus critiques pour la sécurité. Les illustrations de mouvement ne sont pas une consigne d’exercice spécifique. Choisis toi-même les activités et durées ; en cas de doute ou de symptômes, consulte un professionnel qualifié. Réglages et interruptions techniques peuvent affecter signaux et temps. Les droits impératifs restent applicables ; la responsabilité est limitée dans les limites légales.
+
+Programmes, noms personnalisés, historique, réglages et programmes de mouvement restent sur ton appareil. Apple Health n’est ni lu ni modifié. Les notifications facultatives nécessitent une autorisation. Widgets et activités en direct peuvent afficher le temps et l’état. Ne saisis pas de diagnostic ni d’information confidentielle dans les noms libres.
+
+iCloud est désactivé par défaut et doit être réactivé. Seuls les identifiants, l’ordre, les durées, intervalles facultatifs, tours/pauses et plans hebdomadaires des séries neutres sont synchronisés. Les noms personnels restent locaux ; les autres appareils affichent initialement des noms génériques. Mouvement, historique, objectifs, rappels, texte libre, notes et anciennes données de ressenti ne sont pas synchronisés.
+
+Aucune nouvelle donnée de ressenti n’est collectée. Les anciennes données et le cache de synchronisation, s’ils sont lisibles, sont transférés dans un stockage local protégé par iOS et exclu des sauvegardes d’appareil. Dans Sauvegarde et suppression, tu peux les supprimer explicitement. Les autres programmes et historiques restent intacts.
+
+Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement.
+
+Tu acceptes les consignes d’utilisation et prends connaissance de la confidentialité. Ce n’est pas un consentement général et cela n’active ni iCloud, ni notifications, ni widgets. La confirmation, la version, l’empreinte, l’heure et la version de l’app restent locales, non synchronisées et exclues des sauvegardes. Un changement important entraîne un nouvel avis. Consulte, exporte ou supprime le journal sous Confidentialité et confirmations.
