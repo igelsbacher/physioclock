@@ -40,14 +40,14 @@ export const content = {
       ],
       "sets": [
         "Intervalle und Sets",
-        "Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein eigenes Intervall hinzu, gib ihm einen Namen und passe seine Dauer an.",
+        "Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein Intervall hinzu, wähle eine feste Bezeichnung und passe seine Dauer an.",
         "Ordne Intervalle neu, entferne nicht benötigte oder ergänze optionale Schritte. Lege bei Bedarf Runden und Pausen fest.",
         "Speichere das aktuelle Programm als neues Set. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.",
         "Für die Datenübernahme nutze den JSON-Export oder importiere ein neues Set aus CSV/JSON. Alte PhysioClock-Dateien gehören zum Bewegungsmodus."
       ],
       "settings": [
         "Name, Anzeige und Einstellungen",
-        "Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige kannst du den individuellen Namen der App festlegen (maximal zwölf Zeichen); bei leerem Feld erscheint Timer.",
+        "Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige wählst du Timer, Focus, Routine oder Interval. Freitext ist nicht möglich.",
         "Der Name gilt in der App auf diesem Gerät. Das iOS-App-Symbol trägt den festen Namen Timer. Die bisherige Anwendungskennung bleibt bestehen.",
         "Wähle einfachen oder vollen Modus unabhängig vom Hauptschalter für Bewegungsübungen. Stelle Schriftgrösse, Kontrast, Anzeige des nächsten Intervalls, Signale und Startfotos nach Bedarf ein.",
         "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. In der Einstellung für Startfotos kannst du die Dauer zwischen 8 und 20 Sekunden wählen oder die Fotos ausschalten."
@@ -67,7 +67,7 @@ export const content = {
       "backup": [
         "Datensicherung und Import",
         "Öffne Hilfe & Informationen → Datensicherung & Löschung. Exportiere ein JSON-Backup für den aktuellen Modus und bewahre es sicher auf.",
-        "Import als neues Set: Wähle eine passende CSV- oder JSON-Datei, gib einen Set-Namen ein und bestätige. Vorhandene Sets bleiben erhalten.",
+        "Import als neues Set: Wähle eine passende CSV- oder JSON-Datei, bestätige den automatisch vergebenen Set-Namen. Vorhandene Sets bleiben erhalten. Beim Import werden freie Namen ersetzt. Alte lokale Notizen und Katalogeinträge werden nicht aus dem Backup übernommen.",
         "Backup-Export und Teilen erfolgen nur auf deine ausdrückliche Aktion. Dateien können persönliche Inhalte enthalten. Speichere sie geschützt; sie können je nach gewähltem Ziel auch ausserhalb des Geräts liegen. Ein Set-Import ergänzt ein Set; die ausdrücklich bestätigte vollständige Wiederherstellung ersetzt Daten des aktiven Modus. Die lokale Löschung betrifft den jeweils ausgewählten Modus. Ausschalten des Abgleichs löscht keine Cloud-Kopien; Gerätebackups und selbst gespeicherte Dateien sind getrennt zu verwalten.",
         "Neue Befindenseinträge werden nicht erfasst. Vorhandene Befindensdaten und der alte Abgleich-Zwischenspeicher werden, soweit lesbar, in eine durch iOS-Dateischutz gesicherte lokale Datei ohne Gerätebackup übernommen. Unter Datensicherung & Löschung kannst du die alten lokalen Befindensdaten und den Abgleich-Zwischenspeicher ausdrücklich löschen. Die übrigen Bewegungsprogramme und Verläufe bleiben dabei erhalten.",
         "Ältere App-Versionen konnten personenbezogene Inhalte in iCloud speichern. Die aktuelle Version liest oder aktualisiert diese alten Cloud-Datensätze nicht mehr. Unter Erinnerungen & iCloud kannst du die zwei alten App-Datensätze nach ausdrücklicher Bestätigung löschen. Sichere vorher benötigte Inhalte lokal und aktualisiere alle Geräte; ältere Versionen können alte Datensätze erneut erstellen. Lokale Daten und der neue neutrale Datensatz bleiben erhalten."
@@ -108,7 +108,7 @@ export const content = {
       ],
       "news": [
         "Aktuelles",
-        "Timer 1.0: neutraler Standardmodus, frei wählbarer Anzeigename bis zwölf Zeichen und neue Startfotos.",
+        "Timer 1.0: neutraler Standardmodus, Anzeigename aus vier festen Optionen und neue Startfotos.",
         "Der optionale Bewegungsmodus bewahrt die bisherigen Bewegungsprogramme und Fotos. Die Webapplikation ist nicht mehr verfügbar; diese Website enthält ausschliesslich Anleitungen zur iOS-App.",
         "iCloud ist standardmässig ausgeschaltet und muss erneut aktiviert werden. Synchronisiert werden nur Kennungen, Reihenfolge, Dauer, optionale Intervalle, Runden/Pausen und Wochenplan neutraler Timer-Sets. Eigene Namen bleiben lokal; auf anderen Geräten erscheinen zunächst generische Namen. Bewegungsdaten, Verläufe, Ziele, Erinnerungen, Freitext, Notizen und alte Befindensdaten werden nicht synchronisiert.",
         "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver."
@@ -155,14 +155,14 @@ export const content = {
       ],
       "sets": [
         "Intervals and sets",
-        "Open Edit intervals using the sliders. Add an interval, name it and set its duration.",
+        "Open Edit intervals using the sliders. Add an interval, choose a predefined label and set its duration.",
         "Reorder, remove or add optional intervals. Set rounds and breaks as needed.",
         "Save the current programme as a new set. Load, edit, rename, favourite or delete existing sets in the active mode.",
         "Use JSON export or import a new set from CSV/JSON. Legacy PhysioClock files belong to movement mode."
       ],
       "settings": [
         "Name, display and settings",
-        "Open Help & Information → Settings & iCloud → Settings. Under Display, set an individual app name of up to twelve characters. If blank, Timer appears.",
+        "Open Help & Information → Settings & iCloud → Settings. Under Display, choose Timer, Focus, Routine or Interval. Free-text entry is unavailable.",
         "The name applies inside the app on this device. The iOS Home Screen app name remains Timer; the existing application identifier remains unchanged.",
         "Choose Simple or Full independently of the movement switch. Adjust font size, contrast, next-interval display, signals and startup photos.",
         "Neutral startup photos show a lake and an hourglass. Select 8 to 20 seconds or turn the photos off."
@@ -182,7 +182,7 @@ export const content = {
       "backup": [
         "Backup and import",
         "Open Help & Information → Backup & deletion. Export a JSON backup of the current mode and store it securely.",
-        "Import as a new set: choose a matching CSV/JSON file, name the set and confirm. Existing sets remain intact.",
+        "Import as a new set: choose a matching CSV/JSON file, confirm the automatically assigned set name. Existing sets remain intact. Imports replace free-text names. Legacy notes and catalogue entries are not restored from backup.",
         "Backup exports and sharing occur only on your explicit action. Files may contain personal content; store them securely and remember they may reside off-device depending on the chosen destination. Importing a set adds a set; explicitly confirmed full restoration replaces data in the active mode. Local deletion affects the selected mode. Turning sync off does not remove cloud copies; device backups and saved files must be managed separately.",
         "No new wellbeing entries are collected. Existing wellbeing data and the former sync cache, if readable, are moved to local storage protected by iOS file protection and excluded from device backups. Under Backup & deletion you can explicitly delete legacy local wellbeing data and the former sync cache. Other movement programmes and history remain.",
         "Earlier app versions could store personal content in iCloud. This version no longer reads or updates those old cloud records. Under Reminders & iCloud you can delete the two legacy app records after explicit confirmation. Back up anything you need locally and update all devices first; older versions can recreate the records. Local data and the new neutral record remain."
@@ -223,7 +223,7 @@ export const content = {
       ],
       "news": [
         "News",
-        "Timer 1.0: neutral default mode, an individual display name of up to twelve characters and new startup photos.",
+        "Timer 1.0: neutral default mode, a display name from four fixed options and new startup photos.",
         "Optional movement mode preserves existing movement programmes and photos. The web application is no longer available; this website provides guidance for the iOS app only.",
         "iCloud is off by default and must be enabled again. Only identifiers, order, duration, optional intervals, rounds/rests and weekly plans of neutral timer sets are synced. Custom names stay local; other devices initially show generic names. Movement data, history, goals, reminders, free text, notes and legacy wellbeing data are not synced.",
         "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server."
@@ -270,14 +270,14 @@ export const content = {
       ],
       "sets": [
         "Intervalles et séries",
-        "Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, donne-lui un nom et définis sa durée.",
+        "Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, choisis une désignation prédéfinie et définis sa durée.",
         "Réorganise, supprime ou ajoute des intervalles facultatifs. Configure les tours et les pauses selon tes besoins.",
         "Enregistre le programme actuel comme nouvelle série. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.",
         "Utilise l’export JSON ou importe une nouvelle série CSV/JSON. Les anciens fichiers PhysioClock appartiennent au mode mouvement."
       ],
       "settings": [
         "Nom, affichage et réglages",
-        "Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis un nom de douze caractères maximum. Si le champ est vide, Timer s’affiche.",
+        "Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis Timer, Focus, Routine ou Interval. La saisie de texte libre est désactivée.",
         "Le nom s’applique dans l’app sur cet appareil. Le nom de l’icône iOS reste Timer et l’identifiant technique reste inchangé.",
         "Choisis le mode simple ou complet indépendamment du mode mouvement. Ajuste la taille du texte, le contraste, l’affichage du prochain intervalle, les signaux et les photos.",
         "Les photos neutres montrent un lac et un sablier. Choisis une durée de 8 à 20 secondes ou désactive-les."
@@ -297,7 +297,7 @@ export const content = {
       "backup": [
         "Sauvegarde et import",
         "Ouvre Aide et informations → Sauvegarde et suppression. Exporte un fichier JSON du mode actif et protège-le.",
-        "Pour importer une nouvelle série, choisis un fichier CSV/JSON compatible, donne un nom et confirme. Les séries existantes restent intactes.",
+        "Pour importer une nouvelle série, choisis un fichier CSV/JSON compatible, confirme le nom attribué automatiquement. Les séries existantes restent intactes. Les imports remplacent les noms libres. Les anciennes notes et entrées du catalogue ne sont pas restaurées.",
         "Export et partage nécessitent ton action explicite. Les fichiers peuvent contenir des données personnelles ; protège-les. Le lieu de stockage choisi peut être externe à l’appareil. L’import d’une série ajoute une série ; la restauration complète confirmée remplace les données du mode actif. La suppression locale concerne ce mode. Désactiver iCloud ne supprime pas les copies cloud ; gère séparément sauvegardes et fichiers exportés.",
         "Aucune nouvelle donnée de ressenti n’est collectée. Les anciennes données et le cache de synchronisation, s’ils sont lisibles, sont transférés dans un stockage local protégé par iOS et exclu des sauvegardes d’appareil. Dans Sauvegarde et suppression, tu peux les supprimer explicitement. Les autres programmes et historiques restent intacts.",
         "Les anciennes versions pouvaient enregistrer des contenus personnels dans iCloud. Cette version ne lit ni ne modifie ces anciens enregistrements. Dans Rappels et iCloud, tu peux supprimer les deux anciens enregistrements après confirmation explicite. Sauvegarde d’abord les données nécessaires et mets à jour tous les appareils ; les anciennes versions peuvent recréer ces enregistrements. Les données locales et le nouvel enregistrement neutre restent intacts."
@@ -338,7 +338,7 @@ export const content = {
       ],
       "news": [
         "Actualités",
-        "Timer 1.0 : mode neutre par défaut, nom personnalisable de douze caractères et nouvelles photos de démarrage.",
+        "Timer 1.0 : mode neutre par défaut, nom parmi quatre options fixes et nouvelles photos de démarrage.",
         "Le mode mouvement facultatif conserve les anciens programmes et photos. L’application web n’est plus disponible ; le site propose uniquement des guides iOS.",
         "iCloud est désactivé par défaut et doit être réactivé. Seuls les identifiants, l’ordre, les durées, intervalles facultatifs, tours/pauses et plans hebdomadaires des séries neutres sont synchronisés. Les noms personnels restent locaux ; les autres appareils affichent initialement des noms génériques. Mouvement, historique, objectifs, rappels, texte libre, notes et anciennes données de ressenti ne sont pas synchronisés.",
         "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement."
@@ -385,14 +385,14 @@ export const content = {
       ],
       "sets": [
         "Intervalli e serie",
-        "Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, assegnagli un nome e imposta la durata.",
+        "Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, scegli un’etichetta predefinita e imposta la durata.",
         "Riordina, rimuovi o aggiungi intervalli facoltativi. Imposta giri e pause secondo le necessità.",
         "Salva il programma come nuova serie. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.",
         "Usa l’export JSON o importa una serie CSV/JSON. I vecchi file PhysioClock appartengono alla modalità movimento."
       ],
       "settings": [
         "Nome, visualizzazione e impostazioni",
-        "Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli un nome composto da massimo dodici caratteri. Se vuoto, appare Timer.",
+        "Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli Timer, Focus, Routine o Interval. Non è possibile inserire testo libero.",
         "Il nome vale all’interno dell’app su questo dispositivo. Il nome dell’icona iOS rimane Timer e l’identificatore tecnico non cambia.",
         "Scegli la modalità semplice o completa indipendentemente dal movimento. Regola caratteri, contrasto, intervallo successivo, segnali e foto.",
         "Le foto neutre mostrano un lago e una clessidra. Scegli una durata da 8 a 20 secondi oppure disattivale."
@@ -412,7 +412,7 @@ export const content = {
       "backup": [
         "Backup e importazione",
         "Apri Aiuto e informazioni → Backup ed eliminazione. Esporta un backup JSON della modalità attiva e conservalo in sicurezza.",
-        "Importa una nuova serie da un file CSV/JSON compatibile, assegna un nome e conferma. Le serie esistenti rimangono.",
+        "Importa una nuova serie da un file CSV/JSON compatibile, conferma il nome attribuito automaticamente. Le serie esistenti rimangono. Le importazioni sostituiscono i nomi liberi. Le vecchie note e voci del catalogo non vengono ripristinate dal backup.",
         "Export e condivisione avvengono solo su richiesta esplicita. I file possono contenere dati personali; proteggili e considera che la destinazione scelta può essere esterna al dispositivo. L’import di una serie aggiunge una serie; il ripristino completo confermato sostituisce i dati della modalità attiva. L’eliminazione locale riguarda la modalità selezionata. Disattivare iCloud non elimina copie cloud; gestisci backup e file esportati separatamente.",
         "Non vengono raccolte nuove annotazioni sul benessere. Le vecchie annotazioni e la cache di sincronizzazione, se leggibili, vengono trasferite in uno spazio locale protetto da iOS ed escluso dai backup del dispositivo. In Backup ed eliminazione puoi eliminarle esplicitamente. Gli altri programmi e cronologie rimangono.",
         "Le versioni precedenti potevano salvare contenuti personali su iCloud. Questa versione non legge né aggiorna i vecchi record. In Promemoria e iCloud puoi eliminare i due vecchi record dopo conferma esplicita. Salva prima i dati necessari e aggiorna tutti i dispositivi; le vecchie versioni possono ricreare i record. Dati locali e nuovo record neutro rimangono."
@@ -453,7 +453,7 @@ export const content = {
       ],
       "news": [
         "Novità",
-        "Timer 1.0: modalità neutra predefinita, nome personalizzabile fino a dodici caratteri e nuove foto di avvio.",
+        "Timer 1.0: modalità neutra predefinita, nome scelto tra quattro opzioni fisse e nuove foto di avvio.",
         "La modalità movimento facoltativa mantiene i programmi e le foto precedenti. L’applicazione web non è più disponibile; il sito offre solo guide per iOS.",
         "iCloud è disattivato per impostazione predefinita e deve essere riattivato. Si sincronizzano solo identificatori, ordine, durate, intervalli facoltativi, giri/pause e piani settimanali delle serie neutre. I nomi personali restano locali; gli altri dispositivi mostrano inizialmente nomi generici. Movimento, cronologia, obiettivi, promemoria, testo libero, note e vecchie annotazioni sul benessere non sono sincronizzati.",
         "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento."
