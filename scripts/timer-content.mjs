@@ -36,13 +36,13 @@ export const content = {
         "Start beginnt den Countdown. Pause hält ihn an, Fortsetzen setzt ihn fort, Weiter springt zum nächsten Intervall. Zurücksetzen setzt das Programm auf den Anfang; Ende beendet die Sitzung.",
         "Die Anzeige zeigt die verbleibende Zeit des aktuellen Intervalls und des gesamten Programms. Im Querformat steht der Countdown gross im Vordergrund.",
         "Du kannst Ton, Vibration, Sprachansage und Halbzeitsignal in den Einstellungen konfigurieren. iOS-Einstellungen beeinflussen die Signale.",
-        "Optionale Intervalle werden erst nach Bestätigung gestartet. Ein beendeter Timer kann im Verlauf erscheinen."
+        "Optionale Intervalle werden erst nach Bestätigung gestartet. Nach dem letzten Intervall oder der Ablehnung optionaler Intervalle erscheint direkt die Abschlussübersicht. Beendete Sitzungen können im Verlauf erscheinen."
       ],
       "sets": [
         "Intervalle und Sets",
         "Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein Intervall hinzu, wähle eine feste Bezeichnung und passe seine Dauer an.",
         "Ordne Intervalle neu, entferne nicht benötigte oder ergänze optionale Schritte. Lege bei Bedarf Runden und Pausen fest.",
-        "Speichere das aktuelle Programm als neues Set. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.",
+        "Speichere das aktuelle Programm als neues Set mit einem freien nummerierten Namen aus der Liste. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.",
         "Für die Datenübernahme nutze den JSON-Export oder importiere ein neues Set aus CSV/JSON. Alte PhysioClock-Dateien gehören zum Bewegungsmodus."
       ],
       "settings": [
@@ -50,7 +50,7 @@ export const content = {
         "Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige wählst du Timer, Focus, Routine oder Interval. Freitext ist nicht möglich.",
         "Der Name gilt in der App auf diesem Gerät. Das iOS-App-Symbol trägt den festen Namen Timer. Die bisherige Anwendungskennung bleibt bestehen.",
         "Wähle einfachen oder vollen Modus unabhängig vom Hauptschalter für Bewegungsübungen. Stelle Schriftgrösse, Kontrast, Anzeige des nächsten Intervalls, Signale und Startfotos nach Bedarf ein.",
-        "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. In der Einstellung für Startfotos kannst du die Dauer zwischen 8 und 20 Sekunden wählen oder die Fotos ausschalten."
+        "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. Standard sind 12 Sekunden insgesamt (6 pro Foto). Wähle 8 bis 20 Sekunden oder schalte die Fotos aus."
       ],
       "plan": [
         "Wochenplan und Erinnerungen",
@@ -151,13 +151,13 @@ export const content = {
         "Start begins the countdown. Pause stops it temporarily, Resume continues, Next skips to the next interval. Reset returns to the beginning; End finishes the session.",
         "The display shows remaining time for the current interval and the entire programme. Landscape orientation emphasises the countdown.",
         "Configure sound, vibration, speech and halfway signals in Settings. iOS settings also affect signals.",
-        "Optional intervals start only after confirmation. Completed sessions can appear in history."
+        "Optional intervals start only after confirmation. The summary appears immediately after the final interval or declining optional intervals. Completed sessions can appear in history."
       ],
       "sets": [
         "Intervals and sets",
         "Open Edit intervals using the sliders. Add an interval, choose a predefined label and set its duration.",
         "Reorder, remove or add optional intervals. Set rounds and breaks as needed.",
-        "Save the current programme as a new set. Load, edit, rename, favourite or delete existing sets in the active mode.",
+        "Save the current programme as a new set with an available numbered name from the list. Load, edit, rename, favourite or delete existing sets in the active mode.",
         "Use JSON export or import a new set from CSV/JSON. Legacy PhysioClock files belong to movement mode."
       ],
       "settings": [
@@ -165,7 +165,7 @@ export const content = {
         "Open Help & Information → Settings & iCloud → Settings. Under Display, choose Timer, Focus, Routine or Interval. Free-text entry is unavailable.",
         "The name applies inside the app on this device. The iOS Home Screen app name remains Timer; the existing application identifier remains unchanged.",
         "Choose Simple or Full independently of the movement switch. Adjust font size, contrast, next-interval display, signals and startup photos.",
-        "Neutral startup photos show a lake and an hourglass. Select 8 to 20 seconds or turn the photos off."
+        "Neutral startup photos show a lake and an hourglass. The default is 12 seconds total (6 per photo). Select 8 to 20 seconds or turn the photos off."
       ],
       "plan": [
         "Weekly plan and reminders",
@@ -266,13 +266,13 @@ export const content = {
         "Démarrer lance le compte à rebours. Pause l’interrompt, Reprendre le poursuit, Suivant passe à l’intervalle suivant. Réinitialiser revient au début ; Fin termine la séance.",
         "L’écran indique le temps restant de l’intervalle et du programme entier. En paysage, le compte à rebours est affiché en grand.",
         "Configure le son, les vibrations, les annonces vocales et le signal de mi-temps. Les réglages iOS influencent aussi les signaux.",
-        "Les intervalles facultatifs démarrent après confirmation. Les séances terminées apparaissent dans l’historique."
+        "Les intervalles facultatifs démarrent après confirmation. Le bilan apparaît directement après le dernier intervalle ou le refus des intervalles facultatifs. Les séances terminées peuvent apparaître dans l’historique."
       ],
       "sets": [
         "Intervalles et séries",
         "Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, choisis une désignation prédéfinie et définis sa durée.",
         "Réorganise, supprime ou ajoute des intervalles facultatifs. Configure les tours et les pauses selon tes besoins.",
-        "Enregistre le programme actuel comme nouvelle série. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.",
+        "Enregistre le programme actuel comme nouvelle série avec un nom numéroté disponible dans la liste. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.",
         "Utilise l’export JSON ou importe une nouvelle série CSV/JSON. Les anciens fichiers PhysioClock appartiennent au mode mouvement."
       ],
       "settings": [
@@ -280,7 +280,7 @@ export const content = {
         "Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis Timer, Focus, Routine ou Interval. La saisie de texte libre est désactivée.",
         "Le nom s’applique dans l’app sur cet appareil. Le nom de l’icône iOS reste Timer et l’identifiant technique reste inchangé.",
         "Choisis le mode simple ou complet indépendamment du mode mouvement. Ajuste la taille du texte, le contraste, l’affichage du prochain intervalle, les signaux et les photos.",
-        "Les photos neutres montrent un lac et un sablier. Choisis une durée de 8 à 20 secondes ou désactive-les."
+        "Les photos neutres montrent un lac et un sablier. Par défaut, 12 secondes au total (6 par photo). Choisis 8 à 20 secondes ou désactive-les."
       ],
       "plan": [
         "Plan hebdomadaire et rappels",
@@ -381,13 +381,13 @@ export const content = {
         "Avvia inizia il conto alla rovescia. Pausa lo interrompe, Riprendi lo prosegue, Avanti passa all’intervallo successivo. Reimposta torna all’inizio; Fine termina la sessione.",
         "Lo schermo mostra il tempo rimanente dell’intervallo e dell’intero programma. In orizzontale il conto alla rovescia è grande.",
         "Configura suono, vibrazione, annunci vocali e segnale di metà tempo. Anche le impostazioni di iOS influenzano i segnali.",
-        "Gli intervalli facoltativi partono dopo conferma. Le sessioni concluse possono apparire nella cronologia."
+        "Gli intervalli facoltativi partono dopo conferma. Il riepilogo appare direttamente dopo l’ultimo intervallo o il rifiuto degli intervalli facoltativi. Le sessioni concluse possono apparire nella cronologia."
       ],
       "sets": [
         "Intervalli e serie",
         "Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, scegli un’etichetta predefinita e imposta la durata.",
         "Riordina, rimuovi o aggiungi intervalli facoltativi. Imposta giri e pause secondo le necessità.",
-        "Salva il programma come nuova serie. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.",
+        "Salva il programma come nuova serie con un nome numerato disponibile nell’elenco. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.",
         "Usa l’export JSON o importa una serie CSV/JSON. I vecchi file PhysioClock appartengono alla modalità movimento."
       ],
       "settings": [
@@ -395,7 +395,7 @@ export const content = {
         "Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli Timer, Focus, Routine o Interval. Non è possibile inserire testo libero.",
         "Il nome vale all’interno dell’app su questo dispositivo. Il nome dell’icona iOS rimane Timer e l’identificatore tecnico non cambia.",
         "Scegli la modalità semplice o completa indipendentemente dal movimento. Regola caratteri, contrasto, intervallo successivo, segnali e foto.",
-        "Le foto neutre mostrano un lago e una clessidra. Scegli una durata da 8 a 20 secondi oppure disattivale."
+        "Le foto neutre mostrano un lago e una clessidra. Il valore predefinito è 12 secondi totali (6 per foto). Scegli da 8 a 20 secondi oppure disattivale."
       ],
       "plan": [
         "Piano settimanale e promemoria",
