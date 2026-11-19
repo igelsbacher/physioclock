@@ -35,7 +35,7 @@
         "Start beginnt den Countdown. Pause hält ihn an, Fortsetzen setzt ihn fort, Weiter springt zum nächsten Intervall. Zurücksetzen setzt das Programm auf den Anfang; Ende beendet die Sitzung.",
         "Die Anzeige zeigt die verbleibende Zeit des aktuellen Intervalls und des gesamten Programms. Im Querformat steht der Countdown gross im Vordergrund.",
         "Du kannst Ton, Vibration, Sprachansage und Halbzeitsignal in den Einstellungen konfigurieren. iOS-Einstellungen beeinflussen die Signale.",
-        "Optionale Intervalle werden erst nach Bestätigung gestartet. Ein beendeter Timer kann im Verlauf erscheinen; meditative Abwärmoptionen gehören zum optionalen Bewegungsmodus."
+        "Optionale Intervalle werden erst nach Bestätigung gestartet. Ein beendeter Timer kann im Verlauf erscheinen."
       ],
       "sets": [
         "Intervalle und Sets",
@@ -150,7 +150,7 @@
         "Start begins the countdown. Pause stops it temporarily, Resume continues, Next skips to the next interval. Reset returns to the beginning; End finishes the session.",
         "The display shows remaining time for the current interval and the entire programme. Landscape orientation emphasises the countdown.",
         "Configure sound, vibration, speech and halfway signals in Settings. iOS settings also affect signals.",
-        "Optional intervals start only after confirmation. Completed sessions can appear in history; meditative cool-down options belong to optional movement mode."
+        "Optional intervals start only after confirmation. Completed sessions can appear in history."
       ],
       "sets": [
         "Intervals and sets",
@@ -265,7 +265,7 @@
         "Démarrer lance le compte à rebours. Pause l’interrompt, Reprendre le poursuit, Suivant passe à l’intervalle suivant. Réinitialiser revient au début ; Fin termine la séance.",
         "L’écran indique le temps restant de l’intervalle et du programme entier. En paysage, le compte à rebours est affiché en grand.",
         "Configure le son, les vibrations, les annonces vocales et le signal de mi-temps. Les réglages iOS influencent aussi les signaux.",
-        "Les intervalles facultatifs démarrent après confirmation. Les séances terminées apparaissent dans l’historique ; la récupération méditative relève du mode mouvement facultatif."
+        "Les intervalles facultatifs démarrent après confirmation. Les séances terminées apparaissent dans l’historique."
       ],
       "sets": [
         "Intervalles et séries",
@@ -380,7 +380,7 @@
         "Avvia inizia il conto alla rovescia. Pausa lo interrompe, Riprendi lo prosegue, Avanti passa all’intervallo successivo. Reimposta torna all’inizio; Fine termina la sessione.",
         "Lo schermo mostra il tempo rimanente dell’intervallo e dell’intero programma. In orizzontale il conto alla rovescia è grande.",
         "Configura suono, vibrazione, annunci vocali e segnale di metà tempo. Anche le impostazioni di iOS influenzano i segnali.",
-        "Gli intervalli facoltativi partono dopo conferma. Le sessioni concluse possono apparire nella cronologia; il rilassamento meditativo appartiene alla modalità movimento facoltativa."
+        "Gli intervalli facoltativi partono dopo conferma. Le sessioni concluse possono apparire nella cronologia."
       ],
       "sets": [
         "Intervalli e serie",
