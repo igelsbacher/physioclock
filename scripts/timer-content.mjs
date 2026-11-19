@@ -1,8 +1,8 @@
-// Current public website and guide content, release 1.3.
+// Current public website and guide content, legal release 1.3.
 export const content = {
   "de": {
     "home": "Deine Zeit. Dein Rhythmus.",
-    "sub": "Ein Timer für Alltag, Fokus und persönliche Routinen. Erstelle deine eigenen Intervalle, speichere Programme und behalte deine Zeit im Blick.",
+    "sub": "Timer begleitet alles, was nacheinander ablaufen soll. Plane Schritte, lege Zeiten fest und speichere eigene Abläufe für Alltag, Konzentration, Lernen, Arbeit und mehr.",
     "guide": "Anleitung",
     "quick": "Schnellanleitung",
     "topics": "Alle Themen",
@@ -29,7 +29,7 @@ export const content = {
         "Erste Schritte",
         "Öffne Timer auf iPhone oder iPad. Wähle beim ersten Start den einfachen oder vollen Darstellungsmodus und bestätige die Nutzungshinweise.",
         "In der Timer-Übersicht öffnest du den Timer. Standardmässig ist ein Intervall von fünf Minuten vorhanden. Wähle Start; der Countdown läuft.",
-        "Über das Regler-Symbol bearbeitest du Intervalle, ihre Namen und ihre Dauer. Speichere ein Programm bei Bedarf als Set."
+        "Öffne in der Übersicht «Aktivitätspakete». Wähle einen universellen Ablauf, Konzentration, Lernen, Lesen, Arbeit, Alltag & Routinen, Küche oder Bewegung."
       ],
       "control": [
         "Timer bedienen",
@@ -40,6 +40,9 @@ export const content = {
       ],
       "sets": [
         "Intervalle und Sets",
+        "Öffne in der Übersicht «Aktivitätspakete». Wähle einen universellen Ablauf, Konzentration, Lernen, Lesen, Arbeit, Alltag & Routinen, Küche oder Bewegung.",
+        "Passe die vordefinierten Schritte, ihre Reihenfolge und Zeiten an. Speichere ein neues nummeriertes Set; bestehende Sets und der aktuelle Ablauf bleiben unverändert. Lade dein Set aus der Set-Auswahl und starte den Timer.",
+        "Für Bewegung wählst du Katalogeinträge selbst aus; Timer erstellt kein Bewegungsprogramm automatisch. Die beiden Datenbereiche bleiben getrennt. Zeitbeispiele sind keine Empfehlungen oder Sicherheitsvorgaben.",
         "Öffne «Intervalle bearbeiten» über das Regler-Symbol. Füge ein Intervall hinzu, wähle eine feste Bezeichnung und passe seine Dauer an.",
         "Ordne Intervalle neu, entferne nicht benötigte oder ergänze optionale Schritte. Lege bei Bedarf Runden und Pausen fest.",
         "Speichere das aktuelle Programm als neues Set mit einem freien nummerierten Namen aus der Liste. Vorhandene Sets lassen sich laden, bearbeiten, umbenennen, als Favoriten markieren und löschen. Bearbeite Sets im jeweils aktiven Modus.",
@@ -117,7 +120,7 @@ export const content = {
   },
   "en": {
     "home": "Your time. Your rhythm.",
-    "sub": "A timer for everyday life, focus and personal routines. Create your own intervals, save programmes and keep track of your time.",
+    "sub": "Timer accompanies anything that happens in sequence. Plan steps, set durations and save routines for daily life, focus, learning, work and more.",
     "guide": "Guide",
     "quick": "Quick start",
     "topics": "All topics",
@@ -144,7 +147,7 @@ export const content = {
         "Getting started",
         "Open Timer on iPhone or iPad. On first launch, select Simple or Full mode and acknowledge the usage notice.",
         "Open the timer from the overview. A five-minute interval is available by default. Tap Start to begin.",
-        "Use the sliders to edit intervals, names and durations. Save a programme as a set whenever needed."
+        "Open Activity packages from the overview. Choose a universal sequence, focus, learning, reading, work, daily routines, kitchen or movement."
       ],
       "control": [
         "Timer controls",
@@ -155,6 +158,9 @@ export const content = {
       ],
       "sets": [
         "Intervals and sets",
+        "Open Activity packages from the overview. Choose a universal sequence, focus, learning, reading, work, daily routines, kitchen or movement.",
+        "Edit the predefined steps, their order and durations. Save a new numbered set; existing sets and the current sequence remain unchanged. Load the set and start the timer.",
+        "For movement, choose catalogue entries yourself; Timer does not automatically create a movement programme. The two data profiles remain separate. Example durations are not recommendations or safety instructions.",
         "Open Edit intervals using the sliders. Add an interval, choose a predefined label and set its duration.",
         "Reorder, remove or add optional intervals. Set rounds and breaks as needed.",
         "Save the current programme as a new set with an available numbered name from the list. Load, edit, rename, favourite or delete existing sets in the active mode.",
@@ -232,7 +238,7 @@ export const content = {
   },
   "fr": {
     "home": "Ton temps. Ton rythme.",
-    "sub": "Un minuteur pour le quotidien, la concentration et les routines personnelles. Crée tes intervalles, enregistre tes programmes et garde une vue sur ton temps.",
+    "sub": "Timer accompagne tout ce qui se déroule par étapes. Planifie les étapes, fixe les durées et enregistre tes routines pour le quotidien, la concentration, l’apprentissage, le travail et plus encore.",
     "guide": "Guide",
     "quick": "Démarrage rapide",
     "topics": "Tous les sujets",
@@ -259,7 +265,7 @@ export const content = {
         "Premiers pas",
         "Ouvre Timer sur iPhone ou iPad. Au premier lancement, choisis le mode simple ou complet et confirme les consignes d’utilisation.",
         "Ouvre le minuteur depuis l’aperçu. Un intervalle de cinq minutes est proposé. Appuie sur Démarrer.",
-        "Utilise les réglages pour modifier les intervalles, leur nom et leur durée. Enregistre le programme comme série si nécessaire."
+        "Ouvre les packs d’activités depuis l’aperçu. Choisis une séquence universelle, concentration, apprentissage, lecture, travail, routines quotidiennes, cuisine ou mouvement."
       ],
       "control": [
         "Commander le minuteur",
@@ -270,6 +276,9 @@ export const content = {
       ],
       "sets": [
         "Intervalles et séries",
+        "Ouvre les packs d’activités depuis l’aperçu. Choisis une séquence universelle, concentration, apprentissage, lecture, travail, routines quotidiennes, cuisine ou mouvement.",
+        "Modifie les étapes prédéfinies, leur ordre et leurs durées. Enregistre une nouvelle série numérotée ; les séries existantes et la séquence active restent inchangées. Charge-la et lance le minuteur.",
+        "Pour le mouvement, choisis toi-même les entrées du catalogue ; Timer ne crée pas de programme automatiquement. Les deux profils restent séparés. Les durées sont des exemples, pas des recommandations ni des consignes de sécurité.",
         "Ouvre Modifier les intervalles à l’aide des curseurs. Ajoute un intervalle, choisis une désignation prédéfinie et définis sa durée.",
         "Réorganise, supprime ou ajoute des intervalles facultatifs. Configure les tours et les pauses selon tes besoins.",
         "Enregistre le programme actuel comme nouvelle série avec un nom numéroté disponible dans la liste. Charge, modifie, renomme, ajoute aux favoris ou supprime les séries dans le mode actif.",
@@ -347,7 +356,7 @@ export const content = {
   },
   "it": {
     "home": "Il tuo tempo. Il tuo ritmo.",
-    "sub": "Un timer per la vita quotidiana, la concentrazione e le routine personali. Crea intervalli, salva programmi e tieni sotto controllo il tempo.",
+    "sub": "Timer accompagna tutto ciò che avviene in sequenza. Pianifica passaggi, imposta durate e salva routine per la vita quotidiana, la concentrazione, lo studio, il lavoro e altro.",
     "guide": "Guida",
     "quick": "Avvio rapido",
     "topics": "Tutti gli argomenti",
@@ -374,7 +383,7 @@ export const content = {
         "Primi passi",
         "Apri Timer su iPhone o iPad. Al primo avvio scegli la modalità semplice o completa e conferma le indicazioni d’uso.",
         "Apri il timer dalla panoramica. È disponibile un intervallo di cinque minuti. Tocca Avvia.",
-        "Usa i cursori per modificare intervalli, nomi e durata. Salva il programma come serie se necessario."
+        "Apri Pacchetti di attività dalla panoramica. Scegli sequenza universale, concentrazione, studio, lettura, lavoro, routine quotidiane, cucina o movimento."
       ],
       "control": [
         "Comandi del timer",
@@ -385,6 +394,9 @@ export const content = {
       ],
       "sets": [
         "Intervalli e serie",
+        "Apri Pacchetti di attività dalla panoramica. Scegli sequenza universale, concentrazione, studio, lettura, lavoro, routine quotidiane, cucina o movimento.",
+        "Modifica i passaggi predefiniti, l’ordine e le durate. Salva una nuova serie numerata; le serie esistenti e la sequenza attiva restano invariate. Carica la serie e avvia il timer.",
+        "Per il movimento, scegli tu stesso le voci del catalogo; Timer non crea automaticamente un programma. I due profili restano separati. Le durate sono esempi, non raccomandazioni né indicazioni di sicurezza.",
         "Apri Modifica intervalli tramite i cursori. Aggiungi un intervallo, scegli un’etichetta predefinita e imposta la durata.",
         "Riordina, rimuovi o aggiungi intervalli facoltativi. Imposta giri e pause secondo le necessità.",
         "Salva il programma come nuova serie con un nome numerato disponibile nell’elenco. Carica, modifica, rinomina, aggiungi ai preferiti o elimina le serie nella modalità attiva.",
