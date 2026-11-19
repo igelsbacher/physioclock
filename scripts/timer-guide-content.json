@@ -14,7 +14,7 @@
     "skip": "Zum Inhalt",
     "free": "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver.",
     "optional": "Optional: Bewegungsmodus",
-    "optionalText": "Timer startet neutral. Nur wenn du unter Hilfe & Informationen → Einstellungen & iCloud → Einstellungen → Anwendungsbereich «Bewegungsübungen aktivieren» einschaltest, werden Bewegungsprogramme, Katalog, Bilder und Ziele sichtbar. Beide Modi haben getrennte Sets, Wochenpläne und Verläufe. Wechsel nur bei beendetem Timer und ohne laufenden iCloud-Abgleich. Timer organisiert selbst gewählte Aktivitäten, Intervalle und persönliche Routinen. Der optionale Bewegungsmodus dient ausschliesslich der allgemeinen Orientierung und Zeitmessung. Die App beurteilt keine Beschwerden, stellt keine Diagnose und empfiehlt keine individuelle Behandlung oder Therapie.",
+    "optionalText": "Timer startet neutral. Nur wenn du unter Hilfe & Informationen → Einstellungen & iCloud → Einstellungen → Anwendungsbereich «Bewegungsübungen aktivieren» einschaltest, werden Bewegungsprogramme, Katalog und Ziele sichtbar. Beide Modi haben getrennte Sets, Wochenpläne und Verläufe. Wechsel nur bei beendetem Timer und ohne laufenden iCloud-Abgleich. Timer organisiert selbst gewählte Aktivitäten, Intervalle und persönliche Routinen. Der optionale Bewegungsmodus dient ausschliesslich der allgemeinen Orientierung und Zeitmessung. Die App beurteilt keine Beschwerden, stellt keine Diagnose und empfiehlt keine individuelle Behandlung oder Therapie.",
     "cookies": "Cookies und Browserspeicher",
     "cookieText": "Die Website setzt keine eigenen Cookies ein. Nur wenn du es ausdrücklich aktivierst, merkt sich der Browser Sprache und Lernlisten-Häkchen bis zum Schliessen des Tabs. Das ist lokaler Sitzungsspeicher; du kannst die Einstellung zurücksetzen. Die Website sendet diese Angaben nicht an uns.",
     "remember": "Für diesen Tab merken",
@@ -52,7 +52,8 @@
         "Öffne Hilfe & Informationen → Einstellungen & iCloud → Einstellungen. Unter Anzeige wählst du Timer, Focus, Routine oder Interval. Freitext ist nicht möglich.",
         "Der Name gilt in der App auf diesem Gerät. Das iOS-App-Symbol trägt den festen Namen Timer. Die bisherige Anwendungskennung bleibt bestehen.",
         "Wähle einfachen oder vollen Modus unabhängig vom Hauptschalter für Bewegungsübungen. Stelle Schriftgrösse, Kontrast, Anzeige des nächsten Intervalls, Signale und Startfotos nach Bedarf ein.",
-        "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. Standard sind 12 Sekunden insgesamt (6 pro Foto). Wähle 8 bis 20 Sekunden oder schalte die Fotos aus."
+        "Die Startfotos sind im neutralen Modus Bergsee und Sanduhr. Standard sind 12 Sekunden insgesamt (6 pro Foto). Wähle 8 bis 20 Sekunden oder schalte die Fotos aus.",
+        "Standardmässig ausgeschaltet. Bei Aktivierung erscheinen der Bewegungskatalog, vorhandene Programme, Körperregionen, Ziele und Bewegungsinformationen. Beide Modi haben getrennte Programme und Verläufe. Die neutralen Startfotos sind in beiden Modi gleich."
       ],
       "plan": [
         "Wochenplan und Erinnerungen",
@@ -102,7 +103,8 @@
         "Impressum und rechtliche Hinweise",
         "Verantwortlich für Timer und die Website: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Datenschutz und Entwicklerkontakt: dev.igelsbacher@icloud.com. Support: iphysioclock@gmail.com.",
         "Timer organisiert selbst gewählte Aktivitäten, Intervalle und persönliche Routinen. Der optionale Bewegungsmodus dient ausschliesslich der allgemeinen Orientierung und Zeitmessung. Die App beurteilt keine Beschwerden, stellt keine Diagnose und empfiehlt keine individuelle Behandlung oder Therapie.",
-        "Nutze den Timer nicht für Notfälle, medizinische Überwachung oder sicherheitskritische Prozesse. Die integrierten Bewegungsdarstellungen sind keine Aufforderung zu bestimmten Übungen. Wähle Aktivitäten und Dauer selbst; bei Unsicherheit oder Beschwerden wende dich an eine qualifizierte Fachperson. Signale und Zeitdarstellung können durch Geräteeinstellungen oder technische Unterbrechungen beeinflusst werden. Zwingende gesetzliche Rechte bleiben unberührt; Haftung wird nur im gesetzlich zulässigen Umfang beschränkt."
+        "Nutze den Timer nicht für Notfälle, medizinische Überwachung oder sicherheitskritische Prozesse. Die integrierten Bewegungsdarstellungen sind keine Aufforderung zu bestimmten Übungen. Wähle Aktivitäten und Dauer selbst; bei Unsicherheit oder Beschwerden wende dich an eine qualifizierte Fachperson. Signale und Zeitdarstellung können durch Geräteeinstellungen oder technische Unterbrechungen beeinflusst werden. Zwingende gesetzliche Rechte bleiben unberührt; Haftung wird nur im gesetzlich zulässigen Umfang beschränkt.",
+        "Bildnachweis: Die neutralen Motive sind KI-generiert; die geometrischen Zeichnungen wurden für dieses Projekt erstellt. * Der Copyright-Hinweis bezieht sich nur auf rechtlich geschützte Gestaltungsbestandteile. Er behauptet keine ausschliesslichen Rechte an KI-generierten Inhalten. Die verlinkten Bewegungsreferenzen sind keine Bildquellen."
       ],
       "ack": [
         "Datenschutz und Bestätigungen",
@@ -111,11 +113,15 @@
       "news": [
         "Aktuelles",
         "Timer 1.0: neutraler Standardmodus, Anzeigename aus vier festen Optionen und neue Startfotos.",
-        "Der optionale Bewegungsmodus bewahrt die bisherigen Bewegungsprogramme und Fotos. Die Webapplikation ist nicht mehr verfügbar; diese Website enthält ausschliesslich Anleitungen zur iOS-App.",
+        "Der optionale Bewegungsmodus bewahrt die bisherigen Bewegungsprogramme. Die Webapplikation ist nicht mehr verfügbar; diese Website enthält ausschliesslich Anleitungen zur iOS-App.",
         "iCloud ist standardmässig ausgeschaltet und muss erneut aktiviert werden. Synchronisiert werden nur Kennungen, Reihenfolge, Dauer, optionale Intervalle, Runden/Pausen und Wochenplan neutraler Timer-Sets. Eigene Namen bleiben lokal; auf anderen Geräten erscheinen zunächst generische Namen. Bewegungsdaten, Verläufe, Ziele, Erinnerungen, Freitext, Notizen und alte Befindensdaten werden nicht synchronisiert.",
         "Die ersten fünf gestarteten Sitzungen pro Installation sind kostenlos. Danach ist für neue Starts ein einmaliger Premium-Kauf über Apple vorgesehen, ohne neue automatische Verlängerung. Frühere verifizierte Dauerkäufe und bestehende Jahresabonnements werden gemäss ihrem jeweiligen Berechtigungsstatus anerkannt; bestehende Abonnements verwaltest oder kündigst du bei Apple. Apple zeigt den Preis vor dem Kauf und wickelt Zahlung und Kaufwiederherstellung ab. Timer erhebt keine Kartendaten und betreibt keinen Zahlungsserver."
       ]
-    }
+    },
+    "photoLake": "Morgen am Alpensee",
+    "photoHourglass": "Sanduhr im Morgenlicht",
+    "photoCredit": "KI-generiertes Motiv · © 2026 Heinz Josef Igelsbacher · Gestaltung, soweit geschützt",
+    "imageCreditNotice": "Bildnachweis: Die neutralen Motive sind KI-generiert; die geometrischen Zeichnungen wurden für dieses Projekt erstellt. * Der Copyright-Hinweis bezieht sich nur auf rechtlich geschützte Gestaltungsbestandteile. Er behauptet keine ausschliesslichen Rechte an KI-generierten Inhalten. Die verlinkten Bewegungsreferenzen sind keine Bildquellen."
   },
   "en": {
     "home": "Your time. Your rhythm.",
@@ -132,7 +138,7 @@
     "skip": "Skip to content",
     "free": "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server.",
     "optional": "Optional movement mode",
-    "optionalText": "Timer starts in neutral mode. Only when you enable movement exercises in Help & Information → Settings & iCloud → Settings → Application mode do movement programmes, catalogue, images and goals appear. Each mode has separate sets, weekly plans and history. Switch only with the timer stopped and no sync in progress. Timer organises self-selected activities, intervals and personal routines. Optional movement mode provides general orientation and timekeeping only. It does not assess symptoms, diagnose or recommend individual treatment or therapy.",
+    "optionalText": "Timer starts in neutral mode. Only when you enable movement exercises in Help & Information → Settings & iCloud → Settings → Application mode do movement programmes, catalogue and goals appear. Each mode has separate sets, weekly plans and history. Switch only with the timer stopped and no sync in progress. Timer organises self-selected activities, intervals and personal routines. Optional movement mode provides general orientation and timekeeping only. It does not assess symptoms, diagnose or recommend individual treatment or therapy.",
     "cookies": "Cookies and browser storage",
     "cookieText": "The website sets no cookies of its own. Only if explicitly enabled, the browser remembers language and learning checklist ticks until the tab closes. This is local session storage; you can reset it. The site does not transmit these preferences to us.",
     "remember": "Remember in this tab",
@@ -170,7 +176,8 @@
         "Open Help & Information → Settings & iCloud → Settings. Under Display, choose Timer, Focus, Routine or Interval. Free-text entry is unavailable.",
         "The name applies inside the app on this device. The iOS Home Screen app name remains Timer; the existing application identifier remains unchanged.",
         "Choose Simple or Full independently of the movement switch. Adjust font size, contrast, next-interval display, signals and startup photos.",
-        "Neutral startup photos show a lake and an hourglass. The default is 12 seconds total (6 per photo). Select 8 to 20 seconds or turn the photos off."
+        "Neutral startup photos show a lake and an hourglass. The default is 12 seconds total (6 per photo). Select 8 to 20 seconds or turn the photos off.",
+        "Off by default. Enable to see the movement catalogue, existing programmes, body regions, goals and movement information. The modes keep separate programmes and histories. Both use the same neutral startup photos."
       ],
       "plan": [
         "Weekly plan and reminders",
@@ -220,7 +227,8 @@
         "Legal notice and contact",
         "Controller for Timer and the website: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Privacy and developer contact: dev.igelsbacher@icloud.com. Support: iphysioclock@gmail.com.",
         "Timer organises self-selected activities, intervals and personal routines. Optional movement mode provides general orientation and timekeeping only. It does not assess symptoms, diagnose or recommend individual treatment or therapy.",
-        "Do not use Timer for emergencies, medical monitoring or safety-critical processes. Movement illustrations are not instructions to perform specific exercises. Choose activities and duration yourself; consult a qualified professional if unsure or experiencing symptoms. Device settings and technical interruptions may affect signals and timing. Mandatory legal rights remain unaffected; liability is limited only to the extent permitted by law."
+        "Do not use Timer for emergencies, medical monitoring or safety-critical processes. Movement illustrations are not instructions to perform specific exercises. Choose activities and duration yourself; consult a qualified professional if unsure or experiencing symptoms. Device settings and technical interruptions may affect signals and timing. Mandatory legal rights remain unaffected; liability is limited only to the extent permitted by law.",
+        "Image credits: the neutral motifs are AI-generated; the geometric illustrations were created for this project. * The copyright notice refers only to legally protectable design elements and does not claim exclusive rights over AI-generated content. Linked movement references are not image sources."
       ],
       "ack": [
         "Privacy and acknowledgements",
@@ -229,11 +237,15 @@
       "news": [
         "News",
         "Timer 1.0: neutral default mode, a display name from four fixed options and new startup photos.",
-        "Optional movement mode preserves existing movement programmes and photos. The web application is no longer available; this website provides guidance for the iOS app only.",
+        "Optional movement mode preserves existing movement programmes. The web application is no longer available; this website provides guidance for the iOS app only.",
         "iCloud is off by default and must be enabled again. Only identifiers, order, duration, optional intervals, rounds/rests and weekly plans of neutral timer sets are synced. Custom names stay local; other devices initially show generic names. Movement data, history, goals, reminders, free text, notes and legacy wellbeing data are not synced.",
         "The first five started sessions per installation are free. A one-time Premium purchase through Apple is intended for further starts, without new automatic renewal. Verified previous permanent purchases and existing annual subscriptions are honoured according to their entitlement status; manage or cancel existing subscriptions with Apple. Apple displays the price before purchase and handles payment and restoration. Timer does not collect card details or operate a payment server."
       ]
-    }
+    },
+    "photoLake": "Morning at the alpine lake",
+    "photoHourglass": "Hourglass in morning light",
+    "photoCredit": "AI-generated motif · © 2026 Heinz Josef Igelsbacher · design where protected",
+    "imageCreditNotice": "Image credits: the neutral motifs are AI-generated; the geometric illustrations were created for this project. * The copyright notice refers only to legally protectable design elements and does not claim exclusive rights over AI-generated content. Linked movement references are not image sources."
   },
   "fr": {
     "home": "Ton temps. Ton rythme.",
@@ -250,7 +262,7 @@
     "skip": "Aller au contenu",
     "free": "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement.",
     "optional": "Mode mouvement facultatif",
-    "optionalText": "Timer démarre en mode neutre. Active les exercices de mouvement dans Aide et informations → Réglages et iCloud → Réglages → Mode d’utilisation pour afficher les programmes de mouvement, le catalogue, les photos et les objectifs. Les programmes, plans et historiques sont séparés. Change de mode uniquement lorsque le minuteur est arrêté et la synchronisation terminée. Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.",
+    "optionalText": "Timer démarre en mode neutre. Active les exercices de mouvement dans Aide et informations → Réglages et iCloud → Réglages → Mode d’utilisation pour afficher les programmes de mouvement, le catalogue et les objectifs. Les programmes, plans et historiques sont séparés. Change de mode uniquement lorsque le minuteur est arrêté et la synchronisation terminée. Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.",
     "cookies": "Cookies et stockage du navigateur",
     "cookieText": "Le site ne dépose pas de cookies propres. Si tu l’actives explicitement, le navigateur mémorise la langue et les cases cochées jusqu’à la fermeture de l’onglet. Ce stockage de session est local et réinitialisable. Le site ne nous transmet pas ces préférences.",
     "remember": "Mémoriser dans cet onglet",
@@ -288,7 +300,8 @@
         "Ouvre Aide et informations → Réglages et iCloud → Réglages. Sous Affichage, choisis Timer, Focus, Routine ou Interval. La saisie de texte libre est désactivée.",
         "Le nom s’applique dans l’app sur cet appareil. Le nom de l’icône iOS reste Timer et l’identifiant technique reste inchangé.",
         "Choisis le mode simple ou complet indépendamment du mode mouvement. Ajuste la taille du texte, le contraste, l’affichage du prochain intervalle, les signaux et les photos.",
-        "Les photos neutres montrent un lac et un sablier. Par défaut, 12 secondes au total (6 par photo). Choisis 8 à 20 secondes ou désactive-les."
+        "Les photos neutres montrent un lac et un sablier. Par défaut, 12 secondes au total (6 par photo). Choisis 8 à 20 secondes ou désactive-les.",
+        "Désactivé par défaut. Active ce mode pour afficher le catalogue de mouvements, les programmes existants, les régions du corps, les objectifs et les informations de mouvement. Les modes restent séparés. Les photos de démarrage neutres sont identiques."
       ],
       "plan": [
         "Plan hebdomadaire et rappels",
@@ -338,7 +351,8 @@
         "Mentions légales et contact",
         "Responsable de Timer et du site : Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Confidentialité et développeur : dev.igelsbacher@icloud.com. Assistance : iphysioclock@gmail.com.",
         "Timer organise les activités, intervalles et routines choisis par toi. Le mode mouvement facultatif sert uniquement à l’orientation générale et à la mesure du temps. Il n’évalue pas les symptômes, ne pose aucun diagnostic et ne recommande aucun traitement individuel.",
-        "N’utilise pas Timer pour les urgences, la surveillance médicale ou des processus critiques pour la sécurité. Les illustrations de mouvement ne sont pas une consigne d’exercice spécifique. Choisis toi-même les activités et durées ; en cas de doute ou de symptômes, consulte un professionnel qualifié. Réglages et interruptions techniques peuvent affecter signaux et temps. Les droits impératifs restent applicables ; la responsabilité est limitée dans les limites légales."
+        "N’utilise pas Timer pour les urgences, la surveillance médicale ou des processus critiques pour la sécurité. Les illustrations de mouvement ne sont pas une consigne d’exercice spécifique. Choisis toi-même les activités et durées ; en cas de doute ou de symptômes, consulte un professionnel qualifié. Réglages et interruptions techniques peuvent affecter signaux et temps. Les droits impératifs restent applicables ; la responsabilité est limitée dans les limites légales.",
+        "Crédits : les motifs neutres sont générés par IA ; les dessins géométriques ont été créés pour ce projet. * Le copyright ne vise que les éléments de création juridiquement protégés et ne revendique pas de droits exclusifs sur les contenus générés par IA. Les liens de référence ne sont pas des sources d’images."
       ],
       "ack": [
         "Confidentialité et confirmations",
@@ -347,11 +361,15 @@
       "news": [
         "Actualités",
         "Timer 1.0 : mode neutre par défaut, nom parmi quatre options fixes et nouvelles photos de démarrage.",
-        "Le mode mouvement facultatif conserve les anciens programmes et photos. L’application web n’est plus disponible ; le site propose uniquement des guides iOS.",
+        "Le mode mouvement facultatif conserve les anciens programmes. L’application web n’est plus disponible ; le site propose uniquement des guides iOS.",
         "iCloud est désactivé par défaut et doit être réactivé. Seuls les identifiants, l’ordre, les durées, intervalles facultatifs, tours/pauses et plans hebdomadaires des séries neutres sont synchronisés. Les noms personnels restent locaux ; les autres appareils affichent initialement des noms génériques. Mouvement, historique, objectifs, rappels, texte libre, notes et anciennes données de ressenti ne sont pas synchronisés.",
         "Les cinq premières séances démarrées par installation sont gratuites. Les démarrages suivants nécessitent un achat Premium unique via Apple, sans nouveau renouvellement automatique. Les achats permanents vérifiés et anciens abonnements annuels restent reconnus selon leurs droits ; gère ou résilie les abonnements chez Apple. Apple affiche le prix avant l’achat et gère paiement et restauration. Timer ne collecte pas de données de carte et n’exploite pas de serveur de paiement."
       ]
-    }
+    },
+    "photoLake": "Matin au lac alpin",
+    "photoHourglass": "Sablier dans la lumière du matin",
+    "photoCredit": "Motif généré par IA · © 2026 Heinz Josef Igelsbacher · création si protégée",
+    "imageCreditNotice": "Crédits : les motifs neutres sont générés par IA ; les dessins géométriques ont été créés pour ce projet. * Le copyright ne vise que les éléments de création juridiquement protégés et ne revendique pas de droits exclusifs sur les contenus générés par IA. Les liens de référence ne sont pas des sources d’images."
   },
   "it": {
     "home": "Il tuo tempo. Il tuo ritmo.",
@@ -368,7 +386,7 @@
     "skip": "Vai al contenuto",
     "free": "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento.",
     "optional": "Modalità movimento facoltativa",
-    "optionalText": "Timer si avvia in modalità neutra. Attiva gli esercizi di movimento in Aiuto e informazioni → Impostazioni e iCloud → Impostazioni → Modalità d’uso per visualizzare i programmi di movimento, il catalogo, le foto e gli obiettivi. Programmi, piani e cronologie sono separati. Cambia solo a timer fermo e sincronizzazione terminata. Timer organizza attività, intervalli e routine scelti da te. La modalità movimento facoltativa serve solo per orientamento generale e misurazione del tempo. Non valuta sintomi, formula diagnosi o raccomanda trattamenti individuali.",
+    "optionalText": "Timer si avvia in modalità neutra. Attiva gli esercizi di movimento in Aiuto e informazioni → Impostazioni e iCloud → Impostazioni → Modalità d’uso per visualizzare i programmi di movimento, il catalogo e gli obiettivi. Programmi, piani e cronologie sono separati. Cambia solo a timer fermo e sincronizzazione terminata. Timer organizza attività, intervalli e routine scelti da te. La modalità movimento facoltativa serve solo per orientamento generale e misurazione del tempo. Non valuta sintomi, formula diagnosi o raccomanda trattamenti individuali.",
     "cookies": "Cookie e memoria del browser",
     "cookieText": "Il sito non imposta cookie propri. Solo se lo attivi esplicitamente, il browser ricorda lingua e caselle selezionate fino alla chiusura della scheda. La memoria di sessione è locale e ripristinabile. Il sito non ci trasmette queste preferenze.",
     "remember": "Memorizza nella scheda",
@@ -406,7 +424,8 @@
         "Apri Aiuto e informazioni → Impostazioni e iCloud → Impostazioni. In Visualizzazione scegli Timer, Focus, Routine o Interval. Non è possibile inserire testo libero.",
         "Il nome vale all’interno dell’app su questo dispositivo. Il nome dell’icona iOS rimane Timer e l’identificatore tecnico non cambia.",
         "Scegli la modalità semplice o completa indipendentemente dal movimento. Regola caratteri, contrasto, intervallo successivo, segnali e foto.",
-        "Le foto neutre mostrano un lago e una clessidra. Il valore predefinito è 12 secondi totali (6 per foto). Scegli da 8 a 20 secondi oppure disattivale."
+        "Le foto neutre mostrano un lago e una clessidra. Il valore predefinito è 12 secondi totali (6 per foto). Scegli da 8 a 20 secondi oppure disattivale.",
+        "Disattivata per impostazione predefinita. Attiva per mostrare catalogo dei movimenti, programmi esistenti, regioni del corpo, obiettivi e informazioni. Le modalità restano separate. Entrambe usano le stesse foto neutre."
       ],
       "plan": [
         "Piano settimanale e promemoria",
@@ -456,7 +475,8 @@
         "Note legali e contatti",
         "Responsabile di Timer e del sito: Heinz Josef Igelsbacher, Aufwiesenstrasse 20, 8305 Dietlikon, Schweiz. Privacy e sviluppatore: dev.igelsbacher@icloud.com. Assistenza: iphysioclock@gmail.com.",
         "Timer organizza attività, intervalli e routine scelti da te. La modalità movimento facoltativa serve solo per orientamento generale e misurazione del tempo. Non valuta sintomi, formula diagnosi o raccomanda trattamenti individuali.",
-        "Non usare Timer per emergenze, monitoraggio medico o processi critici per la sicurezza. Le illustrazioni di movimento non impongono esercizi specifici. Scegli autonomamente attività e durata; in caso di dubbio o sintomi consulta un professionista qualificato. Impostazioni e interruzioni tecniche possono influire su tempi e segnali. I diritti inderogabili rimangono; la responsabilità è limitata solo nei limiti legali."
+        "Non usare Timer per emergenze, monitoraggio medico o processi critici per la sicurezza. Le illustrazioni di movimento non impongono esercizi specifici. Scegli autonomamente attività e durata; in caso di dubbio o sintomi consulta un professionista qualificato. Impostazioni e interruzioni tecniche possono influire su tempi e segnali. I diritti inderogabili rimangono; la responsabilità è limitata solo nei limiti legali.",
+        "Crediti: i motivi neutri sono generati con IA; le illustrazioni geometriche sono state create per questo progetto. * Il copyright si riferisce solo agli elementi di design legalmente protetti e non rivendica diritti esclusivi sui contenuti generati con IA. I riferimenti collegati non sono fonti di immagini."
       ],
       "ack": [
         "Privacy e conferme",
@@ -469,6 +489,10 @@
         "iCloud è disattivato per impostazione predefinita e deve essere riattivato. Si sincronizzano solo identificatori, ordine, durate, intervalli facoltativi, giri/pause e piani settimanali delle serie neutre. I nomi personali restano locali; gli altri dispositivi mostrano inizialmente nomi generici. Movimento, cronologia, obiettivi, promemoria, testo libero, note e vecchie annotazioni sul benessere non sono sincronizzati.",
         "Le prime cinque sessioni avviate per installazione sono gratuite. Per ulteriori avvii è previsto un acquisto Premium una tantum tramite Apple, senza nuovo rinnovo automatico. Gli acquisti permanenti verificati e gli abbonamenti annuali precedenti sono riconosciuti secondo i relativi diritti; gestisci o annulla gli abbonamenti presso Apple. Apple mostra il prezzo prima dell’acquisto e gestisce pagamento e ripristino. Timer non raccoglie dati delle carte né gestisce un server di pagamento."
       ]
-    }
+    },
+    "photoLake": "Mattino al lago alpino",
+    "photoHourglass": "Clessidra nella luce del mattino",
+    "photoCredit": "Motivo generato con IA · © 2026 Heinz Josef Igelsbacher · design se protetto",
+    "imageCreditNotice": "Crediti: i motivi neutri sono generati con IA; le illustrazioni geometriche sono state create per questo progetto. * Il copyright si riferisce solo agli elementi di design legalmente protetti e non rivendica diritti esclusivi sui contenuti generati con IA. I riferimenti collegati non sono fonti di immagini."
   }
 }

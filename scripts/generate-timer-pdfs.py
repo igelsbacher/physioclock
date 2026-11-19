@@ -9,6 +9,16 @@ from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image
+class CreditedPhoto(Image):
+    def draw(self):
+        super().draw()
+        self.canv.setFillColor(colors.HexColor("#10251e"))
+        self.canv.roundRect(5, 5, min(self.drawWidth-10, 190), 26, 3, stroke=0, fill=1)
+        self.canv.setFillColor(colors.white)
+        self.canv.setFont("DejaVuBold", 7)
+        self.canv.drawString(10, 21, "Morgen am Alpensee / Alpine lake")
+        self.canv.setFont("DejaVu", 6)
+        self.canv.drawString(10, 12, "AI-generated · © 2026 Heinz Josef Igelsbacher · Design*")
 
 root = Path(__file__).resolve().parent.parent
 content = json.loads((root / "scripts/timer-guide-content.json").read_text())
@@ -43,7 +53,7 @@ for lang, c in content.items():
                             topMargin=18*mm, bottomMargin=23*mm, title=f"Timer - {c['guide']}",
                             author="Heinz Josef Igelsbacher")
     story = [paragraph("TIMER · iPhone & iPad", small), paragraph(c["home"], title_style), paragraph(c["sub"], subtitle)]
-    photo = Image(str(root / "neutral-lake.jpg"), width=146*mm, height=82.2*mm)
+    photo = CreditedPhoto(str(root / "neutral-lake.jpg"), width=146*mm, height=82.2*mm)
     story.extend([photo, Spacer(1, 8*mm), paragraph(c["guide"], heading),
                   paragraph(c["free"]), paragraph(c["optional"], heading), paragraph(c["optionalText"])])
     for key in sequence:

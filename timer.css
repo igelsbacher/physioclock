@@ -11,3 +11,5 @@
 /* Preserve natural expansion when a guide is opened. */
 .modules:has(.module[open]){grid-auto-rows:auto;align-items:start}
 .modules:has(.module[open]) .module summary{height:auto}
+.hero-credit{position:absolute;top:12px;right:12px;z-index:1;padding:6px 9px;max-width:calc(100% - 24px);border-radius:6px;background:#10251eba;color:white;font-size:11px;text-align:right;pointer-events:none}
+.hero-credit strong,.hero-credit span{display:block}
