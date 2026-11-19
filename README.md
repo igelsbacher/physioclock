@@ -1,28 +1,21 @@
-# PhysioClock · Website Version 1.0
+# Timer · Website (vormals PhysioClock)
 
-Öffentliche Website mit Schnellanleitung, sechs Trainingsmodulen, Übungskatalog,
-PDF-Anleitungen, Datenschutz und Hilfe in Deutsch, Englisch, Französisch und
-Italienisch.
+Informations- und Anleitungswebsite zur iOS-App Timer. Der neutrale Timer ist
+Standard; der optionale Bewegungsmodus wird in der App aktiviert. Die Website
+enthält keine Webapplikation, keine Übungen und keine Bewegungsfotos.
 
 - [Startseite](https://igelsbacher.github.io/physioclock/)
-- [Schnellanleitung](https://igelsbacher.github.io/physioclock/de/#quick-start)
+- [Anleitung](https://igelsbacher.github.io/physioclock/de/kompletteinfuehrung.html)
 - [Datenschutz](https://igelsbacher.github.io/physioclock/de/datenschutz.html)
 
-Die Website läuft als statische Seite auf GitHub Pages. Die öffentlichen
-PDF-Anleitungen stehen unter `downloads/`, die aktuellen Rechtstexte unter
-`legal/`. Die Buildnummern der iOS-App sind unabhängig von der Website-Version.
+Alle Inhalte werden auf Deutsch, Englisch, Französisch und Italienisch aus
+`scripts/timer-content.mjs` erzeugt. Die PDF-Handbücher stehen unter `downloads/`.
+Die Rechtstexte werden aus der aktuellen App-Dokumentfassung unter
+`legal/current-documents.json` erzeugt; historische Fassungen bleiben erhalten.
 
 ```sh
+node scripts/generate-neutral-site.mjs
+python3 scripts/generate-timer-pdfs.py
 node scripts/check-website-links.mjs
 node scripts/check-current-version.mjs
 ```
-
-## Web-App
-
-- [PhysioClock Web (DE)](https://igelsbacher.github.io/physioclock/web-app/index.html?lang=de)
-- Übungskatalog mit 100 lokalisierten Übungen aus der iOS-App-Datei `Catalog100.json`.
-- Trainingstimer, eigene Trainingssets, Wochenplan, Verlauf, Wochenziel, Befinden und JSON-Backup.
-- Derzeit nur lokale Browserdaten; **keine** aktive Cloud-Synchronisation und **keine** serverseitige Kaufprüfung.
-- [Architektur und Sicherheitsanforderungen für Azure-/iOS-Synchronisation](web-app/ARCHITEKTUR.md).
-
-Die neue Web-App ergänzt die vorhandenen Hilfeseiten. Für eine geschützte Nutzung mit echten Benutzerkonten und Premium-Zugang ist ein Backend ausserhalb von GitHub Pages erforderlich.

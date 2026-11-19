@@ -11,7 +11,7 @@ for (const file of files) {
   if (!source.includes('<span class="pc-footer-version">Version ' + version + "</span>")) {
     errors.push(file + ": missing public version in footer");
   }
-  if (/\b3\.\d+\.\d+\b|\bBuild\s+\d+\b|datenschutz-(?:vor-|1-)|legal\/privacy\/1\.[1-9]/i.test(source)) {
+  if (/\b3\.\d+\.\d+\b|\bBuild\s+\d+\b|datenschutz-(?:vor-|1-)|legal\/privacy\/1\.0|web-app\//i.test(source)) {
     errors.push(file + ": development build or old privacy reference");
   }
 }
