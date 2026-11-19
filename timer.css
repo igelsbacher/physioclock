@@ -3,3 +3,11 @@
 @media(max-width:860px){.modules,.links{grid-template-columns:repeat(2,1fr)}.quick{grid-template-columns:1fr}.hero{min-height:380px}}
 @media(max-width:560px){.wrap{width:calc(100% - 24px)}.top-row{gap:12px}.actions{width:100%}.actions>a,.menu summary{padding:8px 10px;font-size:14px}.menu-list{right:0;max-width:calc(100vw - 30px);min-width:210px}.modules,.links{grid-template-columns:1fr}.hero{min-height:430px}.hero-copy{padding:26px}.hero-copy p{font-size:18px}.footer{font-size:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Equal-size guide tiles, with the tallest collapsed tile defining every row. */
+.modules{grid-auto-rows:1fr;align-items:stretch}
+.module{min-width:0}
+.module summary{height:100%}
+/* Preserve natural expansion when a guide is opened. */
+.modules:has(.module[open]){grid-auto-rows:auto;align-items:start}
+.modules:has(.module[open]) .module summary{height:auto}
