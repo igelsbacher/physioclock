@@ -1,5 +1,5 @@
-sprache,uebung,dauer_sekunden,set_name
-de,Fokus,300,Timer
-en,Focus,300,Timer
-fr,Concentration,300,Timer
-it,Concentrazione,300,Timer
+﻿sprache,kategorie,uebung,koerperteil,dauer_sekunden,set_name
+de,Hals / Nacken,Nacken – Kinn zurückziehen,Hals,180,Morgentraining
+en,Shoulders,Shoulder circles,Schultern,120,Morning routine
+fr,Tronc / bassin,Bascule du bassin en position allongée,Becken,180,Entraînement du matin
+it,Cosce,Contrazione del quadricipite,Oberschenkel,120,Allenamento mattutino

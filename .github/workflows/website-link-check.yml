@@ -15,5 +15,5 @@ jobs:
           node-version: '22'
       - name: Check all internal website links and anchors
         run: node scripts/check-website-links.mjs
-      - name: Verify current Timer website version
+      - name: Verify current PhysioClock release 3.32.12 Build 93
         run: node scripts/check-current-version.mjs
