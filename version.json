@@ -1,6 +1,6 @@
 {
-  "name": "PhysioClock",
-  "version": "1.0",
+  "name": "Timer",
+  "version": "2.0",
   "languages": [
     "de",
     "en",
@@ -8,9 +8,10 @@
     "it"
   ],
   "manuals": [
-    "downloads/PhysioClock_Guide_DE_V1.pdf",
-    "downloads/PhysioClock_Guide_EN_V1.pdf",
-    "downloads/PhysioClock_Guide_FR_V1.pdf",
-    "downloads/PhysioClock_Guide_IT_V1.pdf"
-  ]
+    "downloads/Timer_Guide_DE_2_0_Build_01.pdf",
+    "downloads/Timer_Guide_EN_2_0_Build_01.pdf",
+    "downloads/Timer_Guide_FR_2_0_Build_01.pdf",
+    "downloads/Timer_Guide_IT_2_0_Build_01.pdf"
+  ],
+  "build": "01"
 }

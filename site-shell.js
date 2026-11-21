@@ -1,5 +1,5 @@
 "use strict";
-/* Unified navigation and link migration for all PhysioClock documentation pages. */
+/* Unified navigation and link migration for all Timer documentation pages. */
 (() => {
  const lang=document.documentElement.lang?.slice(0,2)||"en";
  const L=({
@@ -35,14 +35,14 @@
  }
  const langLinks=["de","en","fr","it"].map(code=>'<a href="../'+code+'/'+encodeURIComponent(file)+'" hreflang="'+code+'"'+(code===lang?' aria-current="page"':'')+'>'+({de:"Deutsch",en:"English",fr:"Français",it:"Italiano"})[code]+'</a>').join("");
  const nav=docs.map(([href,label])=>'<a href="'+href+'">'+esc(label)+'</a>').join("");
- if(head)head.outerHTML='<header class="pc-topbar"><div class="wrap pc-topbar-inner"><a class="pc-logo site-brand" href="index.html"><img src="../goal-icon.png" alt="">PhysioClock</a><div class="pc-top-actions"><a class="pc-jump" href="index.html#modules">'+esc(L.modules)+'</a><details class="pc-top-menu"><summary>'+esc(L.more)+'</summary><nav aria-label="'+esc(L.topics)+'">'+nav+'</nav></details></div></div><nav class="wrap pc-language" aria-label="Language / Sprache / Langue / Lingua">'+langLinks+'</nav></header>';
+ if(head && !head.matches(".pc-topbar"))head.outerHTML='<header class="pc-topbar"><div class="wrap pc-topbar-inner"><a class="pc-logo site-brand" href="index.html"><img src="../goal-icon.png" alt="">Timer</a><div class="pc-top-actions"><a class="pc-jump" href="index.html#modules">'+esc(L.modules)+'</a><details class="pc-top-menu"><summary>'+esc(L.more)+'</summary><nav aria-label="'+esc(L.topics)+'">'+nav+'</nav></details></div></div><nav class="wrap pc-language" aria-label="Language / Sprache / Langue / Lingua">'+langLinks+'</nav></header>';
  document.querySelectorAll("a.site-brand").forEach(logo=>logo.addEventListener("click",event=>{
   if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
   event.preventDefault();location.assign("../"+preferredLanguage()+"/index.html");
  }));
  document.body.classList.add("pc-redesign","pc-subpage");
  const main=document.querySelector("main");
- if(main){
+ if(main && !main.querySelector(".pc-doc-breadcrumb")){
   if(!main.id)main.id="main";
   const breadcrumb=document.createElement("nav");breadcrumb.className="pc-doc-breadcrumb";
   breadcrumb.setAttribute("aria-label",L.back);
@@ -50,8 +50,8 @@
   main.insertBefore(breadcrumb,main.firstChild);
  }
  const fragments={
-  "regulaer-erste-schritte":"erste-schritte.html","regulaer-training":"training-bedienen.html","regulaer-uebersicht":"trainingsuebersicht.html","regulaer-ziele":"ziele.html","regulaer-befinden":"befinden.html","regulaer-erinnerungen":"erinnerungen.html","regulaer-daten":"daten.html","regulaer-vorlagen":"vorlagen.html","regulaer-quiz":"zielfarben.html","regulaer-routinen":"routinen.html","regulaer-lernen":"index.html#modules","regulaer-hilfe":"support.html","regulaer-datenschutz":"datenschutz.html","regulaer-medizin":"medizinprodukt.html","regulaer-kontakt":"impressum.html","regulaer-news":"news.html","regulaer-wissen":"bewegungswissen.html","regulaer-symbole":"symbole.html","regulaer-plus":"index.html#modules",
-  "einfach-start":"einfach-starten.html","einfach-programme":"erste-schritte.html","einfach-einstellungen":"bedienmodus.html","einfach-plus":"index.html#modules",
+  "regulaer-erste-schritte":"erste-schritte.html","regulaer-training":"training-bedienen.html","regulaer-uebersicht":"trainingsuebersicht.html","regulaer-ziele":"ziele.html","regulaer-befinden":"befinden.html","regulaer-erinnerungen":"erinnerungen.html","regulaer-daten":"daten.html","regulaer-vorlagen":"vorlagen.html","regulaer-quiz":"zielfarben.html","regulaer-routinen":"routinen.html","regulaer-lernen":"index.html#modules","regulaer-hilfe":"support.html","regulaer-datenschutz":"datenschutz.html","regulaer-medizin":"medizinprodukt.html","regulaer-kontakt":"impressum.html","regulaer-news":"news.html","regulaer-wissen":"bewegungswissen.html","regulaer-symbole":"symbole.html","regulaer-plus":"plus.html",
+  "einfach-start":"einfach-starten.html","einfach-programme":"erste-schritte.html","einfach-einstellungen":"bedienmodus.html","einfach-plus":"plus.html",
   "auswahl":"index.html#modules","regulaer":"index.html#modules","einfach":"einfach-starten.html","regulaer-ziele-und-fortschritt":"ziele.html"
  };
  document.querySelectorAll('a[href]').forEach(a=>{
@@ -62,7 +62,7 @@
     if(m[1]==="regulaer-plus"||m[1]==="einfach-plus")a.textContent=({de:"5 Trainings inklusive",en:"5 free training sessions",fr:"5 séances incluses",it:"5 sessioni incluse"})[lang];
   }
   else if(raw==="#auswahl"||raw==="#regulaer"||raw==="#einfach")a.setAttribute("href","index.html#modules");
-  else if(raw==="plus.html"||raw==="lernen.html")a.setAttribute("href","index.html#modules");
+  
  });
  document.querySelectorAll("aside.plus-note, .plus-note").forEach(node=>{
   node.querySelectorAll('a[href*="plus"],a[href*="modules"]').forEach(a=>a.remove());

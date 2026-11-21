@@ -1,4 +1,4 @@
-# PhysioClock · Website Version 1.0
+# Timer 2.0 - Build 01
 
 Öffentliche Website mit Schnellanleitung, sechs Trainingsmodulen, Übungskatalog,
 PDF-Anleitungen, Datenschutz und Hilfe in Deutsch, Englisch, Französisch und
@@ -19,7 +19,7 @@ node scripts/check-current-version.mjs
 
 ## Web-App
 
-- [PhysioClock Web (DE)](https://igelsbacher.github.io/physioclock/web-app/index.html?lang=de)
+- [Timer Web (DE)](https://igelsbacher.github.io/physioclock/web-app/index.html?lang=de)
 - Übungskatalog mit 100 lokalisierten Übungen aus der iOS-App-Datei `Catalog100.json`.
 - Trainingstimer, eigene Trainingssets, Wochenplan, Verlauf, Wochenziel, Befinden und JSON-Backup.
 - Derzeit nur lokale Browserdaten; **keine** aktive Cloud-Synchronisation und **keine** serverseitige Kaufprüfung.

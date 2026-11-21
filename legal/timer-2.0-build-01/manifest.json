@@ -1,0 +1,45 @@
+{
+  "release": "Timer 2.0 - Build 01",
+  "documents": [
+    {
+      "path": "legal/usage/1.0/de.txt",
+      "version": "1.0",
+      "sha256": "c2909168254cb8bee921540a674ae32b7ecf49702975dd16e6dd2fc8ed1b1764"
+    },
+    {
+      "path": "legal/usage/1.0/en.txt",
+      "version": "1.0",
+      "sha256": "f1bb4d58e3c4f17ef282e78ad5e4a0801df2aecdac060b55396adef47cc78ef6"
+    },
+    {
+      "path": "legal/usage/1.0/fr.txt",
+      "version": "1.0",
+      "sha256": "65d78ec260b45dc2a3d453c7bd953429d7e26682ba30084ad166ce8931b5ebf6"
+    },
+    {
+      "path": "legal/usage/1.0/it.txt",
+      "version": "1.0",
+      "sha256": "c9a9b92da942c22aeb3bf02baa4b60e5c2ad7bea427217f2be9c7b440a8ad8ef"
+    },
+    {
+      "path": "legal/timer-2.0-build-01/privacy/de.txt",
+      "version": "1.0",
+      "sha256": "36b5ff65974fbbf85e2a65e17821c424f446293c29a6b65a29fa55e91ce8c67f"
+    },
+    {
+      "path": "legal/timer-2.0-build-01/privacy/en.txt",
+      "version": "1.0",
+      "sha256": "d106b3cd6feffd62370f41ea4b6e5f78ca97fa4a587aa742e3e3d91ed333fc3a"
+    },
+    {
+      "path": "legal/timer-2.0-build-01/privacy/fr.txt",
+      "version": "1.0",
+      "sha256": "952711a2ce2ebb4873c960cbc008909f619f33a83d1344e866221401573ce10f"
+    },
+    {
+      "path": "legal/timer-2.0-build-01/privacy/it.txt",
+      "version": "1.0",
+      "sha256": "0f6db3ca7eba6c5a5126e33bcbc0ba65769c5f27ac4a15cb7005d71553aa5922"
+    }
+  ]
+}
